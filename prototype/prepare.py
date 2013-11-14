@@ -142,7 +142,7 @@ class PreProcessor(object):
                     freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
 
         with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'w') as f:
-            f.writelines(['%s %s %s' % (w[0], w[1], freq) for (w, freq) in freq_dic.items()])
+            f.writelines(['%s %s\n' % (word_pair, freq) for (word_pair, freq) in freq_dic.items()])
         return None
 
 
