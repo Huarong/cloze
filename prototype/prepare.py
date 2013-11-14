@@ -77,18 +77,18 @@ class PreProcessor(object):
         out_f.write(content)
         return
 
-    def compute_frequence(self, n=1):
+    def compute_frequency(self, n=1):
         if n == 1:
-            self._compute_unigram_freqency()
+            self._compute_unigram_frequency()
         elif n == 2:
-            # self._compute_biagram_freqency()
-            self._merge_bigram_freqency()
+            # self._compute_biagram_frequency()
+            self._merge_bigram_frequency()
         else:
             self.logger.error("Unsupport n of n-gram")
         return None
 
 
-    def _compute_unigram_freqency(self):
+    def _compute_unigram_frequency(self):
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
         tokenizer = TreebankWordTokenizer()
         total = len(wordlists.fileids())
@@ -106,7 +106,7 @@ class PreProcessor(object):
             f.writelines(['%s %s\n' % (word, freq) for (word, freq) in fdist.items()])
         return None
 
-    def _compute_biagram_freqency(self):
+    def _compute_biagram_frequency(self):
         if not os.path.exists(self.bigram_frequency_dir):
             os.mkdir(self.bigram_frequency_dir)
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
@@ -125,15 +125,32 @@ class PreProcessor(object):
                 f.writelines(['%s %s %s\n' % (word[0], word[1], freq) for (word, freq) in fdist.items()])
         return None
 
-        def _merge_bigram_freqency(self):
-            pass
+        def _merge_bigram_frequency(self):
+            file_list = os.listdir(self.bigram_frequency_dir)
+            freq_dic = {}
+            total = len(file_list)
+            count = 0
+            for fl in file_list:
+                count += 1
+                print "merge %d of %d" % (count, total)
+                real_path = os.path.join(self.bigram_frequency_dir, fl)
+                with open(real_path, 'r') as f:
+                    for line in f:
+                        t = line.split()
+                        word_pair = "%s %s" % (t[0], t[1])
+                        freq = t[2]
+                        freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
+
+            with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'w') as f:
+                f.writelines(['%s %s %s' % (w[0], w[1], freq) for (w, freq) in freq_dic.items()])
+            return None
 
 
 def main():
     p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus')
     # p.prepare_training_data()
-    # p.compute_frequence()
-    p.compute_frequence(n=2)
+    # p.compute_frequency()
+    p.compute_frequency(n=2)
     return
 
 
