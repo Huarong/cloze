@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Author: huohuarong
-# @Date:   2013-11-13 17:22:51
-# @Last Modified by:   hhr
-# @Last Modified time: 2013-11-14 21:08:18
 
 import os
 import os.path
@@ -22,6 +18,7 @@ class PreProcessor(object):
         self.gutenberg_files_root = gutenberg_files_root
         self.prepared_training_data_root = prepared_training_data_root
         self.corpus_root = corpus_root
+        self.bigram_frequency_dir = os.path.join(self.corpus_root, 'bigram_frequency')
 
     def prepare_training_data(self, declare=True):
         if not (os.path.exists(self.prepared_training_data_root) and os.path.isdir(self.prepared_training_data_root)):
@@ -84,7 +81,8 @@ class PreProcessor(object):
         if n == 1:
             self._compute_unigram_freqency()
         elif n == 2:
-            self._compute_biagram_freqency()
+            # self._compute_biagram_freqency()
+            self._merge_bigram_freqency()
         else:
             self.logger.error("Unsupport n of n-gram")
         return None
@@ -109,9 +107,8 @@ class PreProcessor(object):
         return None
 
     def _compute_biagram_freqency(self):
-        bigram_frequency_dir = os.path.join(self.corpus_root, 'bigram_frequency')
-        if not os.path.exists(bigram_frequency_dir):
-            os.mkdir(bigram_frequency_dir)
+        if not os.path.exists(self.bigram_frequency_dir):
+            os.mkdir(self.bigram_frequency_dir)
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
         tokenizer = TreebankWordTokenizer()
         total = len(wordlists.fileids())
@@ -124,10 +121,12 @@ class PreProcessor(object):
                 words = tokenizer.tokenize(f.read())
                 bi_words = nltk.bigrams(words)
                 fdist = nltk.FreqDist(bi_words)
-            with open(os.path.join(bigram_frequency_dir, fl), 'w') as f:
+            with open(os.path.join(self.bigram_frequency_dir, fl), 'w') as f:
                 f.writelines(['%s %s %s\n' % (word[0], word[1], freq) for (word, freq) in fdist.items()])
         return None
 
+        def _merge_bigram_freqency(self):
+            pass
 
 
 def main():
