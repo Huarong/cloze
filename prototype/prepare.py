@@ -3,7 +3,7 @@
 # @Author: huohuarong
 # @Date:   2013-11-13 17:22:51
 # @Last Modified by:   hhr
-# @Last Modified time: 2013-11-14 20:23:20
+# @Last Modified time: 2013-11-14 21:08:18
 
 import os
 import os.path
@@ -16,6 +16,8 @@ from util import init_log
 
 class PreProcessor(object):
     def __init__(self, gutenberg_files_root, prepared_training_data_root, corpus_root):
+        if not os.path.exists('../log'):
+            os.mkdir('../log')
         self.logger = init_log('util', '../log/util.log')
         self.gutenberg_files_root = gutenberg_files_root
         self.prepared_training_data_root = prepared_training_data_root
