@@ -125,25 +125,25 @@ class PreProcessor(object):
                 f.writelines(['%s %s %s\n' % (word[0], word[1], freq) for (word, freq) in fdist.items()])
         return None
 
-        def _merge_bigram_frequency(self):
-            file_list = os.listdir(self.bigram_frequency_dir)
-            freq_dic = {}
-            total = len(file_list)
-            count = 0
-            for fl in file_list:
-                count += 1
-                print "merge %d of %d" % (count, total)
-                real_path = os.path.join(self.bigram_frequency_dir, fl)
-                with open(real_path, 'r') as f:
-                    for line in f:
-                        t = line.split()
-                        word_pair = "%s %s" % (t[0], t[1])
-                        freq = t[2]
-                        freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
+    def _merge_bigram_frequency(self):
+        file_list = os.listdir(self.bigram_frequency_dir)
+        freq_dic = {}
+        total = len(file_list)
+        count = 0
+        for fl in file_list:
+            count += 1
+            print "merge %d of %d" % (count, total)
+            real_path = os.path.join(self.bigram_frequency_dir, fl)
+            with open(real_path, 'r') as f:
+                for line in f:
+                    t = line.split()
+                    word_pair = "%s %s" % (t[0], t[1])
+                    freq = t[2]
+                    freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
 
-            with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'w') as f:
-                f.writelines(['%s %s %s' % (w[0], w[1], freq) for (w, freq) in freq_dic.items()])
-            return None
+        with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'w') as f:
+            f.writelines(['%s %s %s' % (w[0], w[1], freq) for (w, freq) in freq_dic.items()])
+        return None
 
 
 def main():
