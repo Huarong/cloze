@@ -37,7 +37,7 @@ class NGramModel(object):
                     qa_dict[q_no]['a'][option[0]] = option[1]
                 else:
                     continue
-        json_path = os.path.join(config.DATA_DIR, 'dev_test.json')
+        json_path = os.path.join(config.DATA_DIR, 'dev_set.json')
         with open(json_path, 'w') as f:
             json.dump(qa_dict, f, indent=2, ensure_ascii=False)
         return None
