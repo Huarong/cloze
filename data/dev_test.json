@@ -1,0 +1,3122 @@
+{
+  "1024": {
+    "q": [
+      "was", 
+      "upon"
+    ], 
+    "a": {
+      "a": "seated", 
+      "c": "seized", 
+      "b": "thrown", 
+      "e": "curled", 
+      "d": "perched"
+    }
+  }, 
+  "1025": {
+    "q": [
+      "was", 
+      ","
+    ], 
+    "a": {
+      "a": "issued", 
+      "c": "warm", 
+      "b": "intense", 
+      "e": "extinguished", 
+      "d": "complete"
+    }
+  }, 
+  "1026": {
+    "q": [
+      "a", 
+      "the"
+    ], 
+    "a": {
+      "a": "vision", 
+      "c": "picture", 
+      "b": "carriage", 
+      "e": "hound", 
+      "d": "nerve"
+    }
+  }, 
+  "1027": {
+    "q": [
+      "to", 
+      "America"
+    ], 
+    "a": {
+      "a": "South", 
+      "c": "sell", 
+      "b": "shorten", 
+      "e": "relieve", 
+      "d": "consult"
+    }
+  }, 
+  "1028": {
+    "q": [
+      "we", 
+      ","
+    ], 
+    "a": {
+      "a": "applauded", 
+      "c": "slept", 
+      "b": "reeled", 
+      "e": "talked", 
+      "d": "trembled"
+    }
+  }, 
+  "1029": {
+    "q": [
+      "started", 
+      "swiftly"
+    ], 
+    "a": {
+      "a": "streaming", 
+      "c": "bowing", 
+      "b": "wallowing", 
+      "e": "running", 
+      "d": "blowing"
+    }
+  }, 
+  "1030": {
+    "q": [
+      "oak", 
+      ","
+    ], 
+    "a": {
+      "a": "tea", 
+      "c": "staircase", 
+      "b": "shutter", 
+      "e": "sapling", 
+      "d": "chest"
+    }
+  }, 
+  "1031": {
+    "q": [
+      "a", 
+      "with"
+    ], 
+    "a": {
+      "a": "ticket", 
+      "c": "fault", 
+      "b": "dynamo", 
+      "e": "breeze", 
+      "d": "newspaper"
+    }
+  }, 
+  "1032": {
+    "q": [
+      "leading", 
+      "now"
+    ], 
+    "a": {
+      "a": "voices", 
+      "c": "complaints", 
+      "b": "spirits", 
+      "e": "officers", 
+      "d": "results"
+    }
+  }, 
+  "1033": {
+    "q": [
+      "her", 
+      "end"
+    ], 
+    "a": {
+      "a": "obstinate", 
+      "c": "inborn", 
+      "b": "wit", 
+      "e": "well", 
+      "d": "wilder"
+    }
+  }, 
+  "1034": {
+    "q": [
+      "general", 
+      "at"
+    ], 
+    "a": {
+      "a": "experience", 
+      "c": "impression", 
+      "b": "discontent", 
+      "e": "uneasiness", 
+      "d": "engagement"
+    }
+  }, 
+  "1035": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "risk", 
+      "c": "thunders", 
+      "b": "glow", 
+      "e": "lassitude", 
+      "d": "hubbub"
+    }
+  }, 
+  "1036": {
+    "q": [
+      "strange", 
+      "between"
+    ], 
+    "a": {
+      "a": "union", 
+      "c": "choice", 
+      "b": "contrast", 
+      "e": "comfort", 
+      "d": "confusion"
+    }
+  }, 
+  "1037": {
+    "q": [
+      "had", 
+      "before"
+    ], 
+    "a": {
+      "a": "glittered", 
+      "c": "arrived", 
+      "b": "spoken", 
+      "e": "elapsed", 
+      "d": "floated"
+    }
+  }, 
+  "1038": {
+    "q": [
+      "as", 
+      "the"
+    ], 
+    "a": {
+      "a": "hit", 
+      "c": "conceive", 
+      "b": "breathe", 
+      "e": "imagine", 
+      "d": "perceive"
+    }
+  }, 
+  "1039": {
+    "q": [
+      "was", 
+      "to"
+    ], 
+    "a": {
+      "a": "surprised", 
+      "c": "unaccustomed", 
+      "b": "inclined", 
+      "e": "anxious", 
+      "d": "accustomed"
+    }
+  }, 
+  "1040": {
+    "q": [
+      "lash", 
+      "on"
+    ], 
+    "a": {
+      "a": "seized", 
+      "c": "hung", 
+      "b": "dragged", 
+      "e": "poured", 
+      "d": "chewing"
+    }
+  }, 
+  "801": {
+    "q": [
+      "that", 
+      "in"
+    ], 
+    "a": {
+      "a": "mechanism", 
+      "c": "disaster", 
+      "b": "scene", 
+      "e": "apparition", 
+      "d": "everyone"
+    }
+  }, 
+  "802": {
+    "q": [
+      "got", 
+      "away"
+    ], 
+    "a": {
+      "a": "mixed", 
+      "c": "stretched", 
+      "b": "clean", 
+      "e": "licked", 
+      "d": "tangled"
+    }
+  }, 
+  "803": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "scene", 
+      "c": "crest", 
+      "b": "banks", 
+      "e": "price", 
+      "d": "shores"
+    }
+  }, 
+  "804": {
+    "q": [
+      "to", 
+      "it"
+    ], 
+    "a": {
+      "a": "carry", 
+      "c": "accomplish", 
+      "b": "reconstruct", 
+      "e": "fling", 
+      "d": "recommend"
+    }
+  }, 
+  "805": {
+    "q": [
+      "was", 
+      ","
+    ], 
+    "a": {
+      "a": "unfair", 
+      "c": "weak", 
+      "b": "spectacular", 
+      "e": "unpalatable", 
+      "d": "charming"
+    }
+  }, 
+  "806": {
+    "q": [
+      "quite", 
+      ","
+    ], 
+    "a": {
+      "a": "gentle", 
+      "c": "rational", 
+      "b": "correct", 
+      "e": "secure", 
+      "d": "empty"
+    }
+  }, 
+  "807": {
+    "q": [
+      "from", 
+      ","
+    ], 
+    "a": {
+      "a": "shipboard", 
+      "c": "Greenwich", 
+      "b": "shyness", 
+      "e": "carelessness", 
+      "d": "reality"
+    }
+  }, 
+  "808": {
+    "q": [
+      "these", 
+      "the"
+    ], 
+    "a": {
+      "a": "wings", 
+      "c": "verses", 
+      "b": "tests", 
+      "e": "occasions", 
+      "d": "fables"
+    }
+  }, 
+  "809": {
+    "q": [
+      "so", 
+      "rejected"
+    ], 
+    "a": {
+      "a": "lingeringly", 
+      "c": "strangely", 
+      "b": "nobly", 
+      "e": "foolishly", 
+      "d": "accurately"
+    }
+  }, 
+  "810": {
+    "q": [
+      "plainly", 
+      "room"
+    ], 
+    "a": {
+      "a": "scorched", 
+      "c": "distinguished", 
+      "b": "furnished", 
+      "e": "fuming", 
+      "d": "timid"
+    }
+  }, 
+  "811": {
+    "q": [
+      ",", 
+      "face"
+    ], 
+    "a": {
+      "a": "yellow", 
+      "c": "colorless", 
+      "b": "fearsome", 
+      "e": "childish", 
+      "d": "rosy"
+    }
+  }, 
+  "812": {
+    "q": [
+      "the", 
+      "and"
+    ], 
+    "a": {
+      "a": "plant", 
+      "c": "frock", 
+      "b": "handkerchief", 
+      "e": "gun", 
+      "d": "saddle"
+    }
+  }, 
+  "813": {
+    "q": [
+      "successive", 
+      "were"
+    ], 
+    "a": {
+      "a": "heirs", 
+      "c": "singers", 
+      "b": "prisoners", 
+      "e": "rebels", 
+      "d": "workers"
+    }
+  }, 
+  "814": {
+    "q": [
+      "the", 
+      "I"
+    ], 
+    "a": {
+      "a": "ball", 
+      "c": "spring", 
+      "b": "accident", 
+      "e": "passage", 
+      "d": "processes"
+    }
+  }, 
+  "815": {
+    "q": [
+      "a", 
+      "with"
+    ], 
+    "a": {
+      "a": "pony", 
+      "c": "dark", 
+      "b": "rope", 
+      "e": "dish", 
+      "d": "log"
+    }
+  }, 
+  "816": {
+    "q": [
+      "my", 
+      "when"
+    ], 
+    "a": {
+      "a": "pipe", 
+      "c": "solitude", 
+      "b": "helplessness", 
+      "e": "tongue", 
+      "d": "fork"
+    }
+  }, 
+  "817": {
+    "q": [
+      "no", 
+      "to"
+    ], 
+    "a": {
+      "a": "pretensions", 
+      "c": "opportunity", 
+      "b": "impulse", 
+      "e": "objection", 
+      "d": "inclination"
+    }
+  }, 
+  "818": {
+    "q": [
+      "his", 
+      "and"
+    ], 
+    "a": {
+      "a": "hopes", 
+      "c": "tools", 
+      "b": "consent", 
+      "e": "pocket", 
+      "d": "friendship"
+    }
+  }, 
+  "819": {
+    "q": [
+      "the", 
+      "into"
+    ], 
+    "a": {
+      "a": "savages", 
+      "c": "features", 
+      "b": "spies", 
+      "e": "boats", 
+      "d": "chairs"
+    }
+  }, 
+  "820": {
+    "q": [
+      "the", 
+      "beyond"
+    ], 
+    "a": {
+      "a": "shadows", 
+      "c": "field", 
+      "b": "rushes", 
+      "e": "thicket", 
+      "d": "potage"
+    }
+  }, 
+  "821": {
+    "q": [
+      "first", 
+      "left"
+    ], 
+    "a": {
+      "a": "impression", 
+      "c": "winter", 
+      "b": "footman", 
+      "e": "month", 
+      "d": "kiss"
+    }
+  }, 
+  "822": {
+    "q": [
+      "was", 
+      "a"
+    ], 
+    "a": {
+      "a": "wearing", 
+      "c": "merely", 
+      "b": "addressing", 
+      "e": "humming", 
+      "d": "smoking"
+    }
+  }, 
+  "823": {
+    "q": [
+      "the", 
+      "window"
+    ], 
+    "a": {
+      "a": "ironic", 
+      "c": "monotonous", 
+      "b": "sitting", 
+      "e": "angry", 
+      "d": "typical"
+    }
+  }, 
+  "824": {
+    "q": [
+      "a", 
+      "brown"
+    ], 
+    "a": {
+      "a": "faded", 
+      "c": "tender", 
+      "b": "swollen", 
+      "e": "wavering", 
+      "d": "remarkably"
+    }
+  }, 
+  "825": {
+    "q": [
+      "true", 
+      "with"
+    ], 
+    "a": {
+      "a": "contention", 
+      "c": "operations", 
+      "b": "biography", 
+      "e": "displacement", 
+      "d": "decade"
+    }
+  }, 
+  "826": {
+    "q": [
+      "the", 
+      "broke"
+    ], 
+    "a": {
+      "a": "storm", 
+      "c": "Mutiny", 
+      "b": "ape", 
+      "e": "moon", 
+      "d": "clouds"
+    }
+  }, 
+  "827": {
+    "q": [
+      "had", 
+      "that"
+    ], 
+    "a": {
+      "a": "proved", 
+      "c": "believed", 
+      "b": "discovered", 
+      "e": "dreamed", 
+      "d": "remarked"
+    }
+  }, 
+  "828": {
+    "q": [
+      "the", 
+      "night"
+    ], 
+    "a": {
+      "a": "flat", 
+      "c": "clearest", 
+      "b": "windless", 
+      "e": "nearest", 
+      "d": "breathing"
+    }
+  }, 
+  "829": {
+    "q": [
+      "that", 
+      "at"
+    ], 
+    "a": {
+      "a": "occurred", 
+      "c": "chanced", 
+      "b": "stirred", 
+      "e": "effected", 
+      "d": "suggested"
+    }
+  }, 
+  "830": {
+    "q": [
+      "must", 
+      "the"
+    ], 
+    "a": {
+      "a": "burn", 
+      "c": "draw", 
+      "b": "strike", 
+      "e": "approach", 
+      "d": "remove"
+    }
+  }, 
+  "831": {
+    "q": [
+      "'s", 
+      "was"
+    ], 
+    "a": {
+      "a": "bodice", 
+      "c": "ancestry", 
+      "b": "luncheon", 
+      "e": "larder", 
+      "d": "prophecy"
+    }
+  }, 
+  "832": {
+    "q": [
+      "the", 
+      "was"
+    ], 
+    "a": {
+      "a": "sky", 
+      "c": "incident", 
+      "b": "handmaiden", 
+      "e": "lamp", 
+      "d": "watchman"
+    }
+  }, 
+  "833": {
+    "q": [
+      "rich", 
+      "of"
+    ], 
+    "a": {
+      "a": "spoils", 
+      "c": "ornaments", 
+      "b": "soil", 
+      "e": "plains", 
+      "d": "scent"
+    }
+  }, 
+  "834": {
+    "q": [
+      "was", 
+      "for"
+    ], 
+    "a": {
+      "a": "famous", 
+      "c": "hanged", 
+      "b": "searching", 
+      "e": "longing", 
+      "d": "paid"
+    }
+  }, 
+  "835": {
+    "q": [
+      "one", 
+      "is"
+    ], 
+    "a": {
+      "a": "machine", 
+      "c": "wing", 
+      "b": "tomb", 
+      "e": "object", 
+      "d": "beloved"
+    }
+  }, 
+  "836": {
+    "q": [
+      "me", 
+      "what"
+    ], 
+    "a": {
+      "a": "reveal", 
+      "c": "to", 
+      "b": "persuade", 
+      "e": "thank", 
+      "d": "sustain"
+    }
+  }, 
+  "837": {
+    "q": [
+      "by", 
+      ","
+    ], 
+    "a": {
+      "a": "universities", 
+      "c": "valor", 
+      "b": "bedsteads", 
+      "e": "degrees", 
+      "d": "servants"
+    }
+  }, 
+  "838": {
+    "q": [
+      "the", 
+      "to"
+    ], 
+    "a": {
+      "a": "energy", 
+      "c": "aeroplane", 
+      "b": "preference", 
+      "e": "bark", 
+      "d": "comfort"
+    }
+  }, 
+  "839": {
+    "q": [
+      "low", 
+      "had"
+    ], 
+    "a": {
+      "a": "moan", 
+      "c": "courtship", 
+      "b": "shrub", 
+      "e": "struggle", 
+      "d": "blow"
+    }
+  }, 
+  "840": {
+    "q": [
+      "change", 
+      ","
+    ], 
+    "a": {
+      "a": "colour", 
+      "c": "yours", 
+      "b": "sides", 
+      "e": "names", 
+      "d": "clothing"
+    }
+  }, 
+  "841": {
+    "q": [
+      "to", 
+      "whatever"
+    ], 
+    "a": {
+      "a": "defray", 
+      "c": "eat", 
+      "b": "buy", 
+      "e": "support", 
+      "d": "mention"
+    }
+  }, 
+  "842": {
+    "q": [
+      "to", 
+      "the"
+    ], 
+    "a": {
+      "a": "remove", 
+      "c": "bungle", 
+      "b": "approach", 
+      "e": "improve", 
+      "d": "beguile"
+    }
+  }, 
+  "843": {
+    "q": [
+      "this", 
+      "wing"
+    ], 
+    "a": {
+      "a": "surprising", 
+      "c": "daily", 
+      "b": "primitive", 
+      "e": "giant", 
+      "d": "narrow"
+    }
+  }, 
+  "844": {
+    "q": [
+      "to", 
+      "it"
+    ], 
+    "a": {
+      "a": "prove", 
+      "c": "stitch", 
+      "b": "regret", 
+      "e": "study", 
+      "d": "deny"
+    }
+  }, 
+  "845": {
+    "q": [
+      "the", 
+      "which"
+    ], 
+    "a": {
+      "a": "mirror", 
+      "c": "address", 
+      "b": "rainbow", 
+      "e": "candle", 
+      "d": "mantle"
+    }
+  }, 
+  "846": {
+    "q": [
+      "matter", 
+      "until"
+    ], 
+    "a": {
+      "a": "aside", 
+      "c": "aboard", 
+      "b": "darker", 
+      "e": "indispensable", 
+      "d": "freely"
+    }
+  }, 
+  "847": {
+    "q": [
+      "the", 
+      "mystery"
+    ], 
+    "a": {
+      "a": "mere", 
+      "c": "absolute", 
+      "b": "imaginary", 
+      "e": "enquiring", 
+      "d": "original"
+    }
+  }, 
+  "848": {
+    "q": [
+      "be", 
+      "on"
+    ], 
+    "a": {
+      "a": "counted", 
+      "c": "prowling", 
+      "b": "inflicted", 
+      "e": "arranged", 
+      "d": "written"
+    }
+  }, 
+  "849": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "opinion", 
+      "c": "habit", 
+      "b": "grip", 
+      "e": "shape", 
+      "d": "minds"
+    }
+  }, 
+  "850": {
+    "q": [
+      "green", 
+      "and"
+    ], 
+    "a": {
+      "a": "orchids", 
+      "c": "cabbages", 
+      "b": "fields", 
+      "e": "twigs", 
+      "d": "smiles"
+    }
+  }, 
+  "851": {
+    "q": [
+      "my", 
+      "round"
+    ], 
+    "a": {
+      "a": "wrist", 
+      "c": "musket", 
+      "b": "comforter", 
+      "e": "forefoot", 
+      "d": "cap"
+    }
+  }, 
+  "852": {
+    "q": [
+      "most", 
+      "unusual"
+    ], 
+    "a": {
+      "a": "frequently", 
+      "c": "eminently", 
+      "b": "instantly", 
+      "e": "refreshingly", 
+      "d": "severely"
+    }
+  }, 
+  "853": {
+    "q": [
+      "be", 
+      "even"
+    ], 
+    "a": {
+      "a": "confident", 
+      "c": "legible", 
+      "b": "disentangled", 
+      "e": "enjoyed", 
+      "d": "divided"
+    }
+  }, 
+  "854": {
+    "q": [
+      "a", 
+      "or"
+    ], 
+    "a": {
+      "a": "chisel", 
+      "c": "nurse", 
+      "b": "barrel", 
+      "e": "lord", 
+      "d": "frigate"
+    }
+  }, 
+  "855": {
+    "q": [
+      "leaving", 
+      "for"
+    ], 
+    "a": {
+      "a": "arsenic", 
+      "c": "food", 
+      "b": "sacks", 
+      "e": "books", 
+      "d": "blanks"
+    }
+  }, 
+  "856": {
+    "q": [
+      "had", 
+      "and"
+    ], 
+    "a": {
+      "a": "breakfasted", 
+      "c": "waited", 
+      "b": "stooped", 
+      "e": "studied", 
+      "d": "sprouted"
+    }
+  }, 
+  "857": {
+    "q": [
+      "was", 
+      "to"
+    ], 
+    "a": {
+      "a": "yielded", 
+      "c": "forced", 
+      "b": "disposed", 
+      "e": "due", 
+      "d": "delighted"
+    }
+  }, 
+  "858": {
+    "q": [
+      "much", 
+      "at"
+    ], 
+    "a": {
+      "a": "perturbed", 
+      "c": "amused", 
+      "b": "flattered", 
+      "e": "thwarted", 
+      "d": "relieved"
+    }
+  }, 
+  "859": {
+    "q": [
+      "black", 
+      "which"
+    ], 
+    "a": {
+      "a": "mists", 
+      "c": "cloud", 
+      "b": "object", 
+      "e": "suit", 
+      "d": "circumstance"
+    }
+  }, 
+  "860": {
+    "q": [
+      "to", 
+      "with"
+    ], 
+    "a": {
+      "a": "negotiate", 
+      "c": "harmonize", 
+      "b": "perish", 
+      "e": "weep", 
+      "d": "remonstrate"
+    }
+  }, 
+  "861": {
+    "q": [
+      "would", 
+      "your"
+    ], 
+    "a": {
+      "a": "pull", 
+      "c": "increase", 
+      "b": "appreciate", 
+      "e": "enlarge", 
+      "d": "slip"
+    }
+  }, 
+  "862": {
+    "q": [
+      "had", 
+      "over"
+    ], 
+    "a": {
+      "a": "prevailed", 
+      "c": "stooped", 
+      "b": "ridden", 
+      "e": "hurried", 
+      "d": "driven"
+    }
+  }, 
+  "863": {
+    "q": [
+      "hour", 
+      "will"
+    ], 
+    "a": {
+      "a": "kings", 
+      "c": "volume", 
+      "b": "creatures", 
+      "e": "Lucy", 
+      "d": "matters"
+    }
+  }, 
+  "864": {
+    "q": [
+      "for", 
+      "her"
+    ], 
+    "a": {
+      "a": "understanding", 
+      "c": "watching", 
+      "b": "humouring", 
+      "e": "advising", 
+      "d": "disliking"
+    }
+  }, 
+  "865": {
+    "q": [
+      "of", 
+      "and"
+    ], 
+    "a": {
+      "a": "medals", 
+      "c": "oranges", 
+      "b": "leaves", 
+      "e": "heliotrope", 
+      "d": "wakefulness"
+    }
+  }, 
+  "866": {
+    "q": [
+      "King", 
+      ","
+    ], 
+    "a": {
+      "a": "gift", 
+      "c": "rarity", 
+      "b": "yesterday", 
+      "e": "to", 
+      "d": "summer"
+    }
+  }, 
+  "867": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "nations", 
+      "c": "results", 
+      "b": "penalties", 
+      "e": "heads", 
+      "d": "events"
+    }
+  }, 
+  "868": {
+    "q": [
+      "of", 
+      "misfortune"
+    ], 
+    "a": {
+      "a": "absolute", 
+      "c": "perfect", 
+      "b": "incurable", 
+      "e": "profound", 
+      "d": "impending"
+    }
+  }, 
+  "869": {
+    "q": [
+      "only", 
+      "from"
+    ], 
+    "a": {
+      "a": "redeemed", 
+      "c": "visible", 
+      "b": "suffering", 
+      "e": "advanced", 
+      "d": "divided"
+    }
+  }, 
+  "870": {
+    "q": [
+      "the", 
+      "poured"
+    ], 
+    "a": {
+      "a": "coins", 
+      "c": "cauldron", 
+      "b": "rain", 
+      "e": "acorns", 
+      "d": "garments"
+    }
+  }, 
+  "871": {
+    "q": [
+      "to", 
+      "it"
+    ], 
+    "a": {
+      "a": "forget", 
+      "c": "divulge", 
+      "b": "enable", 
+      "e": "exercise", 
+      "d": "dispel"
+    }
+  }, 
+  "872": {
+    "q": [
+      "and", 
+      "against"
+    ], 
+    "a": {
+      "a": "supported", 
+      "c": "hissed", 
+      "b": "breathed", 
+      "e": "shrunk", 
+      "d": "marched"
+    }
+  }, 
+  "873": {
+    "q": [
+      "no", 
+      "in"
+    ], 
+    "a": {
+      "a": "difficulty", 
+      "c": "luck", 
+      "b": "faith", 
+      "e": "hesitation", 
+      "d": "scruple"
+    }
+  }, 
+  "874": {
+    "q": [
+      "a", 
+      "was"
+    ], 
+    "a": {
+      "a": "battle", 
+      "c": "consultation", 
+      "b": "meal", 
+      "e": "truce", 
+      "d": "wedding"
+    }
+  }, 
+  "875": {
+    "q": [
+      "her", 
+      "is"
+    ], 
+    "a": {
+      "a": "complexion", 
+      "c": "society", 
+      "b": "investigation", 
+      "e": "instinct", 
+      "d": "ridicule"
+    }
+  }, 
+  "876": {
+    "q": [
+      "man", 
+      "that"
+    ], 
+    "a": {
+      "a": "contended", 
+      "c": "motioned", 
+      "b": "performed", 
+      "e": "discovered", 
+      "d": "provided"
+    }
+  }, 
+  "877": {
+    "q": [
+      "I", 
+      "with"
+    ], 
+    "a": {
+      "a": "agree", 
+      "c": "danced", 
+      "b": "interview", 
+      "e": "tremble", 
+      "d": "act"
+    }
+  }, 
+  "878": {
+    "q": [
+      "the", 
+      "in"
+    ], 
+    "a": {
+      "a": "drops", 
+      "c": "Negroes", 
+      "b": "orchards", 
+      "e": "lights", 
+      "d": "marks"
+    }
+  }, 
+  "879": {
+    "q": [
+      "the", 
+      "are"
+    ], 
+    "a": {
+      "a": "books", 
+      "c": "windows", 
+      "b": "novices", 
+      "e": "clerks", 
+      "d": "meadows"
+    }
+  }, 
+  "880": {
+    "q": [
+      "I", 
+      "of"
+    ], 
+    "a": {
+      "a": "mention", 
+      "c": "grant", 
+      "b": "consider", 
+      "e": "admit", 
+      "d": "beg"
+    }
+  }, 
+  "881": {
+    "q": [
+      "of", 
+      "began"
+    ], 
+    "a": {
+      "a": "humanity", 
+      "c": "novelty", 
+      "b": "security", 
+      "e": "fellowship", 
+      "d": "uneasiness"
+    }
+  }, 
+  "882": {
+    "q": [
+      "my", 
+      ","
+    ], 
+    "a": {
+      "a": "seamanship", 
+      "c": "exultation", 
+      "b": "ankles", 
+      "e": "virtue", 
+      "d": "occupation"
+    }
+  }, 
+  "883": {
+    "q": [
+      "been", 
+      ","
+    ], 
+    "a": {
+      "a": "misinformed", 
+      "c": "lit", 
+      "b": "cleaned", 
+      "e": "banished", 
+      "d": "disturbed"
+    }
+  }, 
+  "884": {
+    "q": [
+      "has", 
+      "me"
+    ], 
+    "a": {
+      "a": "puzzled", 
+      "c": "awakened", 
+      "b": "deserted", 
+      "e": "treated", 
+      "d": "commanded"
+    }
+  }, 
+  "885": {
+    "q": [
+      "was", 
+      "that"
+    ], 
+    "a": {
+      "a": "persuaded", 
+      "c": "obvious", 
+      "b": "desirable", 
+      "e": "conjectured", 
+      "d": "impossible"
+    }
+  }, 
+  "886": {
+    "q": [
+      "our", 
+      ","
+    ], 
+    "a": {
+      "a": "hunger", 
+      "c": "ideas", 
+      "b": "vices", 
+      "e": "success", 
+      "d": "wants"
+    }
+  }, 
+  "887": {
+    "q": [
+      "a", 
+      "of"
+    ], 
+    "a": {
+      "a": "bunch", 
+      "c": "gush", 
+      "b": "pair", 
+      "e": "branch", 
+      "d": "variety"
+    }
+  }, 
+  "888": {
+    "q": [
+      "a", 
+      "yell"
+    ], 
+    "a": {
+      "a": "wholesome", 
+      "c": "hoarse", 
+      "b": "weak", 
+      "e": "mere", 
+      "d": "worn"
+    }
+  }, 
+  "889": {
+    "q": [
+      "fruit", 
+      "about"
+    ], 
+    "a": {
+      "a": "rolled", 
+      "c": "flourished", 
+      "b": "slipped", 
+      "e": "bristled", 
+      "d": "swallowed"
+    }
+  }, 
+  "890": {
+    "q": [
+      "not", 
+      "then"
+    ], 
+    "a": {
+      "a": "realize", 
+      "c": "cease", 
+      "b": "confess", 
+      "e": "repent", 
+      "d": "rejoice"
+    }
+  }, 
+  "891": {
+    "q": [
+      "your", 
+      "ready"
+    ], 
+    "a": {
+      "a": "creature", 
+      "c": "pistol", 
+      "b": "honour", 
+      "e": "tea", 
+      "d": "stomach"
+    }
+  }, 
+  "892": {
+    "q": [
+      "the", 
+      ","
+    ], 
+    "a": {
+      "a": "woodlands", 
+      "c": "mountains", 
+      "b": "ocean", 
+      "e": "chest", 
+      "d": "bluff"
+    }
+  }, 
+  "893": {
+    "q": [
+      "my", 
+      "I"
+    ], 
+    "a": {
+      "a": "trip", 
+      "c": "school", 
+      "b": "absence", 
+      "e": "dreams", 
+      "d": "wake"
+    }
+  }, 
+  "894": {
+    "q": [
+      "that", 
+      "over"
+    ], 
+    "a": {
+      "a": "text", 
+      "c": "infantry", 
+      "b": "rope", 
+      "e": "bacon", 
+      "d": "tube"
+    }
+  }, 
+  "895": {
+    "q": [
+      "and", 
+      "over"
+    ], 
+    "a": {
+      "a": "walking", 
+      "c": "falling", 
+      "b": "bringing", 
+      "e": "growing", 
+      "d": "crouching"
+    }
+  }, 
+  "896": {
+    "q": [
+      "have", 
+      "the"
+    ], 
+    "a": {
+      "a": "encumbered", 
+      "c": "located", 
+      "b": "contained", 
+      "e": "drawn", 
+      "d": "traversed"
+    }
+  }, 
+  "897": {
+    "q": [
+      "not", 
+      "the"
+    ], 
+    "a": {
+      "a": "bite", 
+      "c": "disdain", 
+      "b": "pity", 
+      "e": "produce", 
+      "d": "alter"
+    }
+  }, 
+  "898": {
+    "q": [
+      "no", 
+      "since"
+    ], 
+    "a": {
+      "a": "degree", 
+      "c": "step", 
+      "b": "neglect", 
+      "e": "egg", 
+      "d": "bicycles"
+    }
+  }, 
+  "899": {
+    "q": [
+      "has", 
+      "and"
+    ], 
+    "a": {
+      "a": "shuddered", 
+      "c": "sneered", 
+      "b": "hysterics", 
+      "e": "nerve", 
+      "d": "yelled"
+    }
+  }, 
+  "900": {
+    "q": [
+      "Holmes", 
+      "from"
+    ], 
+    "a": {
+      "a": "swelled", 
+      "c": "mellowed", 
+      "b": "disappeared", 
+      "e": "floated", 
+      "d": "sprang"
+    }
+  }, 
+  "901": {
+    "q": [
+      "already", 
+      "what"
+    ], 
+    "a": {
+      "a": "sneered", 
+      "c": "bought", 
+      "b": "arranged", 
+      "e": "shouted", 
+      "d": "consulted"
+    }
+  }, 
+  "902": {
+    "q": [
+      "'", 
+      "came"
+    ], 
+    "a": {
+      "a": "departure", 
+      "c": "fears", 
+      "b": "dream", 
+      "e": "worst", 
+      "d": "wretchedness"
+    }
+  }, 
+  "903": {
+    "q": [
+      "three", 
+      "from"
+    ], 
+    "a": {
+      "a": "fiddlers", 
+      "c": "chimes", 
+      "b": "batters", 
+      "e": "centuries", 
+      "d": "cheers"
+    }
+  }, 
+  "904": {
+    "q": [
+      "smarter", 
+      ","
+    ], 
+    "a": {
+      "a": "assistant", 
+      "c": "window", 
+      "b": "duke", 
+      "e": "foe", 
+      "d": "prophet"
+    }
+  }, 
+  "905": {
+    "q": [
+      "horribly", 
+      ","
+    ], 
+    "a": {
+      "a": "intelligent", 
+      "c": "well", 
+      "b": "mangled", 
+      "e": "unchristian", 
+      "d": "good"
+    }
+  }, 
+  "906": {
+    "q": [
+      "soothing", 
+      "and"
+    ], 
+    "a": {
+      "a": "rings", 
+      "c": "traditions", 
+      "b": "privacy", 
+      "e": "stiffness", 
+      "d": "answers"
+    }
+  }, 
+  "907": {
+    "q": [
+      "been", 
+      ","
+    ], 
+    "a": {
+      "a": "abroad", 
+      "c": "asleep", 
+      "b": "misinformed", 
+      "e": "innocent", 
+      "d": "overheard"
+    }
+  }, 
+  "908": {
+    "q": [
+      "these", 
+      "if"
+    ], 
+    "a": {
+      "a": "objects", 
+      "c": "shutters", 
+      "b": "flowers", 
+      "e": "letters", 
+      "d": "subjects"
+    }
+  }, 
+  "909": {
+    "q": [
+      "you", 
+      "your"
+    ], 
+    "a": {
+      "a": "surrender", 
+      "c": "reconsider", 
+      "b": "resemble", 
+      "e": "recall", 
+      "d": "raise"
+    }
+  }, 
+  "910": {
+    "q": [
+      "very", 
+      "but"
+    ], 
+    "a": {
+      "a": "pale", 
+      "c": "heartily", 
+      "b": "tall", 
+      "e": "gently", 
+      "d": "accurately"
+    }
+  }, 
+  "911": {
+    "q": [
+      "to", 
+      "him"
+    ], 
+    "a": {
+      "a": "reproach", 
+      "c": "teach", 
+      "b": "dismiss", 
+      "e": "detach", 
+      "d": "assure"
+    }
+  }, 
+  "912": {
+    "q": [
+      "entirely", 
+      "with"
+    ], 
+    "a": {
+      "a": "covered", 
+      "c": "combined", 
+      "b": "blanched", 
+      "e": "incompatible", 
+      "d": "illuminated"
+    }
+  }, 
+  "913": {
+    "q": [
+      "any", 
+      "of"
+    ], 
+    "a": {
+      "a": "explanation", 
+      "c": "remembrance", 
+      "b": "deficiency", 
+      "e": "possibility", 
+      "d": "recollection"
+    }
+  }, 
+  "914": {
+    "q": [
+      "of", 
+      ","
+    ], 
+    "a": {
+      "a": "discretion", 
+      "c": "refuse", 
+      "b": "suspicions", 
+      "e": "evidence", 
+      "d": "inquest"
+    }
+  }, 
+  "915": {
+    "q": [
+      "his", 
+      "with"
+    ], 
+    "a": {
+      "a": "chest", 
+      "c": "cage", 
+      "b": "ankle", 
+      "e": "note", 
+      "d": "leg"
+    }
+  }, 
+  "916": {
+    "q": [
+      "conceal", 
+      "behind"
+    ], 
+    "a": {
+      "a": "nobody", 
+      "c": "freshly", 
+      "b": "training", 
+      "e": "ourselves", 
+      "d": "yourselves"
+    }
+  }, 
+  "917": {
+    "q": [
+      "been", 
+      "and"
+    ], 
+    "a": {
+      "a": "born", 
+      "c": "idle", 
+      "b": "burned", 
+      "e": "disturbed", 
+      "d": "closed"
+    }
+  }, 
+  "918": {
+    "q": [
+      "'s", 
+      "have"
+    ], 
+    "a": {
+      "a": "preparations", 
+      "c": "bullets", 
+      "b": "sorrows", 
+      "e": "relations", 
+      "d": "lands"
+    }
+  }, 
+  "919": {
+    "q": [
+      "and", 
+      "into"
+    ], 
+    "a": {
+      "a": "withered", 
+      "c": "hurried", 
+      "b": "reduced", 
+      "e": "rode", 
+      "d": "delivered"
+    }
+  }, 
+  "920": {
+    "q": [
+      "the", 
+      "upon"
+    ], 
+    "a": {
+      "a": "oath", 
+      "c": "shadows", 
+      "b": "shirt", 
+      "e": "message", 
+      "d": "blame"
+    }
+  }, 
+  "921": {
+    "q": [
+      "a", 
+      "patient"
+    ], 
+    "a": {
+      "a": "speculative", 
+      "c": "wealthy", 
+      "b": "prompt", 
+      "e": "timid", 
+      "d": "resident"
+    }
+  }, 
+  "922": {
+    "q": [
+      "an", 
+      "which"
+    ], 
+    "a": {
+      "a": "dissimulation", 
+      "c": "ambiguity", 
+      "b": "alacrity", 
+      "e": "intentness", 
+      "d": "emphasis"
+    }
+  }, 
+  "923": {
+    "q": [
+      "an", 
+      "could"
+    ], 
+    "a": {
+      "a": "artist", 
+      "c": "innocence", 
+      "b": "owl", 
+      "e": "excursion", 
+      "d": "earthquake"
+    }
+  }, 
+  "924": {
+    "q": [
+      "been", 
+      "for"
+    ], 
+    "a": {
+      "a": "senseless", 
+      "c": "watching", 
+      "b": "preparing", 
+      "e": "mistaken", 
+      "d": "spoilt"
+    }
+  }, 
+  "925": {
+    "q": [
+      "his", 
+      "until"
+    ], 
+    "a": {
+      "a": "senses", 
+      "c": "spirits", 
+      "b": "chest", 
+      "e": "knees", 
+      "d": "pillow"
+    }
+  }, 
+  "926": {
+    "q": [
+      "were", 
+      "in"
+    ], 
+    "a": {
+      "a": "heaped", 
+      "c": "defeated", 
+      "b": "expended", 
+      "e": "exercised", 
+      "d": "rolling"
+    }
+  }, 
+  "927": {
+    "q": [
+      "the", 
+      ","
+    ], 
+    "a": {
+      "a": "labourers", 
+      "c": "rivers", 
+      "b": "paving", 
+      "e": "singers", 
+      "d": "fittings"
+    }
+  }, 
+  "928": {
+    "q": [
+      "was", 
+      "by"
+    ], 
+    "a": {
+      "a": "joined", 
+      "c": "revealed", 
+      "b": "hanging", 
+      "e": "hailed", 
+      "d": "troubled"
+    }
+  }, 
+  "929": {
+    "q": [
+      "Holmes", 
+      "down"
+    ], 
+    "a": {
+      "a": "tore", 
+      "c": "bowed", 
+      "b": "pulled", 
+      "e": "tumbled", 
+      "d": "peered"
+    }
+  }, 
+  "930": {
+    "q": [
+      "was", 
+      "by"
+    ], 
+    "a": {
+      "a": "emulated", 
+      "c": "assisted", 
+      "b": "repelled", 
+      "e": "remembered", 
+      "d": "aggravated"
+    }
+  }, 
+  "931": {
+    "q": [
+      "were", 
+      "when"
+    ], 
+    "a": {
+      "a": "incredible", 
+      "c": "obdurate", 
+      "b": "struggling", 
+      "e": "inquiring", 
+      "d": "damaged"
+    }
+  }, 
+  "932": {
+    "q": [
+      "be", 
+      "across"
+    ], 
+    "a": {
+      "a": "drifting", 
+      "c": "travelling", 
+      "b": "walking", 
+      "e": "built", 
+      "d": "sprinkled"
+    }
+  }, 
+  "933": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "influence", 
+      "c": "denomination", 
+      "b": "sounds", 
+      "e": "knowledge", 
+      "d": "windows"
+    }
+  }, 
+  "934": {
+    "q": [
+      "had", 
+      ","
+    ], 
+    "a": {
+      "a": "lunched", 
+      "c": "vanished", 
+      "b": "anticipated", 
+      "e": "fainted", 
+      "d": "stated"
+    }
+  }, 
+  "935": {
+    "q": [
+      "the", 
+      ","
+    ], 
+    "a": {
+      "a": "asylum", 
+      "c": "hurricane", 
+      "b": "turf", 
+      "e": "stare", 
+      "d": "compliment"
+    }
+  }, 
+  "936": {
+    "q": [
+      "two", 
+      "were"
+    ], 
+    "a": {
+      "a": "foxes", 
+      "c": "chairs", 
+      "b": "voices", 
+      "e": "logs", 
+      "d": "decanters"
+    }
+  }, 
+  "937": {
+    "q": [
+      "two", 
+      "form"
+    ], 
+    "a": {
+      "a": "ravens", 
+      "c": "maids", 
+      "b": "planes", 
+      "e": "animals", 
+      "d": "policemen"
+    }
+  }, 
+  "938": {
+    "q": [
+      "speedily", 
+      ","
+    ], 
+    "a": {
+      "a": "drawn", 
+      "c": "mollified", 
+      "b": "retired", 
+      "e": "exterminated", 
+      "d": "exhausted"
+    }
+  }, 
+  "939": {
+    "q": [
+      "to", 
+      "in"
+    ], 
+    "a": {
+      "a": "remain", 
+      "c": "appear", 
+      "b": "reside", 
+      "e": "succeed", 
+      "d": "ice"
+    }
+  }, 
+  "940": {
+    "q": [
+      "and", 
+      "the"
+    ], 
+    "a": {
+      "a": "grasped", 
+      "c": "rang", 
+      "b": "closed", 
+      "e": "caressed", 
+      "d": "joined"
+    }
+  }, 
+  "941": {
+    "q": [
+      "crowded", 
+      "in"
+    ], 
+    "a": {
+      "a": "sepulchre", 
+      "c": "creek", 
+      "b": "thoroughfare", 
+      "e": "clergy", 
+      "d": "theatres"
+    }
+  }, 
+  "942": {
+    "q": [
+      "the", 
+      "in"
+    ], 
+    "a": {
+      "a": "bell", 
+      "c": "hole", 
+      "b": "document", 
+      "e": "reins", 
+      "d": "key"
+    }
+  }, 
+  "943": {
+    "q": [
+      "a", 
+      "dizziness"
+    ], 
+    "a": {
+      "a": "sturdy", 
+      "c": "vehement", 
+      "b": "curious", 
+      "e": "deadly", 
+      "d": "tranquil"
+    }
+  }, 
+  "944": {
+    "q": [
+      "our", 
+      "had"
+    ], 
+    "a": {
+      "a": "fraud", 
+      "c": "guests", 
+      "b": "aid", 
+      "e": "enemies", 
+      "d": "appetites"
+    }
+  }, 
+  "945": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "condition", 
+      "c": "mouths", 
+      "b": "box", 
+      "e": "possibilities", 
+      "d": "smell"
+    }
+  }, 
+  "946": {
+    "q": [
+      "a", 
+      "and"
+    ], 
+    "a": {
+      "a": "prince", 
+      "c": "useful", 
+      "b": "morose", 
+      "e": "novel", 
+      "d": "captive"
+    }
+  }, 
+  "947": {
+    "q": [
+      "I", 
+      "back"
+    ], 
+    "a": {
+      "a": "smiled", 
+      "c": "shrunk", 
+      "b": "sailed", 
+      "e": "drove", 
+      "d": "flowed"
+    }
+  }, 
+  "948": {
+    "q": [
+      "the", 
+      "moor"
+    ], 
+    "a": {
+      "a": "sodden", 
+      "c": "tall", 
+      "b": "important", 
+      "e": "nearest", 
+      "d": "polished"
+    }
+  }, 
+  "949": {
+    "q": [
+      "to", 
+      "myself"
+    ], 
+    "a": {
+      "a": "compromise", 
+      "c": "humiliate", 
+      "b": "possess", 
+      "e": "safeguard", 
+      "d": "hide"
+    }
+  }, 
+  "950": {
+    "q": [
+      "to", 
+      "with"
+    ], 
+    "a": {
+      "a": "dine", 
+      "c": "remain", 
+      "b": "meddle", 
+      "e": "fight", 
+      "d": "dance"
+    }
+  }, 
+  "951": {
+    "q": [
+      "the", 
+      "were"
+    ], 
+    "a": {
+      "a": "maids", 
+      "c": "kites", 
+      "b": "stars", 
+      "e": "bellows", 
+      "d": "angels"
+    }
+  }, 
+  "952": {
+    "q": [
+      "several", 
+      "under"
+    ], 
+    "a": {
+      "a": "joints", 
+      "c": "glaciers", 
+      "b": "packages", 
+      "e": "splinters", 
+      "d": "eunuchs"
+    }
+  }, 
+  "953": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "meaning", 
+      "c": "fury", 
+      "b": "proportion", 
+      "e": "luxury", 
+      "d": "symbol"
+    }
+  }, 
+  "954": {
+    "q": [
+      "small", 
+      "this"
+    ], 
+    "a": {
+      "a": "scene", 
+      "c": "cross", 
+      "b": "pillow", 
+      "e": "cat", 
+      "d": "yard"
+    }
+  }, 
+  "955": {
+    "q": [
+      "the", 
+      "and"
+    ], 
+    "a": {
+      "a": "walks", 
+      "c": "highways", 
+      "b": "corridor", 
+      "e": "valleys", 
+      "d": "ceiling"
+    }
+  }, 
+  "956": {
+    "q": [
+      "to", 
+      "you"
+    ], 
+    "a": {
+      "a": "befall", 
+      "c": "restore", 
+      "b": "recompense", 
+      "e": "convince", 
+      "d": "allow"
+    }
+  }, 
+  "957": {
+    "q": [
+      "still", 
+      "soundly"
+    ], 
+    "a": {
+      "a": "snowing", 
+      "c": "burning", 
+      "b": "sleeping", 
+      "e": "growling", 
+      "d": "walking"
+    }
+  }, 
+  "958": {
+    "q": [
+      "fragment", 
+      "from"
+    ], 
+    "a": {
+      "a": "suffered", 
+      "c": "glanced", 
+      "b": "rested", 
+      "e": "glared", 
+      "d": "torn"
+    }
+  }, 
+  "959": {
+    "q": [
+      "his", 
+      "yet"
+    ], 
+    "a": {
+      "a": "grave", 
+      "c": "glasses", 
+      "b": "whiskers", 
+      "e": "pony", 
+      "d": "illness"
+    }
+  }, 
+  "960": {
+    "q": [
+      "was", 
+      "of"
+    ], 
+    "a": {
+      "a": "conscious", 
+      "c": "proud", 
+      "b": "tired", 
+      "e": "convicted", 
+      "d": "ashamed"
+    }
+  }, 
+  "961": {
+    "q": [
+      "to", 
+      "that"
+    ], 
+    "a": {
+      "a": "hint", 
+      "c": "acknowledge", 
+      "b": "predict", 
+      "e": "prove", 
+      "d": "suggest"
+    }
+  }, 
+  "962": {
+    "q": [
+      "his", 
+      "two"
+    ], 
+    "a": {
+      "a": "niece", 
+      "c": "suit", 
+      "b": "balloon", 
+      "e": "beard", 
+      "d": "stick"
+    }
+  }, 
+  "963": {
+    "q": [
+      "as", 
+      "to"
+    ], 
+    "a": {
+      "a": "executrix", 
+      "c": "guide", 
+      "b": "relative", 
+      "e": "maid", 
+      "d": "ballast"
+    }
+  }, 
+  "964": {
+    "q": [
+      "our", 
+      "and"
+    ], 
+    "a": {
+      "a": "statesmen", 
+      "c": "coffee", 
+      "b": "resources", 
+      "e": "pools", 
+      "d": "honour"
+    }
+  }, 
+  "965": {
+    "q": [
+      "away", 
+      "and"
+    ], 
+    "a": {
+      "a": "baffled", 
+      "c": "rumbling", 
+      "b": "grinning", 
+      "e": "rosy", 
+      "d": "kicking"
+    }
+  }, 
+  "966": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "splintering", 
+      "c": "panelling", 
+      "b": "smell", 
+      "e": "shadow", 
+      "d": "merits"
+    }
+  }, 
+  "967": {
+    "q": [
+      "He", 
+      "her"
+    ], 
+    "a": {
+      "a": "begged", 
+      "c": "bade", 
+      "b": "appraised", 
+      "e": "gathered", 
+      "d": "dashed"
+    }
+  }, 
+  "968": {
+    "q": [
+      "a", 
+      "silent"
+    ], 
+    "a": {
+      "a": "helpless", 
+      "c": "mere", 
+      "b": "reckless", 
+      "e": "woman", 
+      "d": "wonderfully"
+    }
+  }, 
+  "969": {
+    "q": [
+      "to", 
+      "the"
+    ], 
+    "a": {
+      "a": "remove", 
+      "c": "reach", 
+      "b": "await", 
+      "e": "imitate", 
+      "d": "regulate"
+    }
+  }, 
+  "970": {
+    "q": [
+      "he", 
+      "to"
+    ], 
+    "a": {
+      "a": "dared", 
+      "c": "stooped", 
+      "b": "resigned", 
+      "e": "sought", 
+      "d": "sprang"
+    }
+  }, 
+  "971": {
+    "q": [
+      "a", 
+      "and"
+    ], 
+    "a": {
+      "a": "venerable", 
+      "c": "sweet", 
+      "b": "delicate", 
+      "e": "clever", 
+      "d": "glorious"
+    }
+  }, 
+  "972": {
+    "q": [
+      "considerable", 
+      "and"
+    ], 
+    "a": {
+      "a": "culture", 
+      "c": "courage", 
+      "b": "violence", 
+      "e": "tact", 
+      "d": "discretion"
+    }
+  }, 
+  "973": {
+    "q": [
+      "a", 
+      "yell"
+    ], 
+    "a": {
+      "a": "drowsy", 
+      "c": "wonderful", 
+      "b": "prolonged", 
+      "e": "breathless", 
+      "d": "girlish"
+    }
+  }, 
+  "974": {
+    "q": [
+      "were", 
+      "from"
+    ], 
+    "a": {
+      "a": "falling", 
+      "c": "pouring", 
+      "b": "distinguished", 
+      "e": "propagated", 
+      "d": "absent"
+    }
+  }, 
+  "975": {
+    "q": [
+      "much", 
+      "over"
+    ], 
+    "a": {
+      "a": "disappointment", 
+      "c": "reading", 
+      "b": "troubled", 
+      "e": "dining", 
+      "d": "delight"
+    }
+  }, 
+  "976": {
+    "q": [
+      "after", 
+      "to"
+    ], 
+    "a": {
+      "a": "failing", 
+      "c": "struggling", 
+      "b": "dreading", 
+      "e": "listening", 
+      "d": "labouring"
+    }
+  }, 
+  "977": {
+    "q": [
+      "a", 
+      "sofa"
+    ], 
+    "a": {
+      "a": "comfortable", 
+      "c": "flinty", 
+      "b": "licensed", 
+      "e": "mighty", 
+      "d": "Methodist"
+    }
+  }, 
+  "978": {
+    "q": [
+      "hat", 
+      "brushed"
+    ], 
+    "a": {
+      "a": "proudly", 
+      "c": "satisfactorily", 
+      "b": "urgently", 
+      "e": "actually", 
+      "d": "profoundly"
+    }
+  }, 
+  "979": {
+    "q": [
+      "the", 
+      "he"
+    ], 
+    "a": {
+      "a": "stairs", 
+      "c": "victory", 
+      "b": "mills", 
+      "e": "parties", 
+      "d": "forest"
+    }
+  }, 
+  "980": {
+    "q": [
+      "maid", 
+      "across"
+    ], 
+    "a": {
+      "a": "fainted", 
+      "c": "slept", 
+      "b": "talked", 
+      "e": "rushed", 
+      "d": "dwelt"
+    }
+  }, 
+  "981": {
+    "q": [
+      "which", 
+      "the"
+    ], 
+    "a": {
+      "a": "surrounded", 
+      "c": "conveyed", 
+      "b": "supported", 
+      "e": "sheltered", 
+      "d": "contained"
+    }
+  }, 
+  "982": {
+    "q": [
+      "instantly", 
+      ","
+    ], 
+    "a": {
+      "a": "extinguished", 
+      "c": "asleep", 
+      "b": "aroused", 
+      "e": "decapitated", 
+      "d": "fatigued"
+    }
+  }, 
+  "983": {
+    "q": [
+      "could", 
+      "their"
+    ], 
+    "a": {
+      "a": "waste", 
+      "c": "lose", 
+      "b": "follow", 
+      "e": "bury", 
+      "d": "ensure"
+    }
+  }, 
+  "984": {
+    "q": [
+      "is", 
+      "into"
+    ], 
+    "a": {
+      "a": "passing", 
+      "c": "examined", 
+      "b": "preached", 
+      "e": "charmed", 
+      "d": "shouted"
+    }
+  }, 
+  "985": {
+    "q": [
+      "a", 
+      "is"
+    ], 
+    "a": {
+      "a": "battle", 
+      "c": "suspicion", 
+      "b": "cord", 
+      "e": "choice", 
+      "d": "card"
+    }
+  }, 
+  "986": {
+    "q": [
+      "perfect", 
+      ","
+    ], 
+    "a": {
+      "a": "demon", 
+      "c": "lad", 
+      "b": "knight", 
+      "e": "maiden", 
+      "d": "priest"
+    }
+  }, 
+  "987": {
+    "q": [
+      "legal", 
+      "which"
+    ], 
+    "a": {
+      "a": "obstacles", 
+      "c": "acuteness", 
+      "b": "disputes", 
+      "e": "restraints", 
+      "d": "formalities"
+    }
+  }, 
+  "988": {
+    "q": [
+      "was", 
+      "to"
+    ], 
+    "a": {
+      "a": "inferior", 
+      "c": "essential", 
+      "b": "incredible", 
+      "e": "fatal", 
+      "d": "agreeable"
+    }
+  }, 
+  "989": {
+    "q": [
+      "she", 
+      "of"
+    ], 
+    "a": {
+      "a": "approved", 
+      "c": "complained", 
+      "b": "stripped", 
+      "e": "eased", 
+      "d": "conceived"
+    }
+  }, 
+  "990": {
+    "q": [
+      "my", 
+      "suspicions"
+    ], 
+    "a": {
+      "a": "vague", 
+      "c": "warmest", 
+      "b": "comic", 
+      "e": "blind", 
+      "d": "heated"
+    }
+  }, 
+  "991": {
+    "q": [
+      "an", 
+      ","
+    ], 
+    "a": {
+      "a": "error", 
+      "c": "earthquake", 
+      "b": "illness", 
+      "e": "agreement", 
+      "d": "infant"
+    }
+  }, 
+  "992": {
+    "q": [
+      "could", 
+      "see"
+    ], 
+    "a": {
+      "a": "possibly", 
+      "c": "darkly", 
+      "b": "regularly", 
+      "e": "scarcely", 
+      "d": "distinctly"
+    }
+  }, 
+  "993": {
+    "q": [
+      "drawing-room", 
+      ","
+    ], 
+    "a": {
+      "a": "rope", 
+      "c": "library", 
+      "b": "sofa", 
+      "e": "breakfast", 
+      "d": "windows"
+    }
+  }, 
+  "994": {
+    "q": [
+      "my", 
+      "cards"
+    ], 
+    "a": {
+      "a": "scientific", 
+      "c": "drinking", 
+      "b": "unwary", 
+      "e": "largest", 
+      "d": "strongest"
+    }
+  }, 
+  "995": {
+    "q": [
+      "I", 
+      ","
+    ], 
+    "a": {
+      "a": "repeat", 
+      "c": "obeyed", 
+      "b": "gasped", 
+      "e": "shouted", 
+      "d": "argued"
+    }
+  }, 
+  "996": {
+    "q": [
+      "his", 
+      "at"
+    ], 
+    "a": {
+      "a": "defeat", 
+      "c": "lodgings", 
+      "b": "affairs", 
+      "e": "finger", 
+      "d": "impudence"
+    }
+  }, 
+  "997": {
+    "q": [
+      "deep", 
+      "upon"
+    ], 
+    "a": {
+      "a": "shadow", 
+      "c": "sneer", 
+      "b": "impression", 
+      "e": "crevice", 
+      "d": "gash"
+    }
+  }, 
+  "998": {
+    "q": [
+      "very", 
+      "part"
+    ], 
+    "a": {
+      "a": "ingenious", 
+      "c": "limber", 
+      "b": "difficult", 
+      "e": "formal", 
+      "d": "tender"
+    }
+  }, 
+  "999": {
+    "q": [
+      "of", 
+      "is"
+    ], 
+    "a": {
+      "a": "reverence", 
+      "c": "eating", 
+      "b": "transport", 
+      "e": "livelihood", 
+      "d": "amusement"
+    }
+  }, 
+  "1000": {
+    "q": [
+      "waiting", 
+      "for"
+    ], 
+    "a": {
+      "a": "elsewhere", 
+      "c": "intermittently", 
+      "b": "knowingly", 
+      "e": "silently", 
+      "d": "unconsciously"
+    }
+  }, 
+  "1001": {
+    "q": [
+      "the", 
+      "I"
+    ], 
+    "a": {
+      "a": "summer", 
+      "c": "future", 
+      "b": "billiard", 
+      "e": "cradle", 
+      "d": "fortune"
+    }
+  }, 
+  "1002": {
+    "q": [
+      "any", 
+      "or"
+    ], 
+    "a": {
+      "a": "crack", 
+      "c": "cake", 
+      "b": "witch", 
+      "e": "disagreement", 
+      "d": "imprudence"
+    }
+  }, 
+  "1003": {
+    "q": [
+      "very", 
+      "iron"
+    ], 
+    "a": {
+      "a": "French", 
+      "c": "printed", 
+      "b": "massive", 
+      "e": "hot", 
+      "d": "unlucky"
+    }
+  }, 
+  "1004": {
+    "q": [
+      "and", 
+      "with"
+    ], 
+    "a": {
+      "a": "kicked", 
+      "c": "waited", 
+      "b": "tied", 
+      "e": "watered", 
+      "d": "encircled"
+    }
+  }, 
+  "1005": {
+    "q": [
+      "sat", 
+      ","
+    ], 
+    "a": {
+      "a": "today", 
+      "c": "reading", 
+      "b": "professionally", 
+      "e": "dreaming", 
+      "d": "breathless"
+    }
+  }, 
+  "1006": {
+    "q": [
+      "singular", 
+      "brought"
+    ], 
+    "a": {
+      "a": "fortune", 
+      "c": "interruption", 
+      "b": "fascination", 
+      "e": "anecdote", 
+      "d": "diligence"
+    }
+  }, 
+  "1007": {
+    "q": [
+      "she", 
+      "open"
+    ], 
+    "a": {
+      "a": "swayed", 
+      "c": "sped", 
+      "b": "spread", 
+      "e": "rolled", 
+      "d": "threw"
+    }
+  }, 
+  "1008": {
+    "q": [
+      "I", 
+      "a"
+    ], 
+    "a": {
+      "a": "smoke", 
+      "c": "proposed", 
+      "b": "wrote", 
+      "e": "flash", 
+      "d": "recall"
+    }
+  }, 
+  "1009": {
+    "q": [
+      "a", 
+      "pittance"
+    ], 
+    "a": {
+      "a": "mere", 
+      "c": "finer", 
+      "b": "moderate", 
+      "e": "marvellous", 
+      "d": "higher"
+    }
+  }, 
+  "1010": {
+    "q": [
+      "have", 
+      "you"
+    ], 
+    "a": {
+      "a": "convinced", 
+      "c": "killed", 
+      "b": "expected", 
+      "e": "interrupted", 
+      "d": "practised"
+    }
+  }, 
+  "1011": {
+    "q": [
+      "a", 
+      ","
+    ], 
+    "a": {
+      "a": "madman", 
+      "c": "visitor", 
+      "b": "stranger", 
+      "e": "picnic", 
+      "d": "baby"
+    }
+  }, 
+  "1012": {
+    "q": [
+      "the", 
+      "of"
+    ], 
+    "a": {
+      "a": "clatter", 
+      "c": "tinkle", 
+      "b": "baying", 
+      "e": "image", 
+      "d": "click"
+    }
+  }, 
+  "1013": {
+    "q": [
+      "British", 
+      "in"
+    ], 
+    "a": {
+      "a": "workman", 
+      "c": "island", 
+      "b": "Museum", 
+      "e": "abode", 
+      "d": "Empire"
+    }
+  }, 
+  "1014": {
+    "q": [
+      "think", 
+      "of"
+    ], 
+    "a": {
+      "a": "evil", 
+      "c": "kindly", 
+      "b": "highly", 
+      "e": "custody", 
+      "d": "previously"
+    }
+  }, 
+  "1015": {
+    "q": [
+      "was", 
+      ","
+    ], 
+    "a": {
+      "a": "ended", 
+      "c": "empty", 
+      "b": "irregular", 
+      "e": "unavoidable", 
+      "d": "bewitched"
+    }
+  }, 
+  "1016": {
+    "q": [
+      "his", 
+      "he"
+    ], 
+    "a": {
+      "a": "throat", 
+      "c": "pocket", 
+      "b": "lifetime", 
+      "e": "deposit", 
+      "d": "temperament"
+    }
+  }, 
+  "1017": {
+    "q": [
+      "a", 
+      "weight"
+    ], 
+    "a": {
+      "a": "modest", 
+      "c": "harmonious", 
+      "b": "cardboard", 
+      "e": "viscous", 
+      "d": "crushing"
+    }
+  }, 
+  "1018": {
+    "q": [
+      "had", 
+      "during"
+    ], 
+    "a": {
+      "a": "wandered", 
+      "c": "transpired", 
+      "b": "breakfasted", 
+      "e": "killed", 
+      "d": "noticed"
+    }
+  }, 
+  "1019": {
+    "q": [
+      "was", 
+      "in"
+    ], 
+    "a": {
+      "a": "painted", 
+      "c": "published", 
+      "b": "quartered", 
+      "e": "interested", 
+      "d": "downstairs"
+    }
+  }, 
+  "1020": {
+    "q": [
+      "the", 
+      ","
+    ], 
+    "a": {
+      "a": "lawn", 
+      "c": "stream", 
+      "b": "castle", 
+      "e": "passage", 
+      "d": "harp"
+    }
+  }, 
+  "1021": {
+    "q": [
+      "a", 
+      "day"
+    ], 
+    "a": {
+      "a": "gray", 
+      "c": "cloudy", 
+      "b": "perfect", 
+      "e": "lucky", 
+      "d": "misty"
+    }
+  }, 
+  "1022": {
+    "q": [
+      "and", 
+      "it"
+    ], 
+    "a": {
+      "a": "measured", 
+      "c": "sheathed", 
+      "b": "invested", 
+      "e": "subdued", 
+      "d": "taught"
+    }
+  }, 
+  "1023": {
+    "q": [
+      "came", 
+      "out"
+    ], 
+    "a": {
+      "a": "daintily", 
+      "c": "staggering", 
+      "b": "singing", 
+      "e": "ebbing", 
+      "d": "pouring"
+    }
+  }
+}
