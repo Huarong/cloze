@@ -145,6 +145,22 @@ class PreProcessor(object):
             f.writelines(['%s %s\n' % (word_pair, freq) for (word_pair, freq) in freq_dic.items()])
         return None
 
+    def _sort_by_freq(self):
+        freq_list = []
+        with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'r') as f:
+            for line in f:
+                t = line.strip().split()
+                word_pair = "%s %s" % (t[0], t[1])
+                freq = t[2]
+                freq_list.append((word_pair, freq))
+
+        sorted(freq_list, key=lambda x: x[1], reverse=True)
+
+        with open(os.path.join(self.corpus_root, 'bigram_frequency.txt'), 'w') as f:
+            f.writelines(["%s %s\n" % (word_pair, freq) for (word_pair, freq) in freq_list])
+        return None
+
+
 
 def main():
     p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus')
