@@ -15,6 +15,8 @@ class NGramModel(object):
         self.qa_path = None
         self.n = n
         self.logger = init_log('ngram', os.path.join(config.LOG_DIR, 'ngram.log'))
+        self.uni_freq_dict = None
+        self.bi_freq_dict = None
 
     def extract_QA(self, qa_path):
         qa_dict = {}
@@ -120,4 +122,29 @@ class NGramModel(object):
         return None
 
 
+    def load_freq_dict(self):
+        pass
+
+    # This is not the real sentence probablity.
+    # For the beging and end of five sentence are the same, we can ignore them
+    def compute_sentence_probability(self, word_list):
+        p = 1.0;
+        for i in range(len(word_list) - 1):
+            p *= self.compute_conditional_probability(word_list[i], word_list[i + 1])
+            if p == 0.0:
+                return 0.0
+        return p
+
+    # compute p(w2|w1)
+    # c12: the frequency of word pair w1, w2
+    # c1: the frequency of w2
+    def compute_conditional_probability(self, w1, w2):
+        try:
+            c1 = self.uni_freq_dict[w1]
+        except KeyError:
+            self.logger.error("compute_conditional_probability: word '%s' not exist in unigram frequency" % w1)
+            return 0.0
+        c12 = self.bi_freq_dict["%s %s" % (w1, w2)]
+        p = float(c12) / c1
+        return p
 
