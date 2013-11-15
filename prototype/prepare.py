@@ -155,7 +155,7 @@ class PreProcessor(object):
                 freq = t[2]
                 freq_list.append((word_pair, freq))
 
-        sorted(freq_list, key=lambda x: x[1], reverse=True)
+        freq_list.sort(key=lambda x: x[1], reverse=True)
 
         with open(os.path.join(self.corpus_root, 'bigram_frequency.txt'), 'w') as f:
             f.writelines(["%s %s\n" % (word_pair, freq) for (word_pair, freq) in freq_list])
