@@ -87,3 +87,32 @@ class NGramModel(object):
             return None
         return (r.group(1), r.group(2))
 
+    def compute_data_sparseness(self, json_path):
+        bi_freq_set = set()
+        not_found = set()
+        to_find = set()
+        with open(os.path.join(config.CORPUS_DIR, "bigram_frequency.txt"), 'r') as f:
+            for line in f:
+                line = line.strip()
+                w1, w2, freq = line.split()
+                bi_freq_set.add("%s %s" % (w1, w2))
+        with open(json_path, 'r') as f:
+            json_obj = json.load(f)
+            total_word_pair = len(json_obj)
+            for v in json_obj.values():
+                w1, w2 = v[q]
+                options = v[a].values()
+                for op in options:
+                    to_find.add("%s %s" % (w1, op))
+                    to_find.add("%s %s" % (op, w2))
+        not_found = to_found.difference(bi_freq_set)
+        num_not_found = len(not_found)
+        num_to_find = len(to_find)
+        sparseness_rate = float(num_not_found) / num_to_find
+        self.logger.info("compute_data_sparseness:")
+        self.logger.info("expect to find word pairs %d, found %d" % (num_to_find, num_not_found))
+        self.logger.info("the data sparseness rate is %f" % sparseness_rate)
+        return None
+
+
+

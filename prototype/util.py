@@ -3,7 +3,7 @@
 # @Author: hhr
 # @Date:   2013-11-13 15:53:43
 # @Last Modified by:   huohuarong
-# @Last Modified time: 2013-11-13 17:28:24
+# @Last Modified time: 2013-11-15 20:19:34
 
 import logging
 
@@ -14,7 +14,7 @@ def init_log(logname, filename, level=logging.DEBUG):
                         format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
                         datefmt='%m-%d %H:%M',
                         filename=filename,
-                        filemode='w')
+                        filemode='a')
     # define a Handler which writes INFO messages or higher to the sys.stderr
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
