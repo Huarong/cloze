@@ -100,18 +100,23 @@ class NGramModel(object):
             json_obj = json.load(f)
             total_word_pair = len(json_obj)
             for v in json_obj.values():
-                w1, w2 = v[q]
-                options = v[a].values()
+                w1, w2 = v['q']
+                options = v['a'].values()
                 for op in options:
                     to_find.add("%s %s" % (w1, op))
                     to_find.add("%s %s" % (op, w2))
-        not_found = to_found.difference(bi_freq_set)
+        not_found = to_find.difference(bi_freq_set)
         num_not_found = len(not_found)
         num_to_find = len(to_find)
         sparseness_rate = float(num_not_found) / num_to_find
         self.logger.info("compute_data_sparseness:")
-        self.logger.info("expect to find word pairs %d, found %d" % (num_to_find, num_not_found))
+        self.logger.info("expect to find word pairs %d, could not find %d" % (num_to_find, num_not_found))
         self.logger.info("the data sparseness rate is %f" % sparseness_rate)
+        self.logger.info("they are:")
+        count = 0
+        for e in not_found:
+            count += 1
+            self.logger.info("%d %s" % (count, e))
         return None
 
 

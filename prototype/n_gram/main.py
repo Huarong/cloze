@@ -1,17 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Author: huohuarong
-# @Date:   2013-11-13 17:21:24
-# @Last Modified by:   huohuarong
-# @Last Modified time: 2013-11-15 20:00:05
+
+import os.path
+import sys
 
 from n_gram_model import NGramModel
+
+sys.path.append('../')
+
+import config
 
 def main():
     n_gram = NGramModel()
     # n_gram.extract_QA('../../corpus/development_set.txt')
+    json_path = os.path.join(config.DATA_DIR, 'dev_set.json')
+    n_gram.compute_data_sparseness(json_path)
     return None
-
 
 if __name__ == '__main__':
     main()

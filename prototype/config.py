@@ -11,5 +11,4 @@ CORPUS_DIR = os.path.join(ROOT_DIR, 'corpus')
 LOG_DIR = os.path.join(ROOT_DIR, 'log')
 
 DATA_DIR = os.path.join(ROOT_DIR, 'data')
-print DATA_DIR
 
