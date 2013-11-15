@@ -81,8 +81,8 @@ class PreProcessor(object):
         if n == 1:
             self._compute_unigram_frequency()
         elif n == 2:
-            # self._compute_biagram_frequency()
-            # self._merge_bigram_frequency()
+            self._compute_biagram_frequency()
+            self._merge_bigram_frequency()
             self._sort_by_freq()
         else:
             self.logger.error("Unsupport n of n-gram")
@@ -167,7 +167,7 @@ def main():
     p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus')
     # p.prepare_training_data()
     # p.compute_frequency()
-    p.compute_frequency(n=2)
+    # p.compute_frequency(n=2)
     return
 
 
