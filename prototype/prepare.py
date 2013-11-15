@@ -82,7 +82,8 @@ class PreProcessor(object):
             self._compute_unigram_frequency()
         elif n == 2:
             # self._compute_biagram_frequency()
-            self._merge_bigram_frequency()
+            # self._merge_bigram_frequency()
+            self._sort_by_freq()
         else:
             self.logger.error("Unsupport n of n-gram")
         return None
