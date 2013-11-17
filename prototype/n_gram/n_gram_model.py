@@ -15,6 +15,8 @@ class NGramModel(object):
         self.qa_path = None
         self.n = n
         self.logger = init_log('ngram', os.path.join(config.LOG_DIR, 'ngram.log'))
+        self.__uni_freq_path = os.path.join(config.DATA_DIR, 'unigram_frequency.txt')
+        self.__bi_freq_path = os.path.join(config.DATA_DIR, 'bigram_frequency.txt')
         self.uni_freq_dict = None
         self.bi_freq_dict = None
 
@@ -123,7 +125,48 @@ class NGramModel(object):
 
 
     def load_freq_dict(self):
-        pass
+        uni_freq_dict = {}
+        bi_freq_dict = {}
+        with open(self.__uni_freq_path, 'r') as uni_f:
+            for line in uni_f:
+                line = line.strip()
+                word, freq = line.split()
+                uni_freq_dict[word] = freq
+        with open(self.__bi_freq_path, 'r') as bi_f:
+            for line in bi_f:
+                line = line.strip()
+                w1, w2, freq = line.split()
+                bi_freq_dict['%s %s' % (w1, w2)] = freq
+        return None
+
+    def compute_option_probability(self, json_path):
+        option_probability_dict = {}
+        max_probability_dict = {}
+        with open(json_path, 'r') as f:
+            json_obj = json.load(f)
+        for sent_no, qa in json_obj.items():
+            q = qa['q']
+            a = qa['a']
+            option_dict = {}
+            max_probability = ('a', 0.0)
+            for no, option in a.items():
+                p = self.compute_sentence_probability([q[0], option, q[1]])
+                option_dict[no] = p
+                if p > max_probability[1]:
+                    max_probability = (no, p)
+            option_probability_dict[sent_no] = option_dict
+            max_probability_dict[sent_no] = max_probability
+        with open(os.path.join(config.DATA_DIR, 'dev_options_probability.json'), 'w') as f:
+            json.dump(option_probability_dict, f)
+
+        # choose the best option
+        with open(os.path.join(config.DATA_DIR, 'dev_max_probability.json'), 'w') as f:
+            json.dump(max_probability_dict, f)
+
+        return None
+
+
+
 
     # This is not the real sentence probablity.
     # For the beging and end of five sentence are the same, we can ignore them
