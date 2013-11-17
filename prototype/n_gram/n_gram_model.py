@@ -185,7 +185,7 @@ class NGramModel(object):
             for line in f:
                 line = line.strip()
                 sent_no, no, option = line.split()
-                stand_answers_list.append(sent_no[:-1], no[1:-1])
+                stand_answers_list.append((sent_no[:-1], no[1:-1]))
 
         answers_list.sort(key= lambda x: int(x[0]))
         stand_answers_list.sort(key= lambda x: int(x[0]))
