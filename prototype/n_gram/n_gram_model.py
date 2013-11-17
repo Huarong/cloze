@@ -15,8 +15,8 @@ class NGramModel(object):
         self.qa_path = None
         self.n = n
         self.logger = init_log('ngram', os.path.join(config.LOG_DIR, 'ngram.log'))
-        self.__uni_freq_path = os.path.join(config.DATA_DIR, 'unigram_frequency.txt')
-        self.__bi_freq_path = os.path.join(config.DATA_DIR, 'bigram_frequency.txt')
+        self.__uni_freq_path = os.path.join(config.CORPUS_DIR, 'unigram_frequency.txt')
+        self.__bi_freq_path = os.path.join(config.CORPUS_DIR, 'bigram_frequency.txt')
         self.uni_freq_dict = None
         self.bi_freq_dict = None
 
@@ -132,11 +132,13 @@ class NGramModel(object):
                 line = line.strip()
                 word, freq = line.split()
                 uni_freq_dict[word] = freq
+        self.uni_freq_dict = uni_freq_dict
         with open(self.__bi_freq_path, 'r') as bi_f:
             for line in bi_f:
                 line = line.strip()
                 w1, w2, freq = line.split()
                 bi_freq_dict['%s %s' % (w1, w2)] = freq
+        self.bi_freq_dict = bi_freq_dict
         return None
 
     def compute_option_probability(self, json_path):
@@ -162,9 +164,47 @@ class NGramModel(object):
         # choose the best option
         with open(os.path.join(config.DATA_DIR, 'dev_max_probability.json'), 'w') as f:
             json.dump(max_probability_dict, f)
-
+        # save a copy with correct answers' format
+        with open(os.path.join(config.DATA_DIR, 'answers200.txt'), 'w') as f:
+            answers_list = max_probability_dict.items()
+            answers_list.sort(key=lambda x: int(x[0]))
+            f.writelines(["%s) [%s] %s\n" % (sent_no, no, option) for sent_no, (no, option) in answers_list])
         return None
 
+    # answer and stand_answer are txt file paths containing one choose one line with format like:
+    # 801) [d] everyone
+    def compute_accuracy(self, answer_path, stand_answer_path):
+        answers_list = []
+        stand_answers_list = []
+        with open(answer_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                sent_no, no, option = line.split()
+                answers_list.append((sent_no[:-1], no[1:-1]))
+        with open(stand_answer_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                sent_no, no, option = line.split()
+                stand_answers_list.append(sent_no[:-1], no[1:-1])
+
+        answers_list.sort(key= lambda x: int(x[0]))
+        stand_answers_list.sort(key= lambda x: int(x[0]))
+
+        assert(len(answers_list) == len(stand_answers_list))
+        total = len(stand_answers_list)
+        num_correct = 0
+        for i in range(total):
+            assert(answers_list[i][0] == stand_answers_list[i][0])
+            if answers_list[i][1] == stand_answers_list[i][1]:
+                num_correct += 1
+            else:
+                self.logger.info("compute_accuracy: wrong answer for sentence %s " % answers_list[i][0])
+        accuracy = float(num_correct) / total
+        self.logger.info("dev_set accuracy:")
+        self.logger.info("total sentences: %d" % total)
+        self.logger.info("number of correct: %d" % num_correct)
+        self.logger.info("accuracy: %f" % accuracy)
+        return None
 
 
 
@@ -187,7 +227,11 @@ class NGramModel(object):
         except KeyError:
             self.logger.error("compute_conditional_probability: word '%s' not exist in unigram frequency" % w1)
             return 0.0
-        c12 = self.bi_freq_dict["%s %s" % (w1, w2)]
-        p = float(c12) / c1
+        try:
+            c12 = self.bi_freq_dict["%s %s" % (w1, w2)]
+        except KeyError:
+            self.logger.error("compute_conditional_probability: word pair '%s %s' not exist in unigram frequency" % (w1, w2))
+            return 0.0
+        p = float(c12) / float(c1)
         return p
 
