@@ -213,7 +213,7 @@ class NGramModel(object):
     def compute_sentence_probability(self, word_list):
         p = 1.0;
         for i in range(len(word_list) - 1):
-            p *= self.compute_conditional_probability(word_list[i], word_list[i + 1])
+            p *= self.compute_conditional_probability(word_list[i], word_list[i + 1], smooth='plus1')
             if p == 0.0:
                 return 0.0
         return p
@@ -221,17 +221,23 @@ class NGramModel(object):
     # compute p(w2|w1)
     # c12: the frequency of word pair w1, w2
     # c1: the frequency of w2
-    def compute_conditional_probability(self, w1, w2):
+    def compute_conditional_probability(self, w1, w2, smooth=None):
         try:
             c1 = self.uni_freq_dict[w1]
         except KeyError:
             self.logger.error("compute_conditional_probability: word '%s' not exist in unigram frequency" % w1)
-            return 0.0
+            c1 = 0
         try:
             c12 = self.bi_freq_dict["%s %s" % (w1, w2)]
         except KeyError:
             self.logger.error("compute_conditional_probability: word pair '%s %s' not exist in unigram frequency" % (w1, w2))
-            return 0.0
-        p = float(c12) / float(c1)
+            c12 = 0
+        if smooth == 'plus1':
+            p = (1 + float(c12)) / (float(c1) + len(self.uni_freq_dict))
+        else:
+            try:
+                p = float(c12) / float(c1)
+            except ZeroDivisionError:
+                p = 0.0
         return p
 
