@@ -130,6 +130,9 @@ class PreProcessor(object):
                     # the second word is hoped
                     hop_bi_words = [(a, c) for (a, b, c) in tri_words]
                     fdist = nltk.FreqDist(hop_bi_words)
+                else:
+                    self.logger.error("unknown bigrams type %s" % t)
+                    return -1
             with open(os.path.join(freq_dir, fl), 'w') as f:
                 f.writelines(['%s %s %s\n' % (word[0], word[1], freq) for (word, freq) in fdist.items()])
         return None
@@ -143,10 +146,10 @@ class PreProcessor(object):
     def _compute_hop_biagram_frequency(self):
         self._compute_biagram_frequency_base('h', self.hop_bigram_frequency_dir)
         self._merge_bigram_frequency('h', self.hop_bigram_frequency_dir)
-        self._sort_by_freq('unorder_hop_bigram_frequency', 'hop_bigram_frequency.txt')
+        self._sort_by_freq('unorder_hop_bigram_frequency.txt', 'hop_bigram_frequency.txt')
         return None
 
-    def _merge_bigram_frequency(t, self, freq_dir):
+    def _merge_bigram_frequency(self, t, freq_dir):
         file_list = os.listdir(freq_dir)
         freq_dic = {}
         total = len(file_list)
@@ -157,14 +160,17 @@ class PreProcessor(object):
             real_path = os.path.join(freq_dir, fl)
             with open(real_path, 'r') as f:
                 for line in f:
-                    t = line.split()
-                    word_pair = "%s %s" % (t[0], t[1])
-                    freq = t[2]
+                    e = line.split()
+                    word_pair = "%s %s" % (e[0], e[1])
+                    freq = e[2]
                     freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
         if t == 'b':
             unorder_frequency_file = 'unorder_bigram_frequency.txt'
         elif t == 'h':
             unorder_frequency_file = 'unorder_hop_bigram_frequency.txt'
+        else:
+            self.logger.error("unknown bigrams type %s" % t)
+            return -1
         with open(os.path.join(self.corpus_root, unorder_frequency_file), 'w') as f:
             f.writelines(['%s %s\n' % (word_pair, freq) for (word_pair, freq) in freq_dic.items()])
         return None
