@@ -19,6 +19,7 @@ class PreProcessor(object):
         self.prepared_training_data_root = prepared_training_data_root
         self.corpus_root = corpus_root
         self.bigram_frequency_dir = os.path.join(self.corpus_root, 'bigram_frequency')
+        self.hop_bigram_frequency_dir = os.path.join(self.corpus_root, 'hop_bigram_frequency')
 
     def prepare_training_data(self, declare=True):
         if not (os.path.exists(self.prepared_training_data_root) and os.path.isdir(self.prepared_training_data_root)):
@@ -82,8 +83,8 @@ class PreProcessor(object):
             self._compute_unigram_frequency()
         elif n == 2:
             self._compute_biagram_frequency()
-            self._merge_bigram_frequency()
-            self._sort_by_freq()
+        elif n == 22:
+            self._compute_hop_biagram_frequency()
         else:
             self.logger.error("Unsupport n of n-gram")
         return None
@@ -107,9 +108,10 @@ class PreProcessor(object):
             f.writelines(['%s %s\n' % (word, freq) for (word, freq) in fdist.items()])
         return None
 
-    def _compute_biagram_frequency(self):
-        if not os.path.exists(self.bigram_frequency_dir):
-            os.mkdir(self.bigram_frequency_dir)
+
+    def _compute_biagram_frequency_base(self, t, freq_dir):
+        if not os.path.exists(freq_dir):
+            os.mkdir(freq_dir)
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
         tokenizer = TreebankWordTokenizer()
         total = len(wordlists.fileids())
@@ -120,35 +122,56 @@ class PreProcessor(object):
             fl_abs_path = os.path.join(self.prepared_training_data_root, fl)
             with open(fl_abs_path, 'r') as f:
                 words = tokenizer.tokenize(f.read())
-                bi_words = nltk.bigrams(words)
-                fdist = nltk.FreqDist(bi_words)
-            with open(os.path.join(self.bigram_frequency_dir, fl), 'w') as f:
+                if t == 'b':
+                    bi_words = nltk.bigrams(words)
+                    fdist = nltk.FreqDist(bi_words)
+                elif t == 'h':
+                    tri_words = nltk.trigrams(words)
+                    # the second word is hoped
+                    hop_bi_words = [(a, c) for (a, b, c) in tri_words]
+                    fdist = nltk.FreqDist(hop_bi_words)
+            with open(os.path.join(freq_dir, fl), 'w') as f:
                 f.writelines(['%s %s %s\n' % (word[0], word[1], freq) for (word, freq) in fdist.items()])
         return None
 
-    def _merge_bigram_frequency(self):
-        file_list = os.listdir(self.bigram_frequency_dir)
+    def _compute_biagram_frequency(self):
+        self._compute_biagram_frequency_base('b', self.bigram_frequency_dir)
+        self._merge_bigram_frequency('b', self.bigram_frequency_dir)
+        self._sort_by_freq('unorder_bigram_frequency.txt', 'bigram_frequency.txt')
+        return None
+
+    def _compute_hop_biagram_frequency(self):
+        self._compute_biagram_frequency_base('h', self.hop_bigram_frequency_dir)
+        self._merge_bigram_frequency('h', self.hop_bigram_frequency_dir)
+        self._sort_by_freq('unorder_hop_bigram_frequency', 'hop_bigram_frequency.txt')
+        return None
+
+    def _merge_bigram_frequency(t, self, freq_dir):
+        file_list = os.listdir(freq_dir)
         freq_dic = {}
         total = len(file_list)
         count = 0
         for fl in file_list:
             count += 1
             print "merge %d of %d" % (count, total)
-            real_path = os.path.join(self.bigram_frequency_dir, fl)
+            real_path = os.path.join(freq_dir, fl)
             with open(real_path, 'r') as f:
                 for line in f:
                     t = line.split()
                     word_pair = "%s %s" % (t[0], t[1])
                     freq = t[2]
                     freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
-
-        with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'w') as f:
+        if t == 'b':
+            unorder_frequency_file = 'unorder_bigram_frequency.txt'
+        elif t == 'h':
+            unorder_frequency_file = 'unorder_hop_bigram_frequency.txt'
+        with open(os.path.join(self.corpus_root, unorder_frequency_file), 'w') as f:
             f.writelines(['%s %s\n' % (word_pair, freq) for (word_pair, freq) in freq_dic.items()])
         return None
 
-    def _sort_by_freq(self):
+    def _sort_by_freq(self, unorder_frequency_file, order_freqency_file):
         freq_list = []
-        with open(os.path.join(self.corpus_root, 'unorder_bigram_frequency.txt'), 'r') as f:
+        with open(os.path.join(self.corpus_root, unorder_frequency_file), 'r') as f:
             for line in f:
                 t = line.strip().split()
                 word_pair = "%s %s" % (t[0], t[1])
@@ -157,7 +180,7 @@ class PreProcessor(object):
 
         freq_list.sort(key=lambda x: x[1], reverse=True)
 
-        with open(os.path.join(self.corpus_root, 'bigram_frequency.txt'), 'w') as f:
+        with open(os.path.join(self.corpus_root, order_freqency_file), 'w') as f:
             f.writelines(["%s %s\n" % (word_pair, freq) for (word_pair, freq) in freq_list])
         return None
 
@@ -166,8 +189,7 @@ class PreProcessor(object):
 def main():
     p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus')
     # p.prepare_training_data()
-    # p.compute_frequency()
-    # p.compute_frequency(n=2)
+    p.compute_frequency(n=22)
     return
 
 
