@@ -11,10 +11,13 @@ from n_gram.n_gram_model import NGramModel
 class NGramModelTest(TestCase):
     def setUp(self):
         self.n_gram = NGramModel()
+        self.hop_2gram = NGramModel(n=22)
 
     def test_extract_Q(self):
         words = self.n_gram.extract_Q("801) You , of course , saw that _____ in the street was an accomplice.")
         self.assertEqual(words, (801, 'that', 'in'))
+        words = self.hop_2gram.extract_Q("801) You , of course , saw that _____ in the street was an accomplice.")
+        self.assertEqual(words, (801, 'saw', 'that', 'in', 'the'))
         words = self.n_gram.extract_Q("871) His secret was a shameful one , and he could not bring himself to _____ it.")
         self.assertEqual(words, (871, 'to', 'it'))
         words = self.n_gram.extract_Q("1030) Then I walked across to the window , hoping that I might catch some glimpse of the country-side , but an oak _____ , heavily barred , was folded across it.")
