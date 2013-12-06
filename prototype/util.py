@@ -30,3 +30,38 @@ def init_log(logname, filename, level=logging.DEBUG):
     logger = logging.getLogger(logname)
     return logger
 
+
+# answer and stand_answer are txt file paths containing one choose one line with format like:
+# 801) [d] everyone
+def compute_accuracy(answer_path, stand_answer_path, logger):
+    answers_list = []
+    stand_answers_list = []
+    with open(answer_path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            sent_no, no, option = line.split()
+            answers_list.append((sent_no[:-1], no[1:-1]))
+    with open(stand_answer_path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            sent_no, no, option = line.split()
+            stand_answers_list.append((sent_no[:-1], no[1:-1]))
+
+    answers_list.sort(key= lambda x: int(x[0]))
+    stand_answers_list.sort(key= lambda x: int(x[0]))
+
+    assert(len(answers_list) == len(stand_answers_list))
+    total = len(stand_answers_list)
+    num_correct = 0
+    for i in range(total):
+        assert(answers_list[i][0] == stand_answers_list[i][0])
+        if answers_list[i][1] == stand_answers_list[i][1]:
+            num_correct += 1
+        else:
+            logger.info("compute_accuracy: wrong answer for sentence %s " % answers_list[i][0])
+    accuracy = float(num_correct) / total
+    logger.info("dev_set accuracy:")
+    logger.info("total sentences: %d" % total)
+    logger.info("number of correct: %d" % num_correct)
+    logger.info("accuracy: %f" % accuracy)
+    return None

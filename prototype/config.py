@@ -12,3 +12,4 @@ LOG_DIR = os.path.join(ROOT_DIR, 'log')
 
 DATA_DIR = os.path.join(ROOT_DIR, 'data')
 
+STANDARD_ANSWER_240_PATH = os.path.join(CORPUS_DIR, 'development_set_answers.txt')
