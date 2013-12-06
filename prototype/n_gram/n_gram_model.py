@@ -119,7 +119,7 @@ class NGramModel(object):
         # return (line_no, word_1, word_2)
 
     def extract_A(self, line):
-        pattern = r'([a-e])\)\s(\w+)'
+        pattern = r'([a-e])\)\s([a-zA-Z-]+)'
         reg = re.compile(pattern)
         line = line.strip()
         r = reg.match(line)

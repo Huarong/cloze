@@ -97,7 +97,7 @@
       "heavily"
     ], 
     "a": {
-      "a": "tea", 
+      "a": "tea-table", 
       "c": "staircase", 
       "b": "shutter", 
       "e": "sapling", 
@@ -145,7 +145,7 @@
       "a": "obstinate", 
       "c": "inborn", 
       "b": "wit", 
-      "e": "well", 
+      "e": "well-merited", 
       "d": "wilder"
     }
   }, 
@@ -473,7 +473,7 @@
     ], 
     "a": {
       "a": "pony", 
-      "c": "dark", 
+      "c": "dark-lantern", 
       "b": "rope", 
       "e": "dish", 
       "d": "log"
@@ -520,7 +520,7 @@
       "a": "hopes", 
       "c": "tools", 
       "b": "consent", 
-      "e": "pocket", 
+      "e": "pocket-book", 
       "d": "friendship"
     }
   }, 
@@ -594,7 +594,7 @@
     "a": {
       "a": "ironic", 
       "c": "monotonous", 
-      "b": "sitting", 
+      "b": "sitting-room", 
       "e": "angry", 
       "d": "typical"
     }
@@ -639,7 +639,7 @@
     "a": {
       "a": "storm", 
       "c": "Mutiny", 
-      "b": "ape", 
+      "b": "ape-man", 
       "e": "moon", 
       "d": "clouds"
     }
@@ -788,7 +788,7 @@
     ], 
     "a": {
       "a": "reveal", 
-      "c": "to", 
+      "c": "to-day", 
       "b": "persuade", 
       "e": "thank", 
       "d": "sustain"
@@ -1240,7 +1240,7 @@
       "a": "gift", 
       "c": "rarity", 
       "b": "yesterday", 
-      "e": "to", 
+      "e": "to-morrow", 
       "d": "summer"
     }
   }, 
@@ -1571,7 +1571,7 @@
       "c": "hoarse", 
       "b": "weak", 
       "e": "mere", 
-      "d": "worn"
+      "d": "worn-out"
     }
   }, 
   "889": {
@@ -1643,7 +1643,7 @@
     ], 
     "a": {
       "a": "trip", 
-      "c": "school", 
+      "c": "school-days", 
       "b": "absence", 
       "e": "dreams", 
       "d": "wake"
@@ -1808,7 +1808,7 @@
     ], 
     "a": {
       "a": "assistant", 
-      "c": "window", 
+      "c": "window-sill", 
       "b": "duke", 
       "e": "foe", 
       "d": "prophet"
@@ -1823,10 +1823,10 @@
     ], 
     "a": {
       "a": "intelligent", 
-      "c": "well", 
+      "c": "well-spoken", 
       "b": "mangled", 
       "e": "unchristian", 
-      "d": "good"
+      "d": "good-natured"
     }
   }, 
   "906": {
@@ -1975,7 +1975,7 @@
       "a": "chest", 
       "c": "cage", 
       "b": "ankle", 
-      "e": "note", 
+      "e": "note-book", 
       "d": "leg"
     }
   }, 
@@ -2154,7 +2154,7 @@
     "a": {
       "a": "labourers", 
       "c": "rivers", 
-      "b": "paving", 
+      "b": "paving-stones", 
       "e": "singers", 
       "d": "fittings"
     }
@@ -2377,7 +2377,7 @@
       "his"
     ], 
     "a": {
-      "a": "bell", 
+      "a": "bell-rope", 
       "c": "hole", 
       "b": "document", 
       "e": "reins", 
@@ -3264,7 +3264,7 @@
     "a": {
       "a": "summer", 
       "c": "future", 
-      "b": "billiard", 
+      "b": "billiard-room", 
       "e": "cradle", 
       "d": "fortune"
     }
