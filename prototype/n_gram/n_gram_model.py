@@ -119,14 +119,14 @@ class NGramModel(object):
         # return (line_no, word_1, word_2)
 
     def extract_A(self, line):
-        pattern = r'([a-e])\)\s([a-zA-Z-]+)'
+        pattern = r'([a-e])\)\s(.+)'
         reg = re.compile(pattern)
         line = line.strip()
         r = reg.match(line)
         if not r:
             self.logger.error('extract_A: can not find option in "%s"' % line)
             return None
-        return (r.group(1), r.group(2))
+        return (r.group(1), r.group(2).lower())
 
 
     def compute_data_sparseness(self, json_path):

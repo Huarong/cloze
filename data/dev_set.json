@@ -52,7 +52,7 @@
       "."
     ], 
     "a": {
-      "a": "South", 
+      "a": "south", 
       "c": "sell", 
       "b": "shorten", 
       "e": "relieve", 
@@ -144,7 +144,7 @@
     "a": {
       "a": "obstinate", 
       "c": "inborn", 
-      "b": "wit", 
+      "b": "wit's", 
       "e": "well-merited", 
       "d": "wilder"
     }
@@ -353,7 +353,7 @@
     ], 
     "a": {
       "a": "shipboard", 
-      "c": "Greenwich", 
+      "c": "greenwich", 
       "b": "shyness", 
       "e": "carelessness", 
       "d": "reality"
@@ -638,7 +638,7 @@
     ], 
     "a": {
       "a": "storm", 
-      "c": "Mutiny", 
+      "c": "mutiny", 
       "b": "ape-man", 
       "e": "moon", 
       "d": "clouds"
@@ -1195,7 +1195,7 @@
       "a": "kings", 
       "c": "volume", 
       "b": "creatures", 
-      "e": "Lucy", 
+      "e": "lucy", 
       "d": "matters"
     }
   }, 
@@ -1418,7 +1418,7 @@
     ], 
     "a": {
       "a": "drops", 
-      "c": "Negroes", 
+      "c": "negroes", 
       "b": "orchards", 
       "e": "lights", 
       "d": "marks"
@@ -2770,7 +2770,7 @@
       "a": "helpless", 
       "c": "mere", 
       "b": "reckless", 
-      "e": "woman", 
+      "e": "woman's", 
       "d": "wonderfully"
     }
   }, 
@@ -2906,7 +2906,7 @@
       "c": "flinty", 
       "b": "licensed", 
       "e": "mighty", 
-      "d": "Methodist"
+      "d": "methodist"
     }
   }, 
   "978": {
@@ -3292,7 +3292,7 @@
       "gate"
     ], 
     "a": {
-      "a": "French", 
+      "a": "french", 
       "c": "printed", 
       "b": "massive", 
       "e": "hot", 
@@ -3444,9 +3444,9 @@
     "a": {
       "a": "workman", 
       "c": "island", 
-      "b": "Museum", 
+      "b": "museum", 
       "e": "abode", 
-      "d": "Empire"
+      "d": "empire"
     }
   }, 
   "1014": {

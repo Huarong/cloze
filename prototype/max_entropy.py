@@ -58,8 +58,10 @@ class BiHopFeatures(object):
         return None
 
     def train_and_classify(self):
+        count = 0
         for line_no, v in self.qa_json.iteritems():
-            print "begin to train %s..." % line_no
+            count += 1
+            print "[%d]begin to train %s..." % (count, line_no)
             question = v['q']
             options = v['a']
             label_features = self.get_features(options.values())
