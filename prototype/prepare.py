@@ -86,10 +86,13 @@ class PreProcessor(object):
 
     def compute_frequency(self, n=1):
         if n == 1:
+            self.logger.info("ready to compute unigram_frequency")
             self._compute_unigram_frequency()
         elif n == 2:
+            self.logger.info("ready to compute bigram_frequency")
             self._compute_biagram_frequency()
         elif n == 22:
+            self.logger.info("ready to compute hop_bigram_frequency")
             self._compute_hop_biagram_frequency()
         else:
             self.logger.error("Unsupport n of n-gram")
@@ -241,6 +244,7 @@ def main():
     p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus', stem='Porter')
     # p.prepare_training_data()
     p.compute_frequency(n=1)
+    p.compute_frequency(n=2)
     p.compute_frequency(n=22)
     return None
 
