@@ -103,7 +103,7 @@ class PreProcessor(object):
         if mystem == "Porter":
             self.logger.info("using stemming algorithm PorterStemmer in _compute_unigram_frequency")
             stemmer = PorterStemmer()
-            frequence_file_path = os.path.join(self.corpus_root, 'unigram_frequency_poter.txt')
+            frequence_file_path = os.path.join(self.corpus_root, 'unigram_frequency_porter.txt')
 
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
         tokenizer = TreebankWordTokenizer()
