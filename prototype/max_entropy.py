@@ -15,13 +15,15 @@ class BiHopFeatures(object):
 
     def __init__(self,stem=None):
         self.logger = util.init_log('MaxEntropy', os.path.join(config.LOG_DIR, 'max_entropy.log'))
-        self.sents_root = os.path.join(config.CORPUS_DIR, 'Sents')
         self.answers_path = os.path.join(config.DATA_DIR, 'max_entropy_answers240.txt')
         self.max_entropy_answers = {}
         self.stem = 'Porter'
         if self.stem == 'Porter':
             self.stemmer = PorterStemmer()
             self.logger.info("using max entropy model with PorterStemmer algorithm")
+            self.sents_root = os.path.join(config.CORPUS_DIR, 'Sents_porter')
+        else:
+            self.sents_root = os.path.join(config.CORPUS_DIR, 'Sents')
 
 
     def get_features(self, labels):
