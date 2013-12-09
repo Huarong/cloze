@@ -7,23 +7,33 @@ import json
 import os.path
 
 from nltk.tokenize import TreebankWordTokenizer
+from nltk.stem import PorterStemmer
 
 sys.path.append('../')
 from util import init_log
 import config
 
 class NGramModel(object):
-    def __init__(self, n=2):
+    def __init__(self, n=2, stem=None):
         self.qa_path = None
         self.n = n
-        self.logger = init_log('ngram', os.path.join(config.LOG_DIR, 'ngram.log'))
-        self.__uni_freq_path = os.path.join(config.CORPUS_DIR, 'unigram_frequency.txt')
-        self.__bi_freq_path = os.path.join(config.CORPUS_DIR, 'bigram_frequency.txt')
-        self.__hop_bi_freq_path = os.path.join(config.CORPUS_DIR, 'hop_bigram_frequency.txt')
         self.uni_freq_dict = {}
         self.bi_freq_dict = {}
         self.hop_bi_freq_dict = {}
         self.num_p_zero = 0
+        self.stem = stem
+        if self.stem == 'Porter':
+            self.logger = init_log('2gram_porter', os.path.join(config.LOG_DIR, '2gram_porter.log'))
+            self.__uni_freq_path = os.path.join(config.CORPUS_DIR, 'unigram_frequency_porter.txt')
+            self.__bi_freq_path = os.path.join(config.CORPUS_DIR, 'bigram_frequency_porter.txt')
+            self.__hop_bi_freq_path = os.path.join(config.CORPUS_DIR, 'hop_bigram_frequency_porter.txt')
+            self.logger.info("using PorterStemmer algorithm in 2 gram model")
+        else:
+            self.logger = init_log('ngram', os.path.join(config.LOG_DIR, 'ngram.log'))
+            self.__uni_freq_path = os.path.join(config.CORPUS_DIR, 'unigram_frequency.txt')
+            self.__bi_freq_path = os.path.join(config.CORPUS_DIR, 'bigram_frequency.txt')
+            self.__hop_bi_freq_path = os.path.join(config.CORPUS_DIR, 'hop_bigram_frequency.txt')
+            self.stemmer = PorterStemmer()
 
     def config(self):
         pass
@@ -70,6 +80,10 @@ class NGramModel(object):
     def extract_Q(self, sentence):
         tokenizer = TreebankWordTokenizer()
         tokens = tokenizer.tokenize(sentence)
+        # stemming
+        if self.stem == 'Porter':
+            tokens = [self.stemmer.stem(w) for w in tokens]
+
         line_no = int(tokens[0])
         space_index = 0;
         for i in range(len(tokens)):
@@ -97,26 +111,6 @@ class NGramModel(object):
         else:
             return (line_no, w2, w3)
 
-        # pattern = r"^(\d+)\).+\s([\w'-]+|[,.])\s_+\s(\w+|[,.])"
-        # reg = re.compile(pattern)
-        # r = reg.match(sentence)
-        # if not r:
-        #     self.logger.error('extract_Q: can not find words in "%s"' % sentence)
-        #     return None
-        # line_no = int(r.group(1))
-        # word_1 = r.group(2)
-        # try:
-        #     i = word_1.index("'")
-        #     word_1 = word_1[i:]
-        # except ValueError:
-        #     pass
-        # word_2 = r.group(3)
-        # try:
-        #     i = word_2.index("'")
-        #     word_2 = word_2[:i]
-        # except ValueError:
-        #     pass
-        # return (line_no, word_1, word_2)
 
     def extract_A(self, line):
         pattern = r'([a-e])\)\s(.+)'
@@ -126,7 +120,11 @@ class NGramModel(object):
         if not r:
             self.logger.error('extract_A: can not find option in "%s"' % line)
             return None
-        return (r.group(1), r.group(2).lower())
+        option_no = r.group(1)
+        option = r.group(2).lower()
+        if self.stem == 'Porter':
+            option = self.stemmer.stem(option)
+        return (option_no, option)
 
 
     def compute_data_sparseness(self, json_path):
@@ -141,7 +139,12 @@ class NGramModel(object):
         not_found = set()
         to_find = set()
 
-        with open(os.path.join(config.CORPUS_DIR, "bigram_frequency.txt"), 'r') as f:
+        if self.stem == 'Porter':
+            freq_file_path = "bigram_frequency_porter.txt"
+        else:
+            freq_file_path = "bigram_frequency.txt"
+
+        with open(os.path.join(config.CORPUS_DIR, freq_file_path), 'r') as f:
             for line in f:
                 line = line.strip()
                 w1, w2, freq = line.split()
@@ -178,13 +181,21 @@ class NGramModel(object):
         to_find_hop1 = set()
         to_find_hop2 = set()
 
-        with open(os.path.join(config.CORPUS_DIR, "bigram_frequency.txt"), 'r') as f:
+        if self.stem == 'Porter':
+            freq_file_path = "bigram_frequency_porter.txt"
+            hop_freq_file_path = "hop_bigram_frequency_porter.txt"
+        else:
+            freq_file_path = "bigram_frequency.txt"
+            hop_freq_file_path = "hop_bigram_frequency.txt"
+
+
+        with open(os.path.join(config.CORPUS_DIR, freq_file_path), 'r') as f:
             for line in f:
                 line = line.strip()
                 w1, w2, freq = line.split()
                 bi_freq_set1.add("%s %s" % (w1, w2))
 
-        with open(os.path.join(config.CORPUS_DIR, 'hop_bigram_frequency.txt'), 'r') as f:
+        with open(os.path.join(config.CORPUS_DIR, hop_freq_file_path), 'r') as f:
             for line in f:
                 line = line.strip()
                 w1, w2, freq = line.split()
@@ -285,7 +296,7 @@ class NGramModel(object):
         with open(os.path.join(config.DATA_DIR, 'dev_max_probability.json'), 'w') as f:
             json.dump(max_probability_dict, f)
         # save a copy with correct answers' format
-        with open(os.path.join(config.DATA_DIR, 'answers200.txt'), 'w') as f:
+        with open(os.path.join(config.DATA_DIR, 'answers240.txt'), 'w') as f:
             answers_list = max_probability_dict.items()
             answers_list.sort(key=lambda x: int(x[0]))
             f.writelines(["%s) [%s] %s\n" % (sent_no, no, option) for sent_no, (no, option) in answers_list])
