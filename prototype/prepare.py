@@ -7,11 +7,12 @@ import os.path
 import nltk
 from nltk.tokenize import TreebankWordTokenizer
 from nltk.corpus import PlaintextCorpusReader
+from nltk.stem import PorterStemmer
 
 from util import init_log
 
 class PreProcessor(object):
-    def __init__(self, gutenberg_files_root, prepared_training_data_root, corpus_root):
+    def __init__(self, gutenberg_files_root, prepared_training_data_root, corpus_root, stem=None):
         if not os.path.exists('../log'):
             os.mkdir('../log')
         self.logger = init_log('util', '../log/util.log')
@@ -20,6 +21,11 @@ class PreProcessor(object):
         self.corpus_root = corpus_root
         self.bigram_frequency_dir = os.path.join(self.corpus_root, 'bigram_frequency')
         self.hop_bigram_frequency_dir = os.path.join(self.corpus_root, 'hop_bigram_frequency')
+        # stem algorithm can be "Poter"
+        self.stem = stem
+        if self.stem == 'Porter':
+            self.bigram_frequency_dir = os.path.join(self.corpus_root, 'bigram_frequency_porter')
+            self.hop_bigram_frequency_dir = os.path.join(self.corpus_root, 'hop_bigram_frequency_porter')
 
     def prepare_training_data(self, declare=True):
         if not (os.path.exists(self.prepared_training_data_root) and os.path.isdir(self.prepared_training_data_root)):
@@ -91,6 +97,14 @@ class PreProcessor(object):
 
 
     def _compute_unigram_frequency(self):
+        frequence_file_path = os.path.join(self.corpus_root, 'unigram_frequency.txt')
+
+        mystem = self.stem
+        if mystem == "Porter":
+            self.logger.info("using stemming algorithm PorterStemmer in _compute_unigram_frequency")
+            stemmer = PorterStemmer()
+            frequence_file_path = os.path.join(self.corpus_root, 'unigram_frequency_poter.txt')
+
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
         tokenizer = TreebankWordTokenizer()
         total = len(wordlists.fileids())
@@ -101,15 +115,27 @@ class PreProcessor(object):
             fl_abs_path = os.path.join(self.prepared_training_data_root, fl)
             with open(fl_abs_path, 'r') as f:
                 words = tokenizer.tokenize(f.read())
+                # stemming
+                if mystem == 'Porter':
+                    words = [stemmer.stem(w) for w in words]
+
                 fdist.update(words)
             print 'freqdist: %s of %s' % (count, total)
 
-        with open(os.path.join(self.corpus_root, 'unigram_frequency.txt'), 'w') as f:
+        with open(frequence_file_path, 'w') as f:
             f.writelines(['%s %s\n' % (word, freq) for (word, freq) in fdist.items()])
+
+        type_num = len(fdist)
+        self.logger.info("The total type number is: %d" % type_num)
         return None
 
 
     def _compute_biagram_frequency_base(self, t, freq_dir):
+        mystem = self.stem
+        if mystem == "Porter":
+            self.logger.info("using stemming algorithm PorterStemmer in _compute_bigram_frequency")
+            stemmer = PorterStemmer()
+
         if not os.path.exists(freq_dir):
             os.mkdir(freq_dir)
         wordlists = PlaintextCorpusReader(self.prepared_training_data_root, '.*')
@@ -122,6 +148,10 @@ class PreProcessor(object):
             fl_abs_path = os.path.join(self.prepared_training_data_root, fl)
             with open(fl_abs_path, 'r') as f:
                 words = tokenizer.tokenize(f.read())
+                # stemming
+                if mystem == "Porter":
+                    words = [stemmer.stem(w) for w in words]
+
                 if t == 'b':
                     bi_words = nltk.bigrams(words)
                     fdist = nltk.FreqDist(bi_words)
@@ -140,13 +170,19 @@ class PreProcessor(object):
     def _compute_biagram_frequency(self):
         self._compute_biagram_frequency_base('b', self.bigram_frequency_dir)
         self._merge_bigram_frequency('b', self.bigram_frequency_dir)
-        self._sort_by_freq('unorder_bigram_frequency.txt', 'bigram_frequency.txt')
+        if self.stem == 'Porter':
+            self._sort_by_freq('unorder_bigram_frequency_porter.txt', 'bigram_frequency_porter.txt')
+        else:
+            self._sort_by_freq('unorder_bigram_frequency.txt', 'bigram_frequency.txt')
         return None
 
     def _compute_hop_biagram_frequency(self):
         self._compute_biagram_frequency_base('h', self.hop_bigram_frequency_dir)
         self._merge_bigram_frequency('h', self.hop_bigram_frequency_dir)
-        self._sort_by_freq('unorder_hop_bigram_frequency.txt', 'hop_bigram_frequency.txt')
+        if self.stem == 'Porter':
+            self._sort_by_freq('unorder_hop_bigram_frequency_porter.txt', 'hop_bigram_frequency_porter.txt')
+        else:
+            self._sort_by_freq('unorder_hop_bigram_frequency.txt', 'hop_bigram_frequency.txt')
         return None
 
     def _merge_bigram_frequency(self, t, freq_dir):
@@ -165,14 +201,23 @@ class PreProcessor(object):
                     freq = e[2]
                     freq_dic[word_pair] = freq_dic.get(word_pair, 0) + int(freq)
         if t == 'b':
-            unorder_frequency_file = 'unorder_bigram_frequency.txt'
+            if self.stem == 'Porter':
+                unorder_frequency_file = 'unorder_bigram_frequency_porter.txt'
+            else:
+                unorder_frequency_file = 'unorder_bigram_frequency.txt'
         elif t == 'h':
-            unorder_frequency_file = 'unorder_hop_bigram_frequency.txt'
+            if self.stem == 'Porter':
+                unorder_frequency_file = 'unorder_hop_bigram_frequency_porter.txt'
+            else:
+                unorder_frequency_file = 'unorder_hop_bigram_frequency.txt'
         else:
             self.logger.error("unknown bigrams type %s" % t)
             return -1
         with open(os.path.join(self.corpus_root, unorder_frequency_file), 'w') as f:
             f.writelines(['%s %s\n' % (word_pair, freq) for (word_pair, freq) in freq_dic.items()])
+
+        type_num_2 = len(freq_dic)
+        self.logger.info("The total 2 gram type number is: %d" % type_num_2)
         return None
 
     def _sort_by_freq(self, unorder_frequency_file, order_freqency_file):
@@ -193,10 +238,11 @@ class PreProcessor(object):
 
 
 def main():
-    p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus')
+    p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus', stem='Porter')
     # p.prepare_training_data()
+    p.compute_frequency(n=1)
     p.compute_frequency(n=22)
-    return
+    return None
 
 
 if __name__ == '__main__':
