@@ -11,7 +11,7 @@ sys.path.append('../')
 import config
 
 def main():
-    n_gram = NGramModel(n=22)
+    n_gram = NGramModel(n=22, stem='Porter')
     n_gram.extract_QA('../../corpus/development_set.txt')
     json_path = os.path.join(config.DATA_DIR, 'dev_set.json')
     # n_gram.compute_data_sparseness(json_path)

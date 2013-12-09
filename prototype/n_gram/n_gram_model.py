@@ -28,12 +28,13 @@ class NGramModel(object):
             self.__bi_freq_path = os.path.join(config.CORPUS_DIR, 'bigram_frequency_porter.txt')
             self.__hop_bi_freq_path = os.path.join(config.CORPUS_DIR, 'hop_bigram_frequency_porter.txt')
             self.logger.info("using PorterStemmer algorithm in 2 gram model")
+            self.stemmer = PorterStemmer()
         else:
             self.logger = init_log('ngram', os.path.join(config.LOG_DIR, 'ngram.log'))
             self.__uni_freq_path = os.path.join(config.CORPUS_DIR, 'unigram_frequency.txt')
             self.__bi_freq_path = os.path.join(config.CORPUS_DIR, 'bigram_frequency.txt')
             self.__hop_bi_freq_path = os.path.join(config.CORPUS_DIR, 'hop_bigram_frequency.txt')
-            self.stemmer = PorterStemmer()
+
 
     def config(self):
         pass
