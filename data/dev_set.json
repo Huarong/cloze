@@ -2,46 +2,46 @@
   "1024": {
     "q": [
       ",", 
-      "was", 
+      "wa", 
       "upon", 
       "itself"
     ], 
     "a": {
-      "a": "seated", 
-      "c": "seized", 
+      "a": "seat", 
+      "c": "seiz", 
       "b": "thrown", 
-      "e": "curled", 
-      "d": "perched"
+      "e": "curl", 
+      "d": "perch"
     }
   }, 
   "1025": {
     "q": [
-      "trees", 
-      "was", 
+      "tree", 
+      "wa", 
       ",", 
       "and"
     ], 
     "a": {
-      "a": "issued", 
+      "a": "issu", 
       "c": "warm", 
-      "b": "intense", 
-      "e": "extinguished", 
-      "d": "complete"
+      "b": "intens", 
+      "e": "extinguish", 
+      "d": "complet"
     }
   }, 
   "1026": {
     "q": [
-      "observed", 
+      "observ", 
       "a", 
       "the", 
       "night"
     ], 
     "a": {
       "a": "vision", 
-      "c": "picture", 
-      "b": "carriage", 
+      "c": "pictur", 
+      "b": "carriag", 
       "e": "hound", 
-      "d": "nerve"
+      "d": "nerv"
     }
   }, 
   "1027": {
@@ -55,7 +55,7 @@
       "a": "south", 
       "c": "sell", 
       "b": "shorten", 
-      "e": "relieve", 
+      "e": "reliev", 
       "d": "consult"
     }
   }, 
@@ -67,26 +67,26 @@
       "and"
     ], 
     "a": {
-      "a": "applauded", 
+      "a": "applaud", 
       "c": "slept", 
-      "b": "reeled", 
-      "e": "talked", 
-      "d": "trembled"
+      "b": "reel", 
+      "e": "talk", 
+      "d": "trembl"
     }
   }, 
   "1029": {
     "q": [
       "had", 
-      "started", 
-      "swiftly", 
+      "start", 
+      "swiftli", 
       "over"
     ], 
     "a": {
-      "a": "streaming", 
-      "c": "bowing", 
-      "b": "wallowing", 
-      "e": "running", 
-      "d": "blowing"
+      "a": "stream", 
+      "c": "bow", 
+      "b": "wallow", 
+      "e": "run", 
+      "d": "blow"
     }
   }, 
   "1030": {
@@ -94,13 +94,13 @@
       "an", 
       "oak", 
       ",", 
-      "heavily"
+      "heavili"
     ], 
     "a": {
-      "a": "tea-table", 
-      "c": "staircase", 
+      "a": "tea-tabl", 
+      "c": "staircas", 
       "b": "shutter", 
-      "e": "sapling", 
+      "e": "sapl", 
       "d": "chest"
     }
   }, 
@@ -115,23 +115,23 @@
       "a": "ticket", 
       "c": "fault", 
       "b": "dynamo", 
-      "e": "breeze", 
-      "d": "newspaper"
+      "e": "breez", 
+      "d": "newspap"
     }
   }, 
   "1032": {
     "q": [
       "the", 
-      "leading", 
+      "lead", 
       "now", 
       "of"
     ], 
     "a": {
-      "a": "voices", 
-      "c": "complaints", 
-      "b": "spirits", 
-      "e": "officers", 
-      "d": "results"
+      "a": "voic", 
+      "c": "complaint", 
+      "b": "spirit", 
+      "e": "offic", 
+      "d": "result"
     }
   }, 
   "1033": {
@@ -142,26 +142,26 @@
       "."
     ], 
     "a": {
-      "a": "obstinate", 
+      "a": "obstin", 
       "c": "inborn", 
-      "b": "wit's", 
-      "e": "well-merited", 
+      "b": "wit'", 
+      "e": "well-merit", 
       "d": "wilder"
     }
   }, 
   "1034": {
     "q": [
       "a", 
-      "general", 
+      "gener", 
       "at", 
       "that"
     ], 
     "a": {
-      "a": "experience", 
-      "c": "impression", 
-      "b": "discontent", 
-      "e": "uneasiness", 
-      "d": "engagement"
+      "a": "experi", 
+      "c": "impress", 
+      "b": "discont", 
+      "e": "uneasi", 
+      "d": "engag"
     }
   }, 
   "1035": {
@@ -173,40 +173,40 @@
     ], 
     "a": {
       "a": "risk", 
-      "c": "thunders", 
+      "c": "thunder", 
       "b": "glow", 
-      "e": "lassitude", 
+      "e": "lassitud", 
       "d": "hubbub"
     }
   }, 
   "1036": {
     "q": [
       "a", 
-      "strange", 
+      "strang", 
       "between", 
       "the"
     ], 
     "a": {
       "a": "union", 
-      "c": "choice", 
+      "c": "choic", 
       "b": "contrast", 
       "e": "comfort", 
-      "d": "confusion"
+      "d": "confus"
     }
   }, 
   "1037": {
     "q": [
       "half", 
       "had", 
-      "before", 
+      "befor", 
       "the"
     ], 
     "a": {
-      "a": "glittered", 
-      "c": "arrived", 
+      "a": "glitter", 
+      "c": "arriv", 
       "b": "spoken", 
-      "e": "elapsed", 
-      "d": "floated"
+      "e": "elaps", 
+      "d": "float"
     }
   }, 
   "1038": {
@@ -218,25 +218,25 @@
     ], 
     "a": {
       "a": "hit", 
-      "c": "conceive", 
-      "b": "breathe", 
-      "e": "imagine", 
-      "d": "perceive"
+      "c": "conceiv", 
+      "b": "breath", 
+      "e": "imagin", 
+      "d": "perceiv"
     }
   }, 
   "1039": {
     "q": [
       "I", 
-      "was", 
+      "wa", 
       "to", 
       "see"
     ], 
     "a": {
-      "a": "surprised", 
-      "c": "unaccustomed", 
-      "b": "inclined", 
-      "e": "anxious", 
-      "d": "accustomed"
+      "a": "surpris", 
+      "c": "unaccustom", 
+      "b": "inclin", 
+      "e": "anxiou", 
+      "d": "accustom"
     }
   }, 
   "1040": {
@@ -247,11 +247,11 @@
       "one"
     ], 
     "a": {
-      "a": "seized", 
+      "a": "seiz", 
       "c": "hung", 
-      "b": "dragged", 
-      "e": "poured", 
-      "d": "chewing"
+      "b": "drag", 
+      "e": "pour", 
+      "d": "chew"
     }
   }, 
   "801": {
@@ -262,11 +262,11 @@
       "the"
     ], 
     "a": {
-      "a": "mechanism", 
-      "c": "disaster", 
+      "a": "mechan", 
+      "c": "disast", 
       "b": "scene", 
-      "e": "apparition", 
-      "d": "everyone"
+      "e": "apparit", 
+      "d": "everyon"
     }
   }, 
   "802": {
@@ -277,11 +277,11 @@
       "."
     ], 
     "a": {
-      "a": "mixed", 
-      "c": "stretched", 
+      "a": "mix", 
+      "c": "stretch", 
       "b": "clean", 
-      "e": "licked", 
-      "d": "tangled"
+      "e": "lick", 
+      "d": "tangl"
     }
   }, 
   "803": {
@@ -294,20 +294,20 @@
     "a": {
       "a": "scene", 
       "c": "crest", 
-      "b": "banks", 
+      "b": "bank", 
       "e": "price", 
-      "d": "shores"
+      "d": "shore"
     }
   }, 
   "804": {
     "q": [
-      "tried", 
+      "tri", 
       "to", 
       "it", 
       "from"
     ], 
     "a": {
-      "a": "carry", 
+      "a": "carri", 
       "c": "accomplish", 
       "b": "reconstruct", 
       "e": "fling", 
@@ -317,7 +317,7 @@
   "805": {
     "q": [
       "heart", 
-      "was", 
+      "wa", 
       ",", 
       "it"
     ], 
@@ -325,23 +325,23 @@
       "a": "unfair", 
       "c": "weak", 
       "b": "spectacular", 
-      "e": "unpalatable", 
-      "d": "charming"
+      "e": "unpalat", 
+      "d": "charm"
     }
   }, 
   "806": {
     "q": [
-      "was", 
-      "quite", 
+      "wa", 
+      "quit", 
       ",", 
       "and"
     ], 
     "a": {
-      "a": "gentle", 
-      "c": "rational", 
+      "a": "gentl", 
+      "c": "ration", 
       "b": "correct", 
-      "e": "secure", 
-      "d": "empty"
+      "e": "secur", 
+      "d": "empti"
     }
   }, 
   "807": {
@@ -355,8 +355,8 @@
       "a": "shipboard", 
       "c": "greenwich", 
       "b": "shyness", 
-      "e": "carelessness", 
-      "d": "reality"
+      "e": "careless", 
+      "d": "realiti"
     }
   }, 
   "808": {
@@ -364,43 +364,43 @@
       "of", 
       "these", 
       "the", 
-      "windows"
+      "window"
     ], 
     "a": {
-      "a": "wings", 
-      "c": "verses", 
-      "b": "tests", 
-      "e": "occasions", 
-      "d": "fables"
+      "a": "wing", 
+      "c": "vers", 
+      "b": "test", 
+      "e": "occas", 
+      "d": "fabl"
     }
   }, 
   "809": {
     "q": [
       "had", 
       "so", 
-      "rejected", 
+      "reject", 
       "."
     ], 
     "a": {
-      "a": "lingeringly", 
-      "c": "strangely", 
-      "b": "nobly", 
-      "e": "foolishly", 
-      "d": "accurately"
+      "a": "lingeringli", 
+      "c": "strang", 
+      "b": "nobli", 
+      "e": "foolishli", 
+      "d": "accur"
     }
   }, 
   "810": {
     "q": [
       ",", 
-      "plainly", 
+      "plainli", 
       "room", 
       ","
     ], 
     "a": {
-      "a": "scorched", 
-      "c": "distinguished", 
-      "b": "furnished", 
-      "e": "fuming", 
+      "a": "scorch", 
+      "c": "distinguish", 
+      "b": "furnish", 
+      "e": "fume", 
       "d": "timid"
     }
   }, 
@@ -414,9 +414,9 @@
     "a": {
       "a": "yellow", 
       "c": "colorless", 
-      "b": "fearsome", 
+      "b": "fearsom", 
       "e": "childish", 
-      "d": "rosy"
+      "d": "rosi"
     }
   }, 
   "812": {
@@ -431,27 +431,27 @@
       "c": "frock", 
       "b": "handkerchief", 
       "e": "gun", 
-      "d": "saddle"
+      "d": "saddl"
     }
   }, 
   "813": {
     "q": [
       "four", 
-      "successive", 
+      "success", 
       "were", 
       "of"
     ], 
     "a": {
-      "a": "heirs", 
-      "c": "singers", 
-      "b": "prisoners", 
-      "e": "rebels", 
-      "d": "workers"
+      "a": "heir", 
+      "c": "singer", 
+      "b": "prison", 
+      "e": "rebel", 
+      "d": "worker"
     }
   }, 
   "814": {
     "q": [
-      "entered", 
+      "enter", 
       "the", 
       "I", 
       "heard"
@@ -459,9 +459,9 @@
     "a": {
       "a": "ball", 
       "c": "spring", 
-      "b": "accident", 
-      "e": "passage", 
-      "d": "processes"
+      "b": "accid", 
+      "e": "passag", 
+      "d": "process"
     }
   }, 
   "815": {
@@ -472,7 +472,7 @@
       "the"
     ], 
     "a": {
-      "a": "pony", 
+      "a": "poni", 
       "c": "dark-lantern", 
       "b": "rope", 
       "e": "dish", 
@@ -488,9 +488,9 @@
     ], 
     "a": {
       "a": "pipe", 
-      "c": "solitude", 
-      "b": "helplessness", 
-      "e": "tongue", 
+      "c": "solitud", 
+      "b": "helpless", 
+      "e": "tongu", 
       "d": "fork"
     }
   }, 
@@ -502,23 +502,23 @@
       "tell"
     ], 
     "a": {
-      "a": "pretensions", 
-      "c": "opportunity", 
-      "b": "impulse", 
-      "e": "objection", 
-      "d": "inclination"
+      "a": "pretens", 
+      "c": "opportun", 
+      "b": "impuls", 
+      "e": "object", 
+      "d": "inclin"
     }
   }, 
   "818": {
     "q": [
       "without", 
-      "his", 
+      "hi", 
       "and", 
-      "perhaps"
+      "perhap"
     ], 
     "a": {
-      "a": "hopes", 
-      "c": "tools", 
+      "a": "hope", 
+      "c": "tool", 
       "b": "consent", 
       "e": "pocket-book", 
       "d": "friendship"
@@ -532,11 +532,11 @@
       "a"
     ], 
     "a": {
-      "a": "savages", 
-      "c": "features", 
-      "b": "spies", 
-      "e": "boats", 
-      "d": "chairs"
+      "a": "savag", 
+      "c": "featur", 
+      "b": "spi", 
+      "e": "boat", 
+      "d": "chair"
     }
   }, 
   "820": {
@@ -547,11 +547,11 @@
       "we"
     ], 
     "a": {
-      "a": "shadows", 
+      "a": "shadow", 
       "c": "field", 
-      "b": "rushes", 
+      "b": "rush", 
       "e": "thicket", 
-      "d": "potage"
+      "d": "potag"
     }
   }, 
   "821": {
@@ -562,7 +562,7 @@
       "by"
     ], 
     "a": {
-      "a": "impression", 
+      "a": "impress", 
       "c": "winter", 
       "b": "footman", 
       "e": "month", 
@@ -572,31 +572,31 @@
   "822": {
     "q": [
       "Alec", 
-      "was", 
+      "wa", 
       "a", 
       "pipe"
     ], 
     "a": {
-      "a": "wearing", 
-      "c": "merely", 
-      "b": "addressing", 
-      "e": "humming", 
-      "d": "smoking"
+      "a": "wear", 
+      "c": "mere", 
+      "b": "address", 
+      "e": "hum", 
+      "d": "smoke"
     }
   }, 
   "823": {
     "q": [
-      "afterwards", 
+      "afterward", 
       "the", 
       "window", 
       "will"
     ], 
     "a": {
-      "a": "ironic", 
-      "c": "monotonous", 
+      "a": "iron", 
+      "c": "monoton", 
       "b": "sitting-room", 
-      "e": "angry", 
-      "d": "typical"
+      "e": "angri", 
+      "d": "typic"
     }
   }, 
   "824": {
@@ -607,26 +607,26 @@
       "overcoat"
     ], 
     "a": {
-      "a": "faded", 
+      "a": "fade", 
       "c": "tender", 
       "b": "swollen", 
-      "e": "wavering", 
-      "d": "remarkably"
+      "e": "waver", 
+      "d": "remark"
     }
   }, 
   "825": {
     "q": [
-      "his", 
+      "hi", 
       "true", 
       "with", 
-      "tolerable"
+      "toler"
     ], 
     "a": {
-      "a": "contention", 
-      "c": "operations", 
-      "b": "biography", 
-      "e": "displacement", 
-      "d": "decade"
+      "a": "content", 
+      "c": "oper", 
+      "b": "biographi", 
+      "e": "displac", 
+      "d": "decad"
     }
   }, 
   "826": {
@@ -638,10 +638,10 @@
     ], 
     "a": {
       "a": "storm", 
-      "c": "mutiny", 
+      "c": "mutini", 
       "b": "ape-man", 
       "e": "moon", 
-      "d": "clouds"
+      "d": "cloud"
     }
   }, 
   "827": {
@@ -652,11 +652,11 @@
       "if"
     ], 
     "a": {
-      "a": "proved", 
-      "c": "believed", 
-      "b": "discovered", 
-      "e": "dreamed", 
-      "d": "remarked"
+      "a": "prove", 
+      "c": "believ", 
+      "b": "discov", 
+      "e": "dream", 
+      "d": "remark"
     }
   }, 
   "828": {
@@ -671,22 +671,22 @@
       "c": "clearest", 
       "b": "windless", 
       "e": "nearest", 
-      "d": "breathing"
+      "d": "breath"
     }
   }, 
   "829": {
     "q": [
-      "course", 
+      "cours", 
       "that", 
       "at", 
-      "once"
+      "onc"
     ], 
     "a": {
-      "a": "occurred", 
-      "c": "chanced", 
-      "b": "stirred", 
-      "e": "effected", 
-      "d": "suggested"
+      "a": "occur", 
+      "c": "chanc", 
+      "b": "stir", 
+      "e": "effect", 
+      "d": "suggest"
     }
   }, 
   "830": {
@@ -701,34 +701,34 @@
       "c": "draw", 
       "b": "strike", 
       "e": "approach", 
-      "d": "remove"
+      "d": "remov"
     }
   }, 
   "831": {
     "q": [
-      "Holmes", 
+      "Holm", 
       "'s", 
-      "was", 
+      "wa", 
       "soon"
     ], 
     "a": {
-      "a": "bodice", 
-      "c": "ancestry", 
+      "a": "bodic", 
+      "c": "ancestri", 
       "b": "luncheon", 
       "e": "larder", 
-      "d": "prophecy"
+      "d": "propheci"
     }
   }, 
   "832": {
     "q": [
       "as", 
       "the", 
-      "was", 
+      "wa", 
       "lit"
     ], 
     "a": {
       "a": "sky", 
-      "c": "incident", 
+      "c": "incid", 
       "b": "handmaiden", 
       "e": "lamp", 
       "d": "watchman"
@@ -742,41 +742,41 @@
       "the"
     ], 
     "a": {
-      "a": "spoils", 
-      "c": "ornaments", 
+      "a": "spoil", 
+      "c": "ornament", 
       "b": "soil", 
-      "e": "plains", 
+      "e": "plain", 
       "d": "scent"
     }
   }, 
   "834": {
     "q": [
       "he", 
-      "was", 
+      "wa", 
       "for", 
       "it"
     ], 
     "a": {
-      "a": "famous", 
-      "c": "hanged", 
-      "b": "searching", 
-      "e": "longing", 
+      "a": "famou", 
+      "c": "hang", 
+      "b": "search", 
+      "e": "long", 
       "d": "paid"
     }
   }, 
   "835": {
     "q": [
-      "only", 
+      "onli", 
       "one", 
       "is", 
       "now"
     ], 
     "a": {
-      "a": "machine", 
+      "a": "machin", 
       "c": "wing", 
       "b": "tomb", 
       "e": "object", 
-      "d": "beloved"
+      "d": "belov"
     }
   }, 
   "836": {
@@ -789,24 +789,24 @@
     "a": {
       "a": "reveal", 
       "c": "to-day", 
-      "b": "persuade", 
+      "b": "persuad", 
       "e": "thank", 
       "d": "sustain"
     }
   }, 
   "837": {
     "q": [
-      "used", 
+      "use", 
       "by", 
       ",", 
       "and"
     ], 
     "a": {
-      "a": "universities", 
+      "a": "univers", 
       "c": "valor", 
-      "b": "bedsteads", 
-      "e": "degrees", 
-      "d": "servants"
+      "b": "bedstead", 
+      "e": "degre", 
+      "d": "servant"
     }
   }, 
   "838": {
@@ -817,9 +817,9 @@
       "follow"
     ], 
     "a": {
-      "a": "energy", 
-      "c": "aeroplane", 
-      "b": "preference", 
+      "a": "energi", 
+      "c": "aeroplan", 
+      "b": "prefer", 
       "e": "bark", 
       "d": "comfort"
     }
@@ -835,31 +835,31 @@
       "a": "moan", 
       "c": "courtship", 
       "b": "shrub", 
-      "e": "struggle", 
+      "e": "struggl", 
       "d": "blow"
     }
   }, 
   "840": {
     "q": [
-      "only", 
-      "change", 
+      "onli", 
+      "chang", 
       ",", 
       "here"
     ], 
     "a": {
       "a": "colour", 
-      "c": "yours", 
-      "b": "sides", 
-      "e": "names", 
-      "d": "clothing"
+      "c": "your", 
+      "b": "side", 
+      "e": "name", 
+      "d": "cloth"
     }
   }, 
   "841": {
     "q": [
-      "liberty", 
+      "liberti", 
       "to", 
-      "whatever", 
-      "expenses"
+      "whatev", 
+      "expens"
     ], 
     "a": {
       "a": "defray", 
@@ -871,30 +871,30 @@
   }, 
   "842": {
     "q": [
-      "opportunity", 
+      "opportun", 
       "to", 
       "the", 
       "last"
     ], 
     "a": {
-      "a": "remove", 
-      "c": "bungle", 
+      "a": "remov", 
+      "c": "bungl", 
       "b": "approach", 
-      "e": "improve", 
-      "d": "beguile"
+      "e": "improv", 
+      "d": "beguil"
     }
   }, 
   "843": {
     "q": [
       "of", 
-      "this", 
+      "thi", 
       "wing", 
-      "runs"
+      "run"
     ], 
     "a": {
-      "a": "surprising", 
-      "c": "daily", 
-      "b": "primitive", 
+      "a": "surpris", 
+      "c": "daili", 
+      "b": "primit", 
       "e": "giant", 
       "d": "narrow"
     }
@@ -910,8 +910,8 @@
       "a": "prove", 
       "c": "stitch", 
       "b": "regret", 
-      "e": "study", 
-      "d": "deny"
+      "e": "studi", 
+      "d": "deni"
     }
   }, 
   "845": {
@@ -925,8 +925,8 @@
       "a": "mirror", 
       "c": "address", 
       "b": "rainbow", 
-      "e": "candle", 
-      "d": "mantle"
+      "e": "candl", 
+      "d": "mantl"
     }
   }, 
   "846": {
@@ -937,26 +937,26 @@
       "night"
     ], 
     "a": {
-      "a": "aside", 
+      "a": "asid", 
       "c": "aboard", 
       "b": "darker", 
-      "e": "indispensable", 
-      "d": "freely"
+      "e": "indispens", 
+      "d": "freeli"
     }
   }, 
   "847": {
     "q": [
       "from", 
       "the", 
-      "mystery", 
+      "mysteri", 
       "."
     ], 
     "a": {
       "a": "mere", 
-      "c": "absolute", 
-      "b": "imaginary", 
-      "e": "enquiring", 
-      "d": "original"
+      "c": "absolut", 
+      "b": "imaginari", 
+      "e": "enquir", 
+      "d": "origin"
     }
   }, 
   "848": {
@@ -967,10 +967,10 @@
       "the"
     ], 
     "a": {
-      "a": "counted", 
-      "c": "prowling", 
-      "b": "inflicted", 
-      "e": "arranged", 
+      "a": "count", 
+      "c": "prowl", 
+      "b": "inflict", 
+      "e": "arrang", 
       "d": "written"
     }
   }, 
@@ -986,7 +986,7 @@
       "c": "habit", 
       "b": "grip", 
       "e": "shape", 
-      "d": "minds"
+      "d": "mind"
     }
   }, 
   "850": {
@@ -997,16 +997,16 @@
       "the"
     ], 
     "a": {
-      "a": "orchids", 
-      "c": "cabbages", 
-      "b": "fields", 
-      "e": "twigs", 
-      "d": "smiles"
+      "a": "orchid", 
+      "c": "cabbag", 
+      "b": "field", 
+      "e": "twig", 
+      "d": "smile"
     }
   }, 
   "851": {
     "q": [
-      "twisted", 
+      "twist", 
       "my", 
       "round", 
       "in"
@@ -1014,7 +1014,7 @@
     "a": {
       "a": "wrist", 
       "c": "musket", 
-      "b": "comforter", 
+      "b": "comfort", 
       "e": "forefoot", 
       "d": "cap"
     }
@@ -1023,15 +1023,15 @@
     "q": [
       "is", 
       "most", 
-      "unusual", 
+      "unusu", 
       "."
     ], 
     "a": {
-      "a": "frequently", 
-      "c": "eminently", 
-      "b": "instantly", 
-      "e": "refreshingly", 
-      "d": "severely"
+      "a": "frequent", 
+      "c": "emin", 
+      "b": "instantli", 
+      "e": "refreshingli", 
+      "d": "sever"
     }
   }, 
   "853": {
@@ -1042,11 +1042,11 @@
       "when"
     ], 
     "a": {
-      "a": "confident", 
-      "c": "legible", 
-      "b": "disentangled", 
-      "e": "enjoyed", 
-      "d": "divided"
+      "a": "confid", 
+      "c": "legibl", 
+      "b": "disentangl", 
+      "e": "enjoy", 
+      "d": "divid"
     }
   }, 
   "854": {
@@ -1058,25 +1058,25 @@
     ], 
     "a": {
       "a": "chisel", 
-      "c": "nurse", 
+      "c": "nurs", 
       "b": "barrel", 
       "e": "lord", 
-      "d": "frigate"
+      "d": "frigat"
     }
   }, 
   "855": {
     "q": [
       ",", 
-      "leaving", 
+      "leav", 
       "for", 
       "the"
     ], 
     "a": {
-      "a": "arsenic", 
+      "a": "arsen", 
       "c": "food", 
-      "b": "sacks", 
-      "e": "books", 
-      "d": "blanks"
+      "b": "sack", 
+      "e": "book", 
+      "d": "blank"
     }
   }, 
   "856": {
@@ -1084,29 +1084,29 @@
       "I", 
       "had", 
       "and", 
-      "was"
+      "wa"
     ], 
     "a": {
-      "a": "breakfasted", 
-      "c": "waited", 
-      "b": "stooped", 
-      "e": "studied", 
-      "d": "sprouted"
+      "a": "breakfast", 
+      "c": "wait", 
+      "b": "stoop", 
+      "e": "studi", 
+      "d": "sprout"
     }
   }, 
   "857": {
     "q": [
       "death", 
-      "was", 
+      "wa", 
       "to", 
-      "apoplexy"
+      "apoplexi"
     ], 
     "a": {
-      "a": "yielded", 
-      "c": "forced", 
-      "b": "disposed", 
+      "a": "yield", 
+      "c": "forc", 
+      "b": "dispos", 
       "e": "due", 
-      "d": "delighted"
+      "d": "delight"
     }
   }, 
   "858": {
@@ -1117,11 +1117,11 @@
       "the"
     ], 
     "a": {
-      "a": "perturbed", 
-      "c": "amused", 
-      "b": "flattered", 
-      "e": "thwarted", 
-      "d": "relieved"
+      "a": "perturb", 
+      "c": "amus", 
+      "b": "flatter", 
+      "e": "thwart", 
+      "d": "reliev"
     }
   }, 
   "859": {
@@ -1132,11 +1132,11 @@
       "he"
     ], 
     "a": {
-      "a": "mists", 
+      "a": "mist", 
       "c": "cloud", 
       "b": "object", 
       "e": "suit", 
-      "d": "circumstance"
+      "d": "circumst"
     }
   }, 
   "860": {
@@ -1147,11 +1147,11 @@
       "him"
     ], 
     "a": {
-      "a": "negotiate", 
-      "c": "harmonize", 
+      "a": "negoti", 
+      "c": "harmon", 
       "b": "perish", 
       "e": "weep", 
-      "d": "remonstrate"
+      "d": "remonstr"
     }
   }, 
   "861": {
@@ -1159,13 +1159,13 @@
       "you", 
       "would", 
       "your", 
-      "revolver"
+      "revolv"
     ], 
     "a": {
       "a": "pull", 
-      "c": "increase", 
-      "b": "appreciate", 
-      "e": "enlarge", 
+      "c": "increas", 
+      "b": "appreci", 
+      "e": "enlarg", 
       "d": "slip"
     }
   }, 
@@ -1177,10 +1177,10 @@
       "her"
     ], 
     "a": {
-      "a": "prevailed", 
-      "c": "stooped", 
+      "a": "prevail", 
+      "c": "stoop", 
       "b": "ridden", 
-      "e": "hurried", 
+      "e": "hurri", 
       "d": "driven"
     }
   }, 
@@ -1192,11 +1192,11 @@
       "come"
     ], 
     "a": {
-      "a": "kings", 
-      "c": "volume", 
-      "b": "creatures", 
-      "e": "lucy", 
-      "d": "matters"
+      "a": "king", 
+      "c": "volum", 
+      "b": "creatur", 
+      "e": "luci", 
+      "d": "matter"
     }
   }, 
   "864": {
@@ -1207,11 +1207,11 @@
       "."
     ], 
     "a": {
-      "a": "understanding", 
-      "c": "watching", 
-      "b": "humouring", 
-      "e": "advising", 
-      "d": "disliking"
+      "a": "understand", 
+      "c": "watch", 
+      "b": "humour", 
+      "e": "advis", 
+      "d": "dislik"
     }
   }, 
   "865": {
@@ -1222,11 +1222,11 @@
       "a"
     ], 
     "a": {
-      "a": "medals", 
-      "c": "oranges", 
-      "b": "leaves", 
-      "e": "heliotrope", 
-      "d": "wakefulness"
+      "a": "medal", 
+      "c": "orang", 
+      "b": "leav", 
+      "e": "heliotrop", 
+      "d": "wake"
     }
   }, 
   "866": {
@@ -1238,7 +1238,7 @@
     ], 
     "a": {
       "a": "gift", 
-      "c": "rarity", 
+      "c": "rariti", 
       "b": "yesterday", 
       "e": "to-morrow", 
       "d": "summer"
@@ -1252,56 +1252,56 @@
       "their"
     ], 
     "a": {
-      "a": "nations", 
-      "c": "results", 
-      "b": "penalties", 
-      "e": "heads", 
-      "d": "events"
+      "a": "nation", 
+      "c": "result", 
+      "b": "penalti", 
+      "e": "head", 
+      "d": "event"
     }
   }, 
   "868": {
     "q": [
-      "feeling", 
+      "feel", 
       "of", 
-      "misfortune", 
-      "impressed"
+      "misfortun", 
+      "impress"
     ], 
     "a": {
-      "a": "absolute", 
+      "a": "absolut", 
       "c": "perfect", 
-      "b": "incurable", 
+      "b": "incur", 
       "e": "profound", 
-      "d": "impending"
+      "d": "impend"
     }
   }, 
   "869": {
     "q": [
       "is", 
-      "only", 
+      "onli", 
       "from", 
       "the"
     ], 
     "a": {
-      "a": "redeemed", 
-      "c": "visible", 
-      "b": "suffering", 
-      "e": "advanced", 
-      "d": "divided"
+      "a": "redeem", 
+      "c": "visibl", 
+      "b": "suffer", 
+      "e": "advanc", 
+      "d": "divid"
     }
   }, 
   "870": {
     "q": [
       "today", 
       "the", 
-      "poured", 
+      "pour", 
       "down"
     ], 
     "a": {
-      "a": "coins", 
+      "a": "coin", 
       "c": "cauldron", 
       "b": "rain", 
-      "e": "acorns", 
-      "d": "garments"
+      "e": "acorn", 
+      "d": "garment"
     }
   }, 
   "871": {
@@ -1313,25 +1313,25 @@
     ], 
     "a": {
       "a": "forget", 
-      "c": "divulge", 
-      "b": "enable", 
-      "e": "exercise", 
+      "c": "divulg", 
+      "b": "enabl", 
+      "e": "exercis", 
       "d": "dispel"
     }
   }, 
   "872": {
     "q": [
-      "screamed", 
+      "scream", 
       "and", 
       "against", 
       "the"
     ], 
     "a": {
-      "a": "supported", 
-      "c": "hissed", 
-      "b": "breathed", 
+      "a": "support", 
+      "c": "hiss", 
+      "b": "breath", 
       "e": "shrunk", 
-      "d": "marched"
+      "d": "march"
     }
   }, 
   "873": {
@@ -1339,29 +1339,29 @@
       "had", 
       "no", 
       "in", 
-      "finding"
+      "find"
     ], 
     "a": {
-      "a": "difficulty", 
+      "a": "difficulti", 
       "c": "luck", 
       "b": "faith", 
-      "e": "hesitation", 
-      "d": "scruple"
+      "e": "hesit", 
+      "d": "scrupl"
     }
   }, 
   "874": {
     "q": [
       "for", 
       "a", 
-      "was", 
-      "obviously"
+      "wa", 
+      "obvious"
     ], 
     "a": {
-      "a": "battle", 
-      "c": "consultation", 
+      "a": "battl", 
+      "c": "consult", 
       "b": "meal", 
       "e": "truce", 
-      "d": "wedding"
+      "d": "wed"
     }
   }, 
   "875": {
@@ -1373,25 +1373,25 @@
     ], 
     "a": {
       "a": "complexion", 
-      "c": "society", 
-      "b": "investigation", 
+      "c": "societi", 
+      "b": "investig", 
       "e": "instinct", 
-      "d": "ridicule"
+      "d": "ridicul"
     }
   }, 
   "876": {
     "q": [
-      "elderly", 
+      "elderli", 
       "man", 
       "that", 
       "I"
     ], 
     "a": {
-      "a": "contended", 
-      "c": "motioned", 
-      "b": "performed", 
-      "e": "discovered", 
-      "d": "provided"
+      "a": "contend", 
+      "c": "motion", 
+      "b": "perform", 
+      "e": "discov", 
+      "d": "provid"
     }
   }, 
   "877": {
@@ -1402,10 +1402,10 @@
       "you"
     ], 
     "a": {
-      "a": "agree", 
-      "c": "danced", 
+      "a": "agre", 
+      "c": "danc", 
       "b": "interview", 
-      "e": "tremble", 
+      "e": "trembl", 
       "d": "act"
     }
   }, 
@@ -1417,11 +1417,11 @@
       "the"
     ], 
     "a": {
-      "a": "drops", 
-      "c": "negroes", 
-      "b": "orchards", 
-      "e": "lights", 
-      "d": "marks"
+      "a": "drop", 
+      "c": "negro", 
+      "b": "orchard", 
+      "e": "light", 
+      "d": "mark"
     }
   }, 
   "879": {
@@ -1429,14 +1429,14 @@
       "and", 
       "the", 
       "are", 
-      "quite"
+      "quit"
     ], 
     "a": {
-      "a": "books", 
-      "c": "windows", 
-      "b": "novices", 
-      "e": "clerks", 
-      "d": "meadows"
+      "a": "book", 
+      "c": "window", 
+      "b": "novic", 
+      "e": "clerk", 
+      "d": "meadow"
     }
   }, 
   "880": {
@@ -1449,39 +1449,39 @@
     "a": {
       "a": "mention", 
       "c": "grant", 
-      "b": "consider", 
+      "b": "consid", 
       "e": "admit", 
       "d": "beg"
     }
   }, 
   "881": {
     "q": [
-      "feeling", 
+      "feel", 
       "of", 
       "began", 
       "to"
     ], 
     "a": {
-      "a": "humanity", 
-      "c": "novelty", 
-      "b": "security", 
+      "a": "human", 
+      "c": "novelti", 
+      "b": "secur", 
       "e": "fellowship", 
-      "d": "uneasiness"
+      "d": "uneasi"
     }
   }, 
   "882": {
     "q": [
-      "imagine", 
+      "imagin", 
       "my", 
       ",", 
       "Watson"
     ], 
     "a": {
       "a": "seamanship", 
-      "c": "exultation", 
-      "b": "ankles", 
-      "e": "virtue", 
-      "d": "occupation"
+      "c": "exult", 
+      "b": "ankl", 
+      "e": "virtu", 
+      "d": "occup"
     }
   }, 
   "883": {
@@ -1492,41 +1492,41 @@
       "but"
     ], 
     "a": {
-      "a": "misinformed", 
+      "a": "misinform", 
       "c": "lit", 
-      "b": "cleaned", 
-      "e": "banished", 
-      "d": "disturbed"
+      "b": "clean", 
+      "e": "banish", 
+      "d": "disturb"
     }
   }, 
   "884": {
     "q": [
       "it", 
-      "has", 
+      "ha", 
       "me", 
       "."
     ], 
     "a": {
-      "a": "puzzled", 
-      "c": "awakened", 
-      "b": "deserted", 
-      "e": "treated", 
-      "d": "commanded"
+      "a": "puzzl", 
+      "c": "awaken", 
+      "b": "desert", 
+      "e": "treat", 
+      "d": "command"
     }
   }, 
   "885": {
     "q": [
       "it", 
-      "was", 
+      "wa", 
       "that", 
       "we"
     ], 
     "a": {
-      "a": "persuaded", 
-      "c": "obvious", 
-      "b": "desirable", 
-      "e": "conjectured", 
-      "d": "impossible"
+      "a": "persuad", 
+      "c": "obviou", 
+      "b": "desir", 
+      "e": "conjectur", 
+      "d": "imposs"
     }
   }, 
   "886": {
@@ -1538,10 +1538,10 @@
     ], 
     "a": {
       "a": "hunger", 
-      "c": "ideas", 
-      "b": "vices", 
+      "c": "idea", 
+      "b": "vice", 
       "e": "success", 
-      "d": "wants"
+      "d": "want"
     }
   }, 
   "887": {
@@ -1556,7 +1556,7 @@
       "c": "gush", 
       "b": "pair", 
       "e": "branch", 
-      "d": "variety"
+      "d": "varieti"
     }
   }, 
   "888": {
@@ -1567,8 +1567,8 @@
       "of"
     ], 
     "a": {
-      "a": "wholesome", 
-      "c": "hoarse", 
+      "a": "wholesom", 
+      "c": "hoars", 
       "b": "weak", 
       "e": "mere", 
       "d": "worn-out"
@@ -1582,11 +1582,11 @@
       "into"
     ], 
     "a": {
-      "a": "rolled", 
-      "c": "flourished", 
-      "b": "slipped", 
-      "e": "bristled", 
-      "d": "swallowed"
+      "a": "roll", 
+      "c": "flourish", 
+      "b": "slip", 
+      "e": "bristl", 
+      "d": "swallow"
     }
   }, 
   "890": {
@@ -1597,22 +1597,22 @@
       "the"
     ], 
     "a": {
-      "a": "realize", 
-      "c": "cease", 
+      "a": "realiz", 
+      "c": "ceas", 
       "b": "confess", 
       "e": "repent", 
-      "d": "rejoice"
+      "d": "rejoic"
     }
   }, 
   "891": {
     "q": [
       "Have", 
       "your", 
-      "ready", 
+      "readi", 
       "in"
     ], 
     "a": {
-      "a": "creature", 
+      "a": "creatur", 
       "c": "pistol", 
       "b": "honour", 
       "e": "tea", 
@@ -1627,8 +1627,8 @@
       "and"
     ], 
     "a": {
-      "a": "woodlands", 
-      "c": "mountains", 
+      "a": "woodland", 
+      "c": "mountain", 
       "b": "ocean", 
       "e": "chest", 
       "d": "bluff"
@@ -1636,16 +1636,16 @@
   }, 
   "893": {
     "q": [
-      "During", 
+      "Dure", 
       "my", 
       "I", 
       "had"
     ], 
     "a": {
       "a": "trip", 
-      "c": "school-days", 
-      "b": "absence", 
-      "e": "dreams", 
+      "c": "school-day", 
+      "b": "absenc", 
+      "e": "dream", 
       "d": "wake"
     }
   }, 
@@ -1658,7 +1658,7 @@
     ], 
     "a": {
       "a": "text", 
-      "c": "infantry", 
+      "c": "infantri", 
       "b": "rope", 
       "e": "bacon", 
       "d": "tube"
@@ -1672,26 +1672,26 @@
       "to"
     ], 
     "a": {
-      "a": "walking", 
-      "c": "falling", 
-      "b": "bringing", 
-      "e": "growing", 
-      "d": "crouching"
+      "a": "walk", 
+      "c": "fall", 
+      "b": "bring", 
+      "e": "grow", 
+      "d": "crouch"
     }
   }, 
   "896": {
     "q": [
-      "details", 
+      "detail", 
       "have", 
       "the", 
-      "gossips"
+      "gossip"
     ], 
     "a": {
-      "a": "encumbered", 
-      "c": "located", 
-      "b": "contained", 
+      "a": "encumb", 
+      "c": "locat", 
+      "b": "contain", 
       "e": "drawn", 
-      "d": "traversed"
+      "d": "travers"
     }
   }, 
   "897": {
@@ -1699,13 +1699,13 @@
       "might", 
       "not", 
       "the", 
-      "occupant"
+      "occup"
     ], 
     "a": {
       "a": "bite", 
       "c": "disdain", 
-      "b": "pity", 
-      "e": "produce", 
+      "b": "piti", 
+      "e": "produc", 
       "d": "alter"
     }
   }, 
@@ -1713,75 +1713,75 @@
     "q": [
       "taken", 
       "no", 
-      "since", 
+      "sinc", 
       "I"
     ], 
     "a": {
-      "a": "degree", 
+      "a": "degre", 
       "c": "step", 
       "b": "neglect", 
       "e": "egg", 
-      "d": "bicycles"
+      "d": "bicycl"
     }
   }, 
   "899": {
     "q": [
       "He", 
-      "has", 
+      "ha", 
       "and", 
       "he"
     ], 
     "a": {
-      "a": "shuddered", 
-      "c": "sneered", 
-      "b": "hysterics", 
-      "e": "nerve", 
-      "d": "yelled"
+      "a": "shudder", 
+      "c": "sneer", 
+      "b": "hyster", 
+      "e": "nerv", 
+      "d": "yell"
     }
   }, 
   "900": {
     "q": [
       ",", 
-      "Holmes", 
+      "Holm", 
       "from", 
       "the"
     ], 
     "a": {
-      "a": "swelled", 
-      "c": "mellowed", 
-      "b": "disappeared", 
-      "e": "floated", 
+      "a": "swell", 
+      "c": "mellow", 
+      "b": "disappear", 
+      "e": "float", 
       "d": "sprang"
     }
   }, 
   "901": {
     "q": [
       "have", 
-      "already", 
+      "alreadi", 
       "what", 
       "is"
     ], 
     "a": {
-      "a": "sneered", 
+      "a": "sneer", 
       "c": "bought", 
-      "b": "arranged", 
-      "e": "shouted", 
-      "d": "consulted"
+      "b": "arrang", 
+      "e": "shout", 
+      "d": "consult"
     }
   }, 
   "902": {
     "q": [
-      "Holmes", 
+      "Holm", 
       "'", 
       "came", 
       "to"
     ], 
     "a": {
-      "a": "departure", 
-      "c": "fears", 
+      "a": "departur", 
+      "c": "fear", 
       "b": "dream", 
       "e": "worst", 
-      "d": "wretchedness"
+      "d": "wretched"
     }
   }, 
   "903": {
@@ -1792,11 +1792,11 @@
       "a"
     ], 
     "a": {
-      "a": "fiddlers", 
-      "c": "chimes", 
-      "b": "batters", 
-      "e": "centuries", 
-      "d": "cheers"
+      "a": "fiddler", 
+      "c": "chime", 
+      "b": "batter", 
+      "e": "centuri", 
+      "d": "cheer"
     }
   }, 
   "904": {
@@ -1807,8 +1807,8 @@
       "Mr."
     ], 
     "a": {
-      "a": "assistant", 
-      "c": "window-sill", 
+      "a": "assist", 
+      "c": "window-sil", 
       "b": "duke", 
       "e": "foe", 
       "d": "prophet"
@@ -1817,31 +1817,31 @@
   "905": {
     "q": [
       "but", 
-      "horribly", 
+      "horribl", 
       ",", 
       "into"
     ], 
     "a": {
-      "a": "intelligent", 
+      "a": "intellig", 
       "c": "well-spoken", 
-      "b": "mangled", 
+      "b": "mangl", 
       "e": "unchristian", 
-      "d": "good-natured"
+      "d": "good-natur"
     }
   }, 
   "906": {
     "q": [
-      "his", 
-      "soothing", 
+      "hi", 
+      "sooth", 
       "and", 
-      "averted"
+      "avert"
     ], 
     "a": {
-      "a": "rings", 
-      "c": "traditions", 
-      "b": "privacy", 
-      "e": "stiffness", 
-      "d": "answers"
+      "a": "ring", 
+      "c": "tradit", 
+      "b": "privaci", 
+      "e": "stiff", 
+      "d": "answer"
     }
   }, 
   "907": {
@@ -1854,8 +1854,8 @@
     "a": {
       "a": "abroad", 
       "c": "asleep", 
-      "b": "misinformed", 
-      "e": "innocent", 
+      "b": "misinform", 
+      "e": "innoc", 
       "d": "overheard"
     }
   }, 
@@ -1867,11 +1867,11 @@
       "they"
     ], 
     "a": {
-      "a": "objects", 
-      "c": "shutters", 
-      "b": "flowers", 
-      "e": "letters", 
-      "d": "subjects"
+      "a": "object", 
+      "c": "shutter", 
+      "b": "flower", 
+      "e": "letter", 
+      "d": "subject"
     }
   }, 
   "909": {
@@ -1879,29 +1879,29 @@
       "When", 
       "you", 
       "your", 
-      "cry"
+      "cri"
     ], 
     "a": {
-      "a": "surrender", 
-      "c": "reconsider", 
-      "b": "resemble", 
-      "e": "recall", 
-      "d": "raise"
+      "a": "surrend", 
+      "c": "reconsid", 
+      "b": "resembl", 
+      "e": "recal", 
+      "d": "rais"
     }
   }, 
   "910": {
     "q": [
-      "standing", 
-      "very", 
+      "stand", 
+      "veri", 
       "but", 
-      "very"
+      "veri"
     ], 
     "a": {
       "a": "pale", 
-      "c": "heartily", 
+      "c": "heartili", 
       "b": "tall", 
-      "e": "gently", 
-      "d": "accurately"
+      "e": "gentli", 
+      "d": "accur"
     }
   }, 
   "911": {
@@ -1916,37 +1916,37 @@
       "c": "teach", 
       "b": "dismiss", 
       "e": "detach", 
-      "d": "assure"
+      "d": "assur"
     }
   }, 
   "912": {
     "q": [
       "be", 
-      "entirely", 
+      "entir", 
       "with", 
       "most"
     ], 
     "a": {
-      "a": "covered", 
-      "c": "combined", 
-      "b": "blanched", 
-      "e": "incompatible", 
-      "d": "illuminated"
+      "a": "cover", 
+      "c": "combin", 
+      "b": "blanch", 
+      "e": "incompat", 
+      "d": "illumin"
     }
   }, 
   "913": {
     "q": [
-      "prevents", 
-      "any", 
+      "prevent", 
+      "ani", 
       "of", 
       "a"
     ], 
     "a": {
-      "a": "explanation", 
-      "c": "remembrance", 
-      "b": "deficiency", 
-      "e": "possibility", 
-      "d": "recollection"
+      "a": "explan", 
+      "c": "remembr", 
+      "b": "defici", 
+      "e": "possibl", 
+      "d": "recollect"
     }
   }, 
   "914": {
@@ -1957,24 +1957,24 @@
       "and"
     ], 
     "a": {
-      "a": "discretion", 
-      "c": "refuse", 
-      "b": "suspicions", 
-      "e": "evidence", 
+      "a": "discret", 
+      "c": "refus", 
+      "b": "suspicion", 
+      "e": "evid", 
       "d": "inquest"
     }
   }, 
   "915": {
     "q": [
       "out", 
-      "his", 
+      "hi", 
       "with", 
       "an"
     ], 
     "a": {
       "a": "chest", 
       "c": "cage", 
-      "b": "ankle", 
+      "b": "ankl", 
       "e": "note-book", 
       "d": "leg"
     }
@@ -1987,11 +1987,11 @@
       "those"
     ], 
     "a": {
-      "a": "nobody", 
-      "c": "freshly", 
-      "b": "training", 
-      "e": "ourselves", 
-      "d": "yourselves"
+      "a": "nobodi", 
+      "c": "freshli", 
+      "b": "train", 
+      "e": "ourselv", 
+      "d": "yourselv"
     }
   }, 
   "917": {
@@ -2003,25 +2003,25 @@
     ], 
     "a": {
       "a": "born", 
-      "c": "idle", 
-      "b": "burned", 
-      "e": "disturbed", 
-      "d": "closed"
+      "c": "idl", 
+      "b": "burn", 
+      "e": "disturb", 
+      "d": "close"
     }
   }, 
   "918": {
     "q": [
-      "enemy", 
+      "enemi", 
       "'s", 
       "have", 
       "gone"
     ], 
     "a": {
-      "a": "preparations", 
-      "c": "bullets", 
-      "b": "sorrows", 
-      "e": "relations", 
-      "d": "lands"
+      "a": "prepar", 
+      "c": "bullet", 
+      "b": "sorrow", 
+      "e": "relat", 
+      "d": "land"
     }
   }, 
   "919": {
@@ -2032,11 +2032,11 @@
       "the"
     ], 
     "a": {
-      "a": "withered", 
-      "c": "hurried", 
-      "b": "reduced", 
+      "a": "wither", 
+      "c": "hurri", 
+      "b": "reduc", 
       "e": "rode", 
-      "d": "delivered"
+      "d": "deliv"
     }
   }, 
   "920": {
@@ -2048,9 +2048,9 @@
     ], 
     "a": {
       "a": "oath", 
-      "c": "shadows", 
+      "c": "shadow", 
       "b": "shirt", 
-      "e": "message", 
+      "e": "messag", 
       "d": "blame"
     }
   }, 
@@ -2062,11 +2062,11 @@
       "."
     ], 
     "a": {
-      "a": "speculative", 
-      "c": "wealthy", 
+      "a": "specul", 
+      "c": "wealthi", 
       "b": "prompt", 
       "e": "timid", 
-      "d": "resident"
+      "d": "resid"
     }
   }, 
   "922": {
@@ -2074,14 +2074,14 @@
       "with", 
       "an", 
       "which", 
-      "showed"
+      "show"
     ], 
     "a": {
-      "a": "dissimulation", 
-      "c": "ambiguity", 
-      "b": "alacrity", 
-      "e": "intentness", 
-      "d": "emphasis"
+      "a": "dissimul", 
+      "c": "ambigu", 
+      "b": "alacr", 
+      "e": "intent", 
+      "d": "emphasi"
     }
   }, 
   "923": {
@@ -2093,10 +2093,10 @@
     ], 
     "a": {
       "a": "artist", 
-      "c": "innocence", 
+      "c": "innoc", 
       "b": "owl", 
-      "e": "excursion", 
-      "d": "earthquake"
+      "e": "excurs", 
+      "d": "earthquak"
     }
   }, 
   "924": {
@@ -2108,8 +2108,8 @@
     ], 
     "a": {
       "a": "senseless", 
-      "c": "watching", 
-      "b": "preparing", 
+      "c": "watch", 
+      "b": "prepar", 
       "e": "mistaken", 
       "d": "spoilt"
     }
@@ -2117,15 +2117,15 @@
   "925": {
     "q": [
       "up", 
-      "his", 
+      "hi", 
       "until", 
-      "his"
+      "hi"
     ], 
     "a": {
-      "a": "senses", 
-      "c": "spirits", 
+      "a": "sens", 
+      "c": "spirit", 
       "b": "chest", 
-      "e": "knees", 
+      "e": "knee", 
       "d": "pillow"
     }
   }, 
@@ -2137,11 +2137,11 @@
       "a"
     ], 
     "a": {
-      "a": "heaped", 
-      "c": "defeated", 
-      "b": "expended", 
-      "e": "exercised", 
-      "d": "rolling"
+      "a": "heap", 
+      "c": "defeat", 
+      "b": "expend", 
+      "e": "exercis", 
+      "d": "roll"
     }
   }, 
   "927": {
@@ -2152,56 +2152,56 @@
       "though"
     ], 
     "a": {
-      "a": "labourers", 
-      "c": "rivers", 
-      "b": "paving-stones", 
-      "e": "singers", 
-      "d": "fittings"
+      "a": "labour", 
+      "c": "river", 
+      "b": "paving-ston", 
+      "e": "singer", 
+      "d": "fit"
     }
   }, 
   "928": {
     "q": [
       "and", 
-      "was", 
+      "wa", 
       "by", 
       "the"
     ], 
     "a": {
-      "a": "joined", 
-      "c": "revealed", 
-      "b": "hanging", 
-      "e": "hailed", 
-      "d": "troubled"
+      "a": "join", 
+      "c": "reveal", 
+      "b": "hang", 
+      "e": "hail", 
+      "d": "troubl"
     }
   }, 
   "929": {
     "q": [
       "Sherlock", 
-      "Holmes", 
+      "Holm", 
       "down", 
       "from"
     ], 
     "a": {
       "a": "tore", 
-      "c": "bowed", 
-      "b": "pulled", 
-      "e": "tumbled", 
-      "d": "peered"
+      "c": "bow", 
+      "b": "pull", 
+      "e": "tumbl", 
+      "d": "peer"
     }
   }, 
   "930": {
     "q": [
       "interest", 
-      "was", 
+      "wa", 
       "by", 
       "Jane"
     ], 
     "a": {
-      "a": "emulated", 
-      "c": "assisted", 
-      "b": "repelled", 
-      "e": "remembered", 
-      "d": "aggravated"
+      "a": "emul", 
+      "c": "assist", 
+      "b": "repel", 
+      "e": "rememb", 
+      "d": "aggrav"
     }
   }, 
   "931": {
@@ -2212,11 +2212,11 @@
       "the"
     ], 
     "a": {
-      "a": "incredible", 
-      "c": "obdurate", 
-      "b": "struggling", 
-      "e": "inquiring", 
-      "d": "damaged"
+      "a": "incred", 
+      "c": "obdur", 
+      "b": "struggl", 
+      "e": "inquir", 
+      "d": "damag"
     }
   }, 
   "932": {
@@ -2224,14 +2224,14 @@
       "to", 
       "be", 
       "across", 
-      "every"
+      "everi"
     ], 
     "a": {
-      "a": "drifting", 
-      "c": "travelling", 
-      "b": "walking", 
+      "a": "drift", 
+      "c": "travel", 
+      "b": "walk", 
       "e": "built", 
-      "d": "sprinkled"
+      "d": "sprinkl"
     }
   }, 
   "933": {
@@ -2242,11 +2242,11 @@
       "the"
     ], 
     "a": {
-      "a": "influence", 
-      "c": "denomination", 
-      "b": "sounds", 
-      "e": "knowledge", 
-      "d": "windows"
+      "a": "influenc", 
+      "c": "denomin", 
+      "b": "sound", 
+      "e": "knowledg", 
+      "d": "window"
     }
   }, 
   "934": {
@@ -2257,11 +2257,11 @@
       "but"
     ], 
     "a": {
-      "a": "lunched", 
-      "c": "vanished", 
-      "b": "anticipated", 
-      "e": "fainted", 
-      "d": "stated"
+      "a": "lunch", 
+      "c": "vanish", 
+      "b": "anticip", 
+      "e": "faint", 
+      "d": "state"
     }
   }, 
   "935": {
@@ -2273,7 +2273,7 @@
     ], 
     "a": {
       "a": "asylum", 
-      "c": "hurricane", 
+      "c": "hurrican", 
       "b": "turf", 
       "e": "stare", 
       "d": "compliment"
@@ -2281,17 +2281,17 @@
   }, 
   "936": {
     "q": [
-      "only", 
+      "onli", 
       "two", 
       "were", 
       "to"
     ], 
     "a": {
-      "a": "foxes", 
-      "c": "chairs", 
-      "b": "voices", 
-      "e": "logs", 
-      "d": "decanters"
+      "a": "fox", 
+      "c": "chair", 
+      "b": "voic", 
+      "e": "log", 
+      "d": "decant"
     }
   }, 
   "937": {
@@ -2302,26 +2302,26 @@
       "the"
     ], 
     "a": {
-      "a": "ravens", 
-      "c": "maids", 
-      "b": "planes", 
-      "e": "animals", 
+      "a": "raven", 
+      "c": "maid", 
+      "b": "plane", 
+      "e": "anim", 
       "d": "policemen"
     }
   }, 
   "938": {
     "q": [
-      "was", 
-      "speedily", 
+      "wa", 
+      "speedili", 
       ",", 
       "as"
     ], 
     "a": {
       "a": "drawn", 
-      "c": "mollified", 
-      "b": "retired", 
-      "e": "exterminated", 
-      "d": "exhausted"
+      "c": "mollifi", 
+      "b": "retir", 
+      "e": "extermin", 
+      "d": "exhaust"
     }
   }, 
   "939": {
@@ -2334,7 +2334,7 @@
     "a": {
       "a": "remain", 
       "c": "appear", 
-      "b": "reside", 
+      "b": "resid", 
       "e": "succeed", 
       "d": "ice"
     }
@@ -2347,26 +2347,26 @@
       "door"
     ], 
     "a": {
-      "a": "grasped", 
+      "a": "grasp", 
       "c": "rang", 
-      "b": "closed", 
-      "e": "caressed", 
-      "d": "joined"
+      "b": "close", 
+      "e": "caress", 
+      "d": "join"
     }
   }, 
   "941": {
     "q": [
       "same", 
-      "crowded", 
+      "crowd", 
       "in", 
       "which"
     ], 
     "a": {
-      "a": "sepulchre", 
+      "a": "sepulchr", 
       "c": "creek", 
-      "b": "thoroughfare", 
-      "e": "clergy", 
-      "d": "theatres"
+      "b": "thoroughfar", 
+      "e": "clergi", 
+      "d": "theatr"
     }
   }, 
   "942": {
@@ -2374,13 +2374,13 @@
       "took", 
       "the", 
       "in", 
-      "his"
+      "hi"
     ], 
     "a": {
-      "a": "bell-rope", 
+      "a": "bell-rop", 
       "c": "hole", 
       "b": "document", 
-      "e": "reins", 
+      "e": "rein", 
       "d": "key"
     }
   }, 
@@ -2388,14 +2388,14 @@
     "q": [
       ",", 
       "a", 
-      "dizziness", 
+      "dizzi", 
       "and"
     ], 
     "a": {
-      "a": "sturdy", 
+      "a": "sturdi", 
       "c": "vehement", 
-      "b": "curious", 
-      "e": "deadly", 
+      "b": "curiou", 
+      "e": "deadli", 
       "d": "tranquil"
     }
   }, 
@@ -2408,10 +2408,10 @@
     ], 
     "a": {
       "a": "fraud", 
-      "c": "guests", 
+      "c": "guest", 
       "b": "aid", 
-      "e": "enemies", 
-      "d": "appetites"
+      "e": "enemi", 
+      "d": "appetit"
     }
   }, 
   "945": {
@@ -2419,13 +2419,13 @@
       "laid", 
       "the", 
       "of", 
-      "matches"
+      "match"
     ], 
     "a": {
-      "a": "condition", 
-      "c": "mouths", 
+      "a": "condit", 
+      "c": "mouth", 
       "b": "box", 
-      "e": "possibilities", 
+      "e": "possibl", 
       "d": "smell"
     }
   }, 
@@ -2437,11 +2437,11 @@
       "silent"
     ], 
     "a": {
-      "a": "prince", 
-      "c": "useful", 
-      "b": "morose", 
+      "a": "princ", 
+      "c": "use", 
+      "b": "moros", 
       "e": "novel", 
-      "d": "captive"
+      "d": "captiv"
     }
   }, 
   "947": {
@@ -2452,11 +2452,11 @@
       "and"
     ], 
     "a": {
-      "a": "smiled", 
+      "a": "smile", 
       "c": "shrunk", 
-      "b": "sailed", 
+      "b": "sail", 
       "e": "drove", 
-      "d": "flowed"
+      "d": "flow"
     }
   }, 
   "948": {
@@ -2469,21 +2469,21 @@
     "a": {
       "a": "sodden", 
       "c": "tall", 
-      "b": "important", 
+      "b": "import", 
       "e": "nearest", 
-      "d": "polished"
+      "d": "polish"
     }
   }, 
   "949": {
     "q": [
-      "only", 
+      "onli", 
       "to", 
       "myself", 
       ","
     ], 
     "a": {
-      "a": "compromise", 
-      "c": "humiliate", 
+      "a": "compromis", 
+      "c": "humili", 
       "b": "possess", 
       "e": "safeguard", 
       "d": "hide"
@@ -2499,9 +2499,9 @@
     "a": {
       "a": "dine", 
       "c": "remain", 
-      "b": "meddle", 
+      "b": "meddl", 
       "e": "fight", 
-      "d": "dance"
+      "d": "danc"
     }
   }, 
   "951": {
@@ -2512,26 +2512,26 @@
       "too"
     ], 
     "a": {
-      "a": "maids", 
-      "c": "kites", 
-      "b": "stars", 
-      "e": "bellows", 
-      "d": "angels"
+      "a": "maid", 
+      "c": "kite", 
+      "b": "star", 
+      "e": "bellow", 
+      "d": "angel"
     }
   }, 
   "952": {
     "q": [
       "and", 
-      "several", 
+      "sever", 
       "under", 
-      "his"
+      "hi"
     ], 
     "a": {
-      "a": "joints", 
-      "c": "glaciers", 
-      "b": "packages", 
-      "e": "splinters", 
-      "d": "eunuchs"
+      "a": "joint", 
+      "c": "glacier", 
+      "b": "packag", 
+      "e": "splinter", 
+      "d": "eunuch"
     }
   }, 
   "953": {
@@ -2542,10 +2542,10 @@
       "it"
     ], 
     "a": {
-      "a": "meaning", 
-      "c": "fury", 
-      "b": "proportion", 
-      "e": "luxury", 
+      "a": "mean", 
+      "c": "furi", 
+      "b": "proport", 
+      "e": "luxuri", 
       "d": "symbol"
     }
   }, 
@@ -2553,8 +2553,8 @@
     "q": [
       "a", 
       "small", 
-      "this", 
-      "morning"
+      "thi", 
+      "morn"
     ], 
     "a": {
       "a": "scene", 
@@ -2572,11 +2572,11 @@
       "down"
     ], 
     "a": {
-      "a": "walks", 
-      "c": "highways", 
+      "a": "walk", 
+      "c": "highway", 
       "b": "corridor", 
-      "e": "valleys", 
-      "d": "ceiling"
+      "e": "valley", 
+      "d": "ceil"
     }
   }, 
   "956": {
@@ -2587,26 +2587,26 @@
       "for"
     ], 
     "a": {
-      "a": "befall", 
-      "c": "restore", 
-      "b": "recompense", 
-      "e": "convince", 
+      "a": "befal", 
+      "c": "restor", 
+      "b": "recompens", 
+      "e": "convinc", 
       "d": "allow"
     }
   }, 
   "957": {
     "q": [
-      "was", 
+      "wa", 
       "still", 
-      "soundly", 
+      "soundli", 
       ","
     ], 
     "a": {
-      "a": "snowing", 
-      "c": "burning", 
-      "b": "sleeping", 
-      "e": "growling", 
-      "d": "walking"
+      "a": "snow", 
+      "c": "burn", 
+      "b": "sleep", 
+      "e": "growl", 
+      "d": "walk"
     }
   }, 
   "958": {
@@ -2617,53 +2617,53 @@
       "a"
     ], 
     "a": {
-      "a": "suffered", 
-      "c": "glanced", 
-      "b": "rested", 
-      "e": "glared", 
+      "a": "suffer", 
+      "c": "glanc", 
+      "b": "rest", 
+      "e": "glare", 
       "d": "torn"
     }
   }, 
   "959": {
     "q": [
       "over", 
-      "his", 
+      "hi", 
       "yet", 
       "."
     ], 
     "a": {
       "a": "grave", 
-      "c": "glasses", 
-      "b": "whiskers", 
-      "e": "pony", 
-      "d": "illness"
+      "c": "glass", 
+      "b": "whisker", 
+      "e": "poni", 
+      "d": "ill"
     }
   }, 
   "960": {
     "q": [
       "I", 
-      "was", 
+      "wa", 
       "of", 
       "a"
     ], 
     "a": {
-      "a": "conscious", 
+      "a": "consciou", 
       "c": "proud", 
-      "b": "tired", 
-      "e": "convicted", 
-      "d": "ashamed"
+      "b": "tire", 
+      "e": "convict", 
+      "d": "asham"
     }
   }, 
   "961": {
     "q": [
-      "footprints", 
+      "footprint", 
       "to", 
       "that", 
       "the"
     ], 
     "a": {
       "a": "hint", 
-      "c": "acknowledge", 
+      "c": "acknowledg", 
       "b": "predict", 
       "e": "prove", 
       "d": "suggest"
@@ -2672,12 +2672,12 @@
   "962": {
     "q": [
       "with", 
-      "his", 
+      "hi", 
       "two", 
       "or"
     ], 
     "a": {
-      "a": "niece", 
+      "a": "niec", 
       "c": "suit", 
       "b": "balloon", 
       "e": "beard", 
@@ -2686,15 +2686,15 @@
   }, 
   "963": {
     "q": [
-      "acting", 
+      "act", 
       "as", 
       "to", 
-      "any"
+      "ani"
     ], 
     "a": {
       "a": "executrix", 
-      "c": "guide", 
-      "b": "relative", 
+      "c": "guid", 
+      "b": "rel", 
       "e": "maid", 
       "d": "ballast"
     }
@@ -2704,13 +2704,13 @@
       "strengthen", 
       "our", 
       "and", 
-      "borrowed"
+      "borrow"
     ], 
     "a": {
       "a": "statesmen", 
-      "c": "coffee", 
-      "b": "resources", 
-      "e": "pools", 
+      "c": "coffe", 
+      "b": "resourc", 
+      "e": "pool", 
       "d": "honour"
     }
   }, 
@@ -2719,14 +2719,14 @@
       "came", 
       "away", 
       "and", 
-      "disheartened"
+      "dishearten"
     ], 
     "a": {
-      "a": "baffled", 
-      "c": "rumbling", 
-      "b": "grinning", 
-      "e": "rosy", 
-      "d": "kicking"
+      "a": "baffl", 
+      "c": "rumbl", 
+      "b": "grin", 
+      "e": "rosi", 
+      "d": "kick"
     }
   }, 
   "966": {
@@ -2737,11 +2737,11 @@
       "the"
     ], 
     "a": {
-      "a": "splintering", 
-      "c": "panelling", 
+      "a": "splinter", 
+      "c": "panel", 
       "b": "smell", 
       "e": "shadow", 
-      "d": "merits"
+      "d": "merit"
     }
   }, 
   "967": {
@@ -2752,26 +2752,26 @@
       "to"
     ], 
     "a": {
-      "a": "begged", 
+      "a": "beg", 
       "c": "bade", 
-      "b": "appraised", 
-      "e": "gathered", 
-      "d": "dashed"
+      "b": "apprais", 
+      "e": "gather", 
+      "d": "dash"
     }
   }, 
   "968": {
     "q": [
-      "was", 
+      "wa", 
       "a", 
       "silent", 
-      "house"
+      "hous"
     ], 
     "a": {
       "a": "helpless", 
       "c": "mere", 
       "b": "reckless", 
-      "e": "woman's", 
-      "d": "wonderfully"
+      "e": "woman'", 
+      "d": "wonder"
     }
   }, 
   "969": {
@@ -2782,11 +2782,11 @@
       "heart"
     ], 
     "a": {
-      "a": "remove", 
+      "a": "remov", 
       "c": "reach", 
       "b": "await", 
-      "e": "imitate", 
-      "d": "regulate"
+      "e": "imit", 
+      "d": "regul"
     }
   }, 
   "970": {
@@ -2794,12 +2794,12 @@
       "for", 
       "he", 
       "to", 
-      "his"
+      "hi"
     ], 
     "a": {
-      "a": "dared", 
-      "c": "stooped", 
-      "b": "resigned", 
+      "a": "dare", 
+      "c": "stoop", 
+      "b": "resign", 
       "e": "sought", 
       "d": "sprang"
     }
@@ -2809,29 +2809,29 @@
       "is", 
       "a", 
       "and", 
-      "dangerous"
+      "danger"
     ], 
     "a": {
-      "a": "venerable", 
+      "a": "vener", 
       "c": "sweet", 
-      "b": "delicate", 
+      "b": "delic", 
       "e": "clever", 
-      "d": "glorious"
+      "d": "gloriou"
     }
   }, 
   "972": {
     "q": [
       "of", 
-      "considerable", 
+      "consider", 
       "and", 
-      "vindictiveness"
+      "vindict"
     ], 
     "a": {
-      "a": "culture", 
-      "c": "courage", 
-      "b": "violence", 
+      "a": "cultur", 
+      "c": "courag", 
+      "b": "violenc", 
       "e": "tact", 
-      "d": "discretion"
+      "d": "discret"
     }
   }, 
   "973": {
@@ -2842,9 +2842,9 @@
       "of"
     ], 
     "a": {
-      "a": "drowsy", 
-      "c": "wonderful", 
-      "b": "prolonged", 
+      "a": "drowsi", 
+      "c": "wonder", 
+      "b": "prolong", 
       "e": "breathless", 
       "d": "girlish"
     }
@@ -2857,10 +2857,10 @@
       "her"
     ], 
     "a": {
-      "a": "falling", 
-      "c": "pouring", 
-      "b": "distinguished", 
-      "e": "propagated", 
+      "a": "fall", 
+      "c": "pour", 
+      "b": "distinguish", 
+      "e": "propag", 
       "d": "absent"
     }
   }, 
@@ -2872,10 +2872,10 @@
       "the"
     ], 
     "a": {
-      "a": "disappointment", 
-      "c": "reading", 
-      "b": "troubled", 
-      "e": "dining", 
+      "a": "disappoint", 
+      "c": "read", 
+      "b": "troubl", 
+      "e": "dine", 
       "d": "delight"
     }
   }, 
@@ -2884,14 +2884,14 @@
       "time", 
       "after", 
       "to", 
-      "this"
+      "thi"
     ], 
     "a": {
-      "a": "failing", 
-      "c": "struggling", 
-      "b": "dreading", 
-      "e": "listening", 
-      "d": "labouring"
+      "a": "fail", 
+      "c": "struggl", 
+      "b": "dread", 
+      "e": "listen", 
+      "d": "labour"
     }
   }, 
   "977": {
@@ -2902,26 +2902,26 @@
       "."
     ], 
     "a": {
-      "a": "comfortable", 
-      "c": "flinty", 
-      "b": "licensed", 
-      "e": "mighty", 
+      "a": "comfort", 
+      "c": "flinti", 
+      "b": "licens", 
+      "e": "mighti", 
       "d": "methodist"
     }
   }, 
   "978": {
     "q": [
-      "his", 
+      "hi", 
       "hat", 
-      "brushed", 
+      "brush", 
       "the"
     ], 
     "a": {
-      "a": "proudly", 
-      "c": "satisfactorily", 
-      "b": "urgently", 
-      "e": "actually", 
-      "d": "profoundly"
+      "a": "proudli", 
+      "c": "satisfactorili", 
+      "b": "urgent", 
+      "e": "actual", 
+      "d": "profoundli"
     }
   }, 
   "979": {
@@ -2932,10 +2932,10 @@
       "saw"
     ], 
     "a": {
-      "a": "stairs", 
-      "c": "victory", 
-      "b": "mills", 
-      "e": "parties", 
+      "a": "stair", 
+      "c": "victori", 
+      "b": "mill", 
+      "e": "parti", 
       "d": "forest"
     }
   }, 
@@ -2947,41 +2947,41 @@
       "and"
     ], 
     "a": {
-      "a": "fainted", 
+      "a": "faint", 
       "c": "slept", 
-      "b": "talked", 
-      "e": "rushed", 
+      "b": "talk", 
+      "e": "rush", 
       "d": "dwelt"
     }
   }, 
   "981": {
     "q": [
-      "arteries", 
+      "arteri", 
       "which", 
       "the", 
       "traffic"
     ], 
     "a": {
-      "a": "surrounded", 
-      "c": "conveyed", 
-      "b": "supported", 
-      "e": "sheltered", 
-      "d": "contained"
+      "a": "surround", 
+      "c": "convey", 
+      "b": "support", 
+      "e": "shelter", 
+      "d": "contain"
     }
   }, 
   "982": {
     "q": [
-      "was", 
-      "instantly", 
+      "wa", 
+      "instantli", 
       ",", 
       "and"
     ], 
     "a": {
-      "a": "extinguished", 
+      "a": "extinguish", 
       "c": "asleep", 
-      "b": "aroused", 
-      "e": "decapitated", 
-      "d": "fatigued"
+      "b": "arous", 
+      "e": "decapit", 
+      "d": "fatigu"
     }
   }, 
   "983": {
@@ -2989,14 +2989,14 @@
       "I", 
       "could", 
       "their", 
-      "actions"
+      "action"
     ], 
     "a": {
-      "a": "waste", 
+      "a": "wast", 
       "c": "lose", 
       "b": "follow", 
-      "e": "bury", 
-      "d": "ensure"
+      "e": "buri", 
+      "d": "ensur"
     }
   }, 
   "984": {
@@ -3007,11 +3007,11 @@
       "the"
     ], 
     "a": {
-      "a": "passing", 
-      "c": "examined", 
-      "b": "preached", 
-      "e": "charmed", 
-      "d": "shouted"
+      "a": "pass", 
+      "c": "examin", 
+      "b": "preach", 
+      "e": "charm", 
+      "d": "shout"
     }
   }, 
   "985": {
@@ -3022,10 +3022,10 @@
       "hung"
     ], 
     "a": {
-      "a": "battle", 
+      "a": "battl", 
       "c": "suspicion", 
       "b": "cord", 
-      "e": "choice", 
+      "e": "choic", 
       "d": "card"
     }
   }, 
@@ -3034,7 +3034,7 @@
       "a", 
       "perfect", 
       ",", 
-      "ready"
+      "readi"
     ], 
     "a": {
       "a": "demon", 
@@ -3052,26 +3052,26 @@
       "would"
     ], 
     "a": {
-      "a": "obstacles", 
-      "c": "acuteness", 
-      "b": "disputes", 
-      "e": "restraints", 
-      "d": "formalities"
+      "a": "obstacl", 
+      "c": "acut", 
+      "b": "disput", 
+      "e": "restraint", 
+      "d": "formal"
     }
   }, 
   "988": {
     "q": [
       "It", 
-      "was", 
+      "wa", 
       "to", 
       "me"
     ], 
     "a": {
       "a": "inferior", 
-      "c": "essential", 
-      "b": "incredible", 
+      "c": "essenti", 
+      "b": "incred", 
       "e": "fatal", 
-      "d": "agreeable"
+      "d": "agreeabl"
     }
   }, 
   "989": {
@@ -3082,26 +3082,26 @@
       "a"
     ], 
     "a": {
-      "a": "approved", 
-      "c": "complained", 
-      "b": "stripped", 
-      "e": "eased", 
-      "d": "conceived"
+      "a": "approv", 
+      "c": "complain", 
+      "b": "strip", 
+      "e": "eas", 
+      "d": "conceiv"
     }
   }, 
   "990": {
     "q": [
       ",", 
       "my", 
-      "suspicions", 
+      "suspicion", 
       ","
     ], 
     "a": {
-      "a": "vague", 
+      "a": "vagu", 
       "c": "warmest", 
       "b": "comic", 
       "e": "blind", 
-      "d": "heated"
+      "d": "heat"
     }
   }, 
   "991": {
@@ -3113,8 +3113,8 @@
     ], 
     "a": {
       "a": "error", 
-      "c": "earthquake", 
-      "b": "illness", 
+      "c": "earthquak", 
+      "b": "ill", 
       "e": "agreement", 
       "d": "infant"
     }
@@ -3127,11 +3127,11 @@
       "a"
     ], 
     "a": {
-      "a": "possibly", 
-      "c": "darkly", 
-      "b": "regularly", 
-      "e": "scarcely", 
-      "d": "distinctly"
+      "a": "possibl", 
+      "c": "darkli", 
+      "b": "regularli", 
+      "e": "scarc", 
+      "d": "distinctli"
     }
   }, 
   "993": {
@@ -3143,23 +3143,23 @@
     ], 
     "a": {
       "a": "rope", 
-      "c": "library", 
+      "c": "librari", 
       "b": "sofa", 
       "e": "breakfast", 
-      "d": "windows"
+      "d": "window"
     }
   }, 
   "994": {
     "q": [
-      "evidently", 
+      "evid", 
       "my", 
-      "cards", 
+      "card", 
       "."
     ], 
     "a": {
-      "a": "scientific", 
-      "c": "drinking", 
-      "b": "unwary", 
+      "a": "scientif", 
+      "c": "drink", 
+      "b": "unwari", 
       "e": "largest", 
       "d": "strongest"
     }
@@ -3173,25 +3173,25 @@
     ], 
     "a": {
       "a": "repeat", 
-      "c": "obeyed", 
-      "b": "gasped", 
-      "e": "shouted", 
-      "d": "argued"
+      "c": "obey", 
+      "b": "gasp", 
+      "e": "shout", 
+      "d": "argu"
     }
   }, 
   "996": {
     "q": [
       "Left", 
-      "his", 
+      "hi", 
       "at", 
       "ten"
     ], 
     "a": {
       "a": "defeat", 
-      "c": "lodgings", 
-      "b": "affairs", 
+      "c": "lodg", 
+      "b": "affair", 
       "e": "finger", 
-      "d": "impudence"
+      "d": "impud"
     }
   }, 
   "997": {
@@ -3204,20 +3204,20 @@
     "a": {
       "a": "shadow", 
       "c": "sneer", 
-      "b": "impression", 
-      "e": "crevice", 
+      "b": "impress", 
+      "e": "crevic", 
       "d": "gash"
     }
   }, 
   "998": {
     "q": [
       "a", 
-      "very", 
+      "veri", 
       "part", 
       "to"
     ], 
     "a": {
-      "a": "ingenious", 
+      "a": "ingeni", 
       "c": "limber", 
       "b": "difficult", 
       "e": "formal", 
@@ -3226,32 +3226,32 @@
   }, 
   "999": {
     "q": [
-      "means", 
+      "mean", 
       "of", 
       "is", 
       "to"
     ], 
     "a": {
-      "a": "reverence", 
-      "c": "eating", 
+      "a": "rever", 
+      "c": "eat", 
       "b": "transport", 
       "e": "livelihood", 
-      "d": "amusement"
+      "d": "amus"
     }
   }, 
   "1000": {
     "q": [
       "sat", 
-      "waiting", 
+      "wait", 
       "for", 
-      "whatever"
+      "whatev"
     ], 
     "a": {
-      "a": "elsewhere", 
-      "c": "intermittently", 
-      "b": "knowingly", 
-      "e": "silently", 
-      "d": "unconsciously"
+      "a": "elsewher", 
+      "c": "intermitt", 
+      "b": "knowingli", 
+      "e": "silent", 
+      "d": "unconsci"
     }
   }, 
   "1001": {
@@ -3263,40 +3263,40 @@
     ], 
     "a": {
       "a": "summer", 
-      "c": "future", 
+      "c": "futur", 
       "b": "billiard-room", 
-      "e": "cradle", 
-      "d": "fortune"
+      "e": "cradl", 
+      "d": "fortun"
     }
   }, 
   "1002": {
     "q": [
       "of", 
-      "any", 
+      "ani", 
       "or", 
-      "crevice"
+      "crevic"
     ], 
     "a": {
       "a": "crack", 
       "c": "cake", 
       "b": "witch", 
-      "e": "disagreement", 
-      "d": "imprudence"
+      "e": "disagr", 
+      "d": "imprud"
     }
   }, 
   "1003": {
     "q": [
       "a", 
-      "very", 
+      "veri", 
       "iron", 
       "gate"
     ], 
     "a": {
       "a": "french", 
-      "c": "printed", 
-      "b": "massive", 
+      "c": "print", 
+      "b": "massiv", 
       "e": "hot", 
-      "d": "unlucky"
+      "d": "unlucki"
     }
   }, 
   "1004": {
@@ -3307,11 +3307,11 @@
       "some"
     ], 
     "a": {
-      "a": "kicked", 
-      "c": "waited", 
-      "b": "tied", 
-      "e": "watered", 
-      "d": "encircled"
+      "a": "kick", 
+      "c": "wait", 
+      "b": "tie", 
+      "e": "water", 
+      "d": "encircl"
     }
   }, 
   "1005": {
@@ -3319,13 +3319,13 @@
       "I", 
       "sat", 
       ",", 
-      "hardly"
+      "hardli"
     ], 
     "a": {
       "a": "today", 
-      "c": "reading", 
-      "b": "professionally", 
-      "e": "dreaming", 
+      "c": "read", 
+      "b": "profession", 
+      "e": "dream", 
       "d": "breathless"
     }
   }, 
@@ -3337,11 +3337,11 @@
       "us"
     ], 
     "a": {
-      "a": "fortune", 
-      "c": "interruption", 
-      "b": "fascination", 
-      "e": "anecdote", 
-      "d": "diligence"
+      "a": "fortun", 
+      "c": "interrupt", 
+      "b": "fascin", 
+      "e": "anecdot", 
+      "d": "dilig"
     }
   }, 
   "1007": {
@@ -3352,10 +3352,10 @@
       "a"
     ], 
     "a": {
-      "a": "swayed", 
+      "a": "sway", 
       "c": "sped", 
       "b": "spread", 
-      "e": "rolled", 
+      "e": "roll", 
       "d": "threw"
     }
   }, 
@@ -3368,24 +3368,24 @@
     ], 
     "a": {
       "a": "smoke", 
-      "c": "proposed", 
+      "c": "propos", 
       "b": "wrote", 
       "e": "flash", 
-      "d": "recall"
+      "d": "recal"
     }
   }, 
   "1009": {
     "q": [
       "had", 
       "a", 
-      "pittance", 
+      "pittanc", 
       ","
     ], 
     "a": {
       "a": "mere", 
       "c": "finer", 
-      "b": "moderate", 
-      "e": "marvellous", 
+      "b": "moder", 
+      "e": "marvel", 
       "d": "higher"
     }
   }, 
@@ -3397,16 +3397,16 @@
       "."
     ], 
     "a": {
-      "a": "convinced", 
-      "c": "killed", 
-      "b": "expected", 
-      "e": "interrupted", 
-      "d": "practised"
+      "a": "convinc", 
+      "c": "kill", 
+      "b": "expect", 
+      "e": "interrupt", 
+      "d": "practis"
     }
   }, 
   "1011": {
     "q": [
-      "was", 
+      "wa", 
       "a", 
       ",", 
       "and"
@@ -3416,7 +3416,7 @@
       "c": "visitor", 
       "b": "stranger", 
       "e": "picnic", 
-      "d": "baby"
+      "d": "babi"
     }
   }, 
   "1012": {
@@ -3428,9 +3428,9 @@
     ], 
     "a": {
       "a": "clatter", 
-      "c": "tinkle", 
-      "b": "baying", 
-      "e": "image", 
+      "c": "tinkl", 
+      "b": "bay", 
+      "e": "imag", 
       "d": "click"
     }
   }, 
@@ -3445,8 +3445,8 @@
       "a": "workman", 
       "c": "island", 
       "b": "museum", 
-      "e": "abode", 
-      "d": "empire"
+      "e": "abod", 
+      "d": "empir"
     }
   }, 
   "1014": {
@@ -3458,40 +3458,40 @@
     ], 
     "a": {
       "a": "evil", 
-      "c": "kindly", 
-      "b": "highly", 
-      "e": "custody", 
-      "d": "previously"
+      "c": "kindli", 
+      "b": "highli", 
+      "e": "custodi", 
+      "d": "previous"
     }
   }, 
   "1015": {
     "q": [
       "life", 
-      "was", 
+      "wa", 
       ",", 
       "but"
     ], 
     "a": {
-      "a": "ended", 
-      "c": "empty", 
+      "a": "end", 
+      "c": "empti", 
       "b": "irregular", 
-      "e": "unavoidable", 
-      "d": "bewitched"
+      "e": "unavoid", 
+      "d": "bewitch"
     }
   }, 
   "1016": {
     "q": [
       "in", 
-      "his", 
+      "hi", 
       "he", 
       "had"
     ], 
     "a": {
       "a": "throat", 
       "c": "pocket", 
-      "b": "lifetime", 
+      "b": "lifetim", 
       "e": "deposit", 
-      "d": "temperament"
+      "d": "tempera"
     }
   }, 
   "1017": {
@@ -3503,40 +3503,40 @@
     ], 
     "a": {
       "a": "modest", 
-      "c": "harmonious", 
+      "c": "harmoni", 
       "b": "cardboard", 
-      "e": "viscous", 
-      "d": "crushing"
+      "e": "viscou", 
+      "d": "crush"
     }
   }, 
   "1018": {
     "q": [
       "we", 
       "had", 
-      "during", 
+      "dure", 
       "the"
     ], 
     "a": {
-      "a": "wandered", 
-      "c": "transpired", 
-      "b": "breakfasted", 
-      "e": "killed", 
-      "d": "noticed"
+      "a": "wander", 
+      "c": "transpir", 
+      "b": "breakfast", 
+      "e": "kill", 
+      "d": "notic"
     }
   }, 
   "1019": {
     "q": [
-      "bottle", 
-      "was", 
+      "bottl", 
+      "wa", 
       "in", 
       "my"
     ], 
     "a": {
-      "a": "painted", 
-      "c": "published", 
-      "b": "quartered", 
-      "e": "interested", 
-      "d": "downstairs"
+      "a": "paint", 
+      "c": "publish", 
+      "b": "quarter", 
+      "e": "interest", 
+      "d": "downstair"
     }
   }, 
   "1020": {
@@ -3549,24 +3549,24 @@
     "a": {
       "a": "lawn", 
       "c": "stream", 
-      "b": "castle", 
-      "e": "passage", 
+      "b": "castl", 
+      "e": "passag", 
       "d": "harp"
     }
   }, 
   "1021": {
     "q": [
-      "was", 
+      "wa", 
       "a", 
       "day", 
       ","
     ], 
     "a": {
       "a": "gray", 
-      "c": "cloudy", 
+      "c": "cloudi", 
       "b": "perfect", 
-      "e": "lucky", 
-      "d": "misty"
+      "e": "lucki", 
+      "d": "misti"
     }
   }, 
   "1022": {
@@ -3577,26 +3577,26 @@
       "."
     ], 
     "a": {
-      "a": "measured", 
-      "c": "sheathed", 
-      "b": "invested", 
-      "e": "subdued", 
+      "a": "measur", 
+      "c": "sheath", 
+      "b": "invest", 
+      "e": "subdu", 
       "d": "taught"
     }
   }, 
   "1023": {
     "q": [
-      "limbs", 
+      "limb", 
       "came", 
       "out", 
       "at"
     ], 
     "a": {
-      "a": "daintily", 
-      "c": "staggering", 
-      "b": "singing", 
-      "e": "ebbing", 
-      "d": "pouring"
+      "a": "daintili", 
+      "c": "stagger", 
+      "b": "sing", 
+      "e": "eb", 
+      "d": "pour"
     }
   }
 }

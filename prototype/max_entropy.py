@@ -5,6 +5,7 @@ import json
 from nltk.tokenize import TreebankWordTokenizer
 from nltk.classify import MaxentClassifier
 from nltk.classify import NaiveBayesClassifier
+from nltk.stem import PorterStemmer
 
 import config
 import util
@@ -12,11 +13,15 @@ import util
 class BiHopFeatures(object):
     qa_json = None
 
-    def __init__(self):
+    def __init__(self,stem=None):
         self.logger = util.init_log('MaxEntropy', os.path.join(config.LOG_DIR, 'max_entropy.log'))
         self.sents_root = os.path.join(config.CORPUS_DIR, 'Sents')
         self.answers_path = os.path.join(config.DATA_DIR, 'max_entropy_answers240.txt')
         self.max_entropy_answers = {}
+        self.stem = 'Porter'
+        if self.stem == 'Porter':
+            self.stemmer = PorterStemmer()
+            self.logger.info("using max entropy model with PorterStemmer algorithm")
 
 
     def get_features(self, labels):
@@ -29,6 +34,8 @@ class BiHopFeatures(object):
                     line = line.strip()
                     line = line[6:]
                     words = tokenizer.tokenize(line)
+                    if self.stem == 'Porter':
+                        words = [self.stemmer.stem(w.lower()) for w in words]
                     four_words = self.get_adjancent_four_words(label, words)
                     label_words = (dict((w, True) for w in four_words), label)
                     label_features.append(label_words)
@@ -65,7 +72,7 @@ class BiHopFeatures(object):
             question = v['q']
             options = v['a']
             label_features = self.get_features(options.values())
-            me_classifier = MaxentClassifier.train(label_features, algorithm='iis', trace=0, max_iter=20)
+            me_classifier = MaxentClassifier.train(label_features, algorithm='gis', trace=0, max_iter=20)
             # me_classifier = NaiveBayesClassifier.train(label_features)
             label_questions = self.bag_of_words(question)
             answer = me_classifier.classify(label_questions)
