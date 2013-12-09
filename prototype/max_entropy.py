@@ -100,7 +100,7 @@ class BiHopFeatures(object):
         return dict([(word, True) for word in words])
 
 def main():
-    bi_hop = BiHopFeatures()
+    bi_hop = BiHopFeatures(stem='Porter')
     print "begin to load QA"
     bi_hop.load_QA()
     print "begin to train and classify"
