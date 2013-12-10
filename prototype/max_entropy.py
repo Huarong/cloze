@@ -39,7 +39,8 @@ class BiHopFeatures(object):
                     if self.stem == 'Porter':
                         words = [self.stemmer.stem(w.lower()) for w in words]
                     four_words = self.get_adjancent_four_words(label, words)
-                    label_words = (dict((w, True) for w in four_words), label)
+                    label_words = (self.ordered_words(four_words), label)
+                    # label_words = (self.bag_of_words(four_words, label)
                     label_features.append(label_words)
         return label_features
 
@@ -76,7 +77,8 @@ class BiHopFeatures(object):
             label_features = self.get_features(options.values())
             me_classifier = MaxentClassifier.train(label_features, algorithm='iis', trace=0, max_iter=80)
             # me_classifier = NaiveBayesClassifier.train(label_features)
-            label_questions = self.bag_of_words(question)
+            # label_questions = self.bag_of_words(question)
+            label_questions = self.ordered_words(question)
             answer = me_classifier.classify(label_questions)
             option_no = None
             for o, a in options.iteritems():
@@ -98,6 +100,22 @@ class BiHopFeatures(object):
     @staticmethod
     def bag_of_words(words):
         return dict([(word, True) for word in words])
+
+    @staticmethod
+    def ordered_words(words):
+        features = {}
+        # features with before2, before1, after1, after2
+        for i, w in enumerate(words):
+            if i <= 1:
+                j = 2 - i
+                features['before%d' % j] = w
+            else:
+                j = i - 1
+                features['after%d' % j] = w
+        return features
+
+
+
 
 def main():
     bi_hop = BiHopFeatures(stem='Porter')
