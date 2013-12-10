@@ -74,7 +74,7 @@ class BiHopFeatures(object):
             question = v['q']
             options = v['a']
             label_features = self.get_features(options.values())
-            me_classifier = MaxentClassifier.train(label_features, algorithm='gis', trace=0, max_iter=20)
+            me_classifier = MaxentClassifier.train(label_features, algorithm='iis', trace=0, max_iter=80)
             # me_classifier = NaiveBayesClassifier.train(label_features)
             label_questions = self.bag_of_words(question)
             answer = me_classifier.classify(label_questions)
