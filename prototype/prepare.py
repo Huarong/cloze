@@ -3,6 +3,8 @@
 
 import os
 import os.path
+import re
+import json
 
 import nltk
 from nltk.tokenize import TreebankWordTokenizer
@@ -10,9 +12,10 @@ from nltk.corpus import PlaintextCorpusReader
 from nltk.stem import PorterStemmer
 
 from util import init_log
+import config
 
 class PreProcessor(object):
-    def __init__(self, gutenberg_files_root, prepared_training_data_root, corpus_root, stem=None):
+    def __init__(self, gutenberg_files_root, prepared_training_data_root, corpus_root, n=2, stem=None):
         if not os.path.exists('../log'):
             os.mkdir('../log')
         self.logger = init_log('util', '../log/util.log')
@@ -26,6 +29,9 @@ class PreProcessor(object):
         if self.stem == 'Porter':
             self.bigram_frequency_dir = os.path.join(self.corpus_root, 'bigram_frequency_porter')
             self.hop_bigram_frequency_dir = os.path.join(self.corpus_root, 'hop_bigram_frequency_porter')
+            self.stemmer = PorterStemmer()
+        # n can be 2, 22, 3
+        self.n = n
 
     def prepare_training_data(self, declare=True):
         if not (os.path.exists(self.prepared_training_data_root) and os.path.isdir(self.prepared_training_data_root)):
@@ -239,13 +245,112 @@ class PreProcessor(object):
         return None
 
 
+    def extract_QA(self, qa_path):
+        qa_dict = {}
+        line_no = 0
+        q_no = 0
+        with open(qa_path, 'r') as f:
+            for line in f:
+                line.strip()
+                line_no += 1
+                line_no = line_no % 8
+                if line_no == 1:
+                    if not line:
+                        break
+                    words = self.extract_Q(line)
+                    print words
+                    q_no = words[0]
+                    qa_dict[q_no] = {'q': words[1:], 'a': {}}
+                elif 2 <= line_no <= 6:
+                    option = self.extract_A(line)
+                    qa_dict[q_no]['a'][option[0]] = option[1]
+                else:
+                    continue
+        json_path = os.path.join(config.DATA_DIR, 'dev_set_%d.json' % self.n)
+        with open(json_path, 'w') as f:
+            json.dump(qa_dict, f, indent=2, ensure_ascii=False)
+        return None
+
+    def _judge_Q_or_A(self, sentence):
+        pattern_q = '^\d+.+'
+        pattern_a = '\s+'
+        r_q = re.match(pattern_q, sentence)
+        r_a = re.match(pattern_a, sentence)
+        if r_a:
+            return 'a'
+        elif r_q:
+            return 'q'
+        else:
+            self.logger.error('_judge_Q_or_A: unrecognize sentence type')
+            return None
+
+    def extract_Q(self, sentence):
+        tokenizer = TreebankWordTokenizer()
+        tokens = tokenizer.tokenize(sentence)
+        # stemming
+        if self.stem == 'Porter':
+            tokens = [self.stemmer.stem(w) for w in tokens]
+
+        line_no = int(tokens[0])
+        space_index = 0;
+        for i in range(len(tokens)):
+            if tokens[i].startswith('____'):
+                space_index = i;
+        try:
+            b3 = tokens[space_index - 3]
+        except IndexError:
+            b3 = 'NONEXISTHUO'
+        try:
+            b2 = tokens[space_index - 2]
+        except IndexError:
+            b2 = 'NONEXISTHUO'
+        try:
+            b1 = tokens[space_index - 1]
+        except IndexError:
+            b1 = 'NONEXISTHUO'
+        try:
+            a1 = tokens[space_index + 1]
+        except IndexError:
+            a1 = 'NONEXISTHUO'
+        try:
+            a2 = tokens[space_index + 2]
+        except IndexError:
+            a2 = 'NONEXISTHUO'
+        try:
+            a3 = tokens[space_index + 3]
+        except IndexError:
+            a3 = 'NONEXISTHUO'
+
+        if self.n == 22:
+            return (line_no, b2, b1, a1, a2)
+        elif self.n == 3:
+            return (line_no, b3, b2, b1, a1, a2, a3)
+        else:
+            return (line_no, b1, a1)
+
+
+    def extract_A(self, line):
+        pattern = r'([a-e])\)\s(.+)'
+        reg = re.compile(pattern)
+        line = line.strip()
+        r = reg.match(line)
+        if not r:
+            self.logger.error('extract_A: can not find option in "%s"' % line)
+            return None
+        option_no = r.group(1)
+        option = r.group(2).lower()
+        if self.stem == 'Porter':
+            option = self.stemmer.stem(option)
+        return (option_no, option)
+
 
 def main():
-    p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus', stem='Porter')
+    p = PreProcessor('../corpus/Training_data', '../corpus/prepared_training_data', '../corpus', n=3, stem='Porter')
     # p.prepare_training_data()
-    p.compute_frequency(n=1)
-    p.compute_frequency(n=2)
-    p.compute_frequency(n=22)
+    # p.compute_frequency(n=1)
+    # p.compute_frequency(n=2)
+    # p.compute_frequency(n=22)
+    p.extract_QA('../corpus/development_set.txt')
     return None
 
 

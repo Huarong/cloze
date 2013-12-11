@@ -13,10 +13,11 @@ import util
 class BiHopFeatures(object):
     qa_json = None
 
-    def __init__(self,stem=None):
+    def __init__(self, n=2, stem=None):
         self.logger = util.init_log('MaxEntropy', os.path.join(config.LOG_DIR, 'max_entropy.log'))
         self.answers_path = os.path.join(config.DATA_DIR, 'max_entropy_answers240.txt')
         self.max_entropy_answers = {}
+        self.n = n
         self.stem = 'Porter'
         if self.stem == 'Porter':
             self.stemmer = PorterStemmer()
@@ -38,21 +39,25 @@ class BiHopFeatures(object):
                     words = tokenizer.tokenize(line)
                     if self.stem == 'Porter':
                         words = [self.stemmer.stem(w.lower()) for w in words]
-                    four_words = self.get_adjancent_four_words(label, words)
-                    label_words = (self.ordered_words(four_words), label)
+                    if self.n == 3:
+                        adjancent_words = self.get_adjancent_words(label, words, 3)
+                    else:
+                        adjancent_words = self.get_adjancent_words(label, words, 2)
+                    label_words = (self.ordered_words(adjancent_words), label)
                     # label_words = (self.bag_of_words(four_words, label)
                     label_features.append(label_words)
         return label_features
 
     @staticmethod
-    def get_adjancent_four_words(label, words):
+    def get_adjancent_words(label, words, n):
         index = 0
         for i, w in enumerate(words):
             if label == w:
                 index = i
                 break
         four_words = []
-        for j in (index - 2, index - 1, index + 1, index + 2):
+        adjancent_range = [index - i for i in range(n, 0, -1)] + [index + i for i in range(1, n + 1, 1)]
+        for j in adjancent_range:
             try:
                 w = words[j]
                 four_words.append(w)
@@ -60,9 +65,12 @@ class BiHopFeatures(object):
                 pass
         return four_words
 
-    @classmethod
-    def load_QA(cls):
-        dev_set_json_path = os.path.join(config.DATA_DIR, 'dev_set.json')
+    def load_QA(cls, n=2):
+        if n == 3:
+            cls.logger.info('loading QA with 3 adjancent words')
+            dev_set_json_path = os.path.join(config.DATA_DIR, 'dev_set_3.json')
+        else:
+            dev_set_json_path = os.path.join(config.DATA_DIR, 'dev_set.json')
         with open(dev_set_json_path, 'r') as f:
             cls.qa_json = json.load(f)
         return None
@@ -104,15 +112,26 @@ class BiHopFeatures(object):
     @staticmethod
     def ordered_words(words):
         features = {}
-        # features with before2, before1, after1, after2
-        for i, w in enumerate(words):
-            if i <= 1:
-                j = 2 - i
-                features['before%d' % j] = w
-            else:
-                j = i - 1
-                features['after%d' % j] = w
+        # features with before3, before2, before1, after1, after2, after3
+        if len(words) == 6:
+            for i, w in enumerate(words):
+                if i <= 2:
+                    j = 3 - i
+                    features['before%d' % j] = w
+                else:
+                    j = i - 2
+                    features['after%d' % j] = w
+        else:
+            # features with before2, before1, after1, after2
+            for i, w in enumerate(words):
+                if i <= 1:
+                    j = 2 - i
+                    features['before%d' % j] = w
+                else:
+                    j = i - 1
+                    features['after%d' % j] = w
         return features
+
 
 
 
@@ -120,7 +139,7 @@ class BiHopFeatures(object):
 def main():
     bi_hop = BiHopFeatures(stem='Porter')
     print "begin to load QA"
-    bi_hop.load_QA()
+    bi_hop.load_QA(n=3)
     print "begin to train and classify"
     bi_hop.train_and_classify()
     print "begin to dump answers"
